@@ -1,0 +1,341 @@
+{
+  "Header": {
+    "title": "Women in Science",
+    "paragraph": "Dedictated to supporting and encouraging women in the Faculty of Science at Western University"
+  },
+  "About": {
+    "paragraph": "Women in Science (WiS) at Western University is a student-led organization dedicated to fostering a vibrant community of friendship, leadership and mentorship, while showcasing talented women in the Faculty of Science. Research has proven the invaluable impact of mentorship on female scientists, so we aim to connect young women with mentors established in their fields through the Little Sisters in Science and Sisters in Science mentorship programs. We support the inclusivity and continued contributions of women in science, while encouraging male participation in stereotypical “feminine” fields, and promoting gender non-conforming people in all scientific endeavours.",
+    "Why": [
+      "Identify: We seek to identify and eliminate the sources of gender disparity in the STEM fields",
+      "Connection: We aim to connect young women with peers and mentors to help them pursue their dream careers in STEM"
+    ],
+    "Why2": [
+      "Inclusivity: We aim to encourage inclusivity and continued contributions of women in science, starting on campus", 
+      "Community: We aim to build community through academic and social events, while providing a safe, welcoming environment"
+
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Halloween Social",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Connect 3.0",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Stemposium",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Study Night",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Trivia Night",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Guided Imagery and Meditation Session",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Linkedin Workshop",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Yoga Destressor",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Scholarship Guide",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Merch": [
+    {
+      "title": "Sweater",
+      "smallImage": "img/merch/crewneck.png"
+    },
+    {
+      "title": "Tote Bag",
+      "smallImage": "img/merch/tote.png"
+    },
+    {
+      "title": "Round Sticker",
+      "smallImage": "img/merch/roundsticker.png"
+    },
+    {
+      "title": "Rectangle Sticker",
+      "smallImage": "img/merch/squaresticker.png"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "Lorem ipsum dolor",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Consectetur adipiscing",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
+      "name": "Johnathan Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/emma.png",
+      "name": "Emma Punkari",
+      "job": "Co-President",
+      "year": "Program: 4th year Honours Spec Biology",
+      "why": "Why You Joined WiS: To form more connections in the field with other like-minded individuals, and increase the strength and size of the support network in the women in science community at Western.",
+      "goal": "Goal this Year: Facilitate closer connections within WiS to foster a more connected community, as well as informing more people about the many different pathways for careers in science besides the common ones we hear about all the time.",
+      "fact": "Fun Fact:  I have been playing the violin since I was 4 years old!"
+    },
+    {
+      "img": "img/team/camryn.png",
+      "name": "Camryn Kabir-Bahk",
+      "job": "Co-President",
+      "year": "Program: 4th year HSP Epidemiology and Biostatistics",
+      "why": "Why You Joined WiS: I wanted to surround myself with like-minded individuals who also wanted to create a welcoming and diverse environment for people with a passion for all things science!",
+      "goal": "Goal this Year: Hoping to strengthen the relationships and mentorship connections within our lovely Women in Science community and increase our presence on the Western Campus to involve more students.",
+      "fact": "Fun Fact: I survived the Great War and managed to get Eras Tour tickets for Toronto… this will be my personality for the next year and a half."
+    },
+    {
+      "img": "img/team/natasha.png",
+      "name": "Natasha Bruce",
+      "job": "Senior Advisor",
+      "year": "Program: Double Major IMS and Biochemistry",
+      "why": "Why You Joined WiS: I joined WiS because its friendly and supportive environment that helped me find research opportunities and overall made me a better student and leader.",
+      "goal": "Goal this Year: To provide Western students with invaluable experiences that are certain to assist them in achieving their future aspirations, all the while creating lasting memories and friendships.",
+      "fact": "Fun Fact: I have rewatched Bobs Burgers 4 times"
+    },
+    {
+      "img": "img/team/hannah.png",
+      "name": "Hannah Lye",
+      "job": "VP Internal",
+      "year": "Program: 4th Year Synthetic Biology",
+      "why": "Why You Joined WiS: As a general member I had benefited extremely from the professional development opportunities given, it made me want to get involved.",
+      "goal": "Goal this Year: To maximise attendance at events to reach a wider group of women!",
+      "fact": "Fun Fact: I have an identical twin"
+    },
+    {
+      "img": "img/team/kayla.png",
+      "name": "Kayla TenHag",
+      "job": "VP Internal",
+      "year": "Program: 3rd year, Hsp Path",
+      "why": "Why You Joined WiS: Wis has given me so many unique opportunities! I now hope to help provide similar opportunities to other students :)",
+      "goal": "Goal this Year: To host exciting and meaningful events that are a welcoming space for everyone :)",
+      "fact": "Fun Fact: I can dislocate my shoulder."
+    },
+    {
+      "img": "img/team/cristina.png",
+      "name": "Cristina White",
+      "job": "VP External",
+      "year": "Program: 3rd year, Honours Spec in IMS",
+      "why": "Why You Joined WiS: WiS helped me so much through my first year with their mentorship and events! I joined so I could be a part of that and give those opportunities to others :)",
+      "goal": "Goal this Year: To bring more events to Western that work with the London community so everyone can get involved!",
+      "fact": "Fun Fact: I love painting but I never have the time."
+    }, 
+    {
+      "img": "img/team/emaan.png",
+      "name": "Emaan Rana",
+      "job": "VP External",
+      "year": "Program: 3rd year, Honours Spec in Pathology",
+      "why": "Why You Joined WiS: I didnt have an initiative like WiS during high school so I decided to join in my first year to help learn more about this community and give back! I had an amazing time connecting with everyone and WiS truly made my transition to university much smoother.",
+      "goal": "Goal this Year: To host multiple events with local London organizations as we continue to foster interest in STEM for women of all ages.",
+      "fact": "Fun Fact: Ive road tripped to BC twice with my family and cant wait to go again"
+    }, 
+    {
+      "img": "img/team/bobo.png",
+      "name": "Bobo Soong",
+      "job": "VP Comms",
+      "year": "Program: 3rd year, Biology and Pharmacology",
+      "why": "Why You Joined WiS: I wanted to join a team of like-minded people that could help me enjoy my time in university while helping me grow as an individual.",
+      "goal": "Goal this Year: To create a supportive network to help our members pursue their interest within the field of science.",
+      "fact": "Fun Fact: I can speak 3 other languages"
+    },
+    {
+      "img": "img/team/claudia.png",
+      "name": "Claudia Drewitt",
+      "job": "VP Comms",
+      "year": "Program: 3rd year, Honours Spec. in IMS and Major in Physiology",
+      "why": "Why You Joined WiS: Initially I joined WiS through the Sisters in Science Mentorship Program as a mentee. It made an incredible impact in my life and I wanted to share that with others.",
+      "goal": "Goal this Year: To reach more Western individuals through our social media!",
+      "fact": "Fun Fact: I have visited almost 20 countries!"
+    },
+    {
+      "img": "img/team/kirsten.png",
+      "name": "Kirsten Favreau",
+      "job": "VP Admin",
+      "year": "Program: 4th year HBsc. Medical Cell Biology & English",
+      "why": "Why You Joined WiS: So I could be a part of a community committed to breaking down barriers for others and making STEM fields more inclusive :)",
+      "goal": "Goal this Year: To reach as many students as possible and form strong connections with other STEM clubs on campus.",
+      "fact": "Fun Fact: I am a tap dancer"
+    },
+    {
+      "img": "img/team/sophia.png",
+      "name": "Sophia Yuan",
+      "job": "VP Technology",
+      "year": "Program: 2nd year Comp Sci",
+      "why": "Why You Joined WiS: I joined WiS because I want to help empower and connect with other like-minded individuals!",
+      "goal": "Goal this Year: To keep the website active and streamline updating processes.",
+      "fact": "Fun Fact: Ive seen Harry Potter and the Deathly Hallows pt2 more than 6 times"
+    },
+    {
+      "img": "img/team/samantha.png",
+      "name": "Samantha Romero",
+      "job": "VP Design",
+      "year": "Program: 4th year, Computer Science w a Certificate in Digital Communications",
+      "why": "Why You Joined WiS: I joined WiS for the opportunity to be creative, to increase student engagement, and to gain a greater sense of community here at Western! This will be my 4th year on the WiS team and I’m so excited for another year of supporting women in science at Western!",
+      "goal": "Goal this Year: My goal for the year is to meet more women in science at Western!",
+      "fact": "Fun Fact: Ive seen the Barbie movie 4 times in theatres! <3"
+    },
+    {
+      "img": "img/team/sadia.png",
+      "name": "Sadia Bahadoor",
+      "job": "VP Finance",
+      "year": "Program: 4th year, Computer Science with a French minor",
+      "why": "Why You Joined WiS: I joined WiS to feel a greater sense of community at Western.",
+      "goal": "Goal this Year: My goal for the year is to attend all of the WiS events at Western since theyre such a great way to meet people.",
+      "fact": "Fun Fact: Im from the island of the Dodo bird!"
+    },
+    {
+      "img": "img/team/addisyn.png",
+      "name": "Addisyn Smith",
+      "job": "VP Sponsorship",
+      "year": "Program: 4th year Medical Sciences, IMS and microbiology and immunology",
+      "why": "Why You Joined WiS: I joined WiS in order to meet like-minded individuals within Western’s community that were passionate about building a positive and supportive environment for women who are pursuing a higher education and careers in science.",
+      "goal": "Goal this Year: This year with sponsorship, we would like to collaborate with non-profits that align with our WiS pillars, powering meaningful connections within our community.",
+      "fact": "Fun Fact: I billeted with a family to play on a jr. hockey team away from home during highschool"
+    },
+    {
+      "img": "img/team/cassidy.png",
+      "name": "Cassidy Coderre",
+      "job": "VP Mentorship",
+      "year": "Program: 4th year, Medical Sciences with an Honours Spec in Biochemistry",
+      "why": "Why You Joined WiS: I joined WiS as a mentor in my second year of university to give advice to those struggling in high school as I myself would have loved more support during that time and found a sense of community within WiS that I have loved ever since!",
+      "goal": "Goal this Year: To create a more impactful sense of community within the mentorship program and foster a sense of intergenerational mentoring.",
+      "fact": "Fun Fact: I have two Pomeranians named Bella and Cocoa"
+    },
+    {
+      "img": "img/team/anusha.png",
+      "name": "Anusha Merchant",
+      "job": "VP Mentorship",
+      "year": "Program: 4th year, Medical Sciences - HSP IMS",
+      "why": "Why You Joined WiS: I wanted to learn more about possible pathways after graduation so I joined the Graduate Sisters in Science mentorship program as a mentee in my third year. My mentor was extremely helpful and made the program a very positive experience for me. This year I want to help support others through mentorship who are in the same position that I was once in!",
+      "goal": "Goal this Year: To increase engagement in all streams of the WiS mentorship program and provide more networking opportunities for those involved.",
+      "fact": "Fun Fact: I once recited the entire Alphabet backwards to help my team win a Minute-to-Win-It competition."
+    },
+    {
+      "img": "img/team/diana.png",
+      "name": "Diana Abdolmaleki",
+      "job": "VP Ethics and Advocacy",
+      "year": "Program: 3rd year, Medical Sciences with Honours Specialization in Microbiology & Immunology",
+      "why": "Why You Joined WiS: To ensure that no one in the Western community feels underestimated within their field due to their gender identity.",
+      "goal": "Goal this Year: Spread awareness about the struggles many groups of people go through!",
+      "fact": "Fun Fact: I can recite Shrek 2 by memory."
+    },
+    {
+      "img": "img/team/karolin.png",
+      "name": "Karolin Volodko",
+      "job": "VP Ethics and Advocacy",
+      "year": "Program: 4th year Biochemistry and Genetics",
+      "why": "Why You Joined WiS: To be surrounded with like-minded individuals that are striving to further the Western community through collaboration, open-mindedness, and determination to create a welcoming club that focuses on creating a sense of community.",
+      "goal": "Goal this Year: To emphasize that regardless of gender identity, everyone has a place in WiS and will have the support to make their voices heard.",
+      "fact": "Fun Fact: I've watched Kung Fu Panda more than 8 times because of my love for Pandas."
+    }
+  ],
+  "Contact": {
+    "address": "4321 California St, San Francisco, CA 12345 ",
+    "phone": "+1 123 456 1234",
+    "email": "info@company.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Lorem ipsum",
+      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+    }
+  ]
+}
