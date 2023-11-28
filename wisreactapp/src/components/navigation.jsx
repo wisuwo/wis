@@ -1,64 +1,59 @@
+import React from 'react';
+
 export const Navigation = (props) => {
   return (
-    <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
+    <nav className='navbar navbar-expand-lg fixed-top'>
       <div className='container'>
-        <div className='navbar-header'>
-          <button
-            type='button'
-            className='navbar-toggle collapsed'
-            data-toggle='collapse'
-            data-target='#bs-example-navbar-collapse-1'
-          >
-            {' '}
-            <span className='sr-only'>Toggle navigation</span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
-            <span className='icon-bar'></span>{' '}
-          </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
-            Women in Science
-          </a>{' '}
-        </div>
+        <a className='navbar-brand page-scroll' href='#page-top'>
+          Women in Science
+        </a>
 
-        <div
-          className='collapse navbar-collapse'
-          id='bs-example-navbar-collapse-1'
+        <button
+          className='navbar-toggler'
+          type='button'
+          data-toggle='collapse'
+          data-target='#navbarResponsive'
+          aria-controls='navbarResponsive'
+          aria-expanded='false'
+          aria-label='Toggle navigation'
         >
-          <ul className='nav navbar-nav navbar-right'>
-            
-            <li>
-              <a href='#about' className='page-scroll'>
+          <span className='navbar-toggler-icon'></span>
+        </button>
+
+        <div className='collapse navbar-collapse' id='navbarResponsive'>
+          <ul className='navbar-nav ml-auto'>
+            <li className='nav-item'>
+              <a className='nav-link page-scroll' href='#about'>
                 About
               </a>
             </li>
-            <li>
-              <a href='#team' className='page-scroll'>
+            <li className='nav-item'>
+              <a className='nav-link page-scroll' href='#team'>
                 Team
               </a>
             </li>
-            <li>
-              <a href='#events' className='page-scroll'>
+            <li className='nav-item'>
+              <a className='nav-link page-scroll' href='#events'>
                 Events
               </a>
             </li>
-            <li>
-              <a href='#schedule' className='page-scroll'>
+            <li className='nav-item'>
+              <a className='nav-link page-scroll' href='#schedule'>
                 Schedule
               </a>
             </li>
-            <li>
-            <a href='#merch' className='page-scroll'>
+            <li className='nav-item'>
+              <a className='nav-link page-scroll' href='#merch'>
                 Merch
               </a>
             </li>
-            <li>
-              <a href='#join' className='page-scroll'>
+            <li className='nav-item'>
+              <a className='nav-link page-scroll' href='#join'>
                 Join
               </a>
             </li>
-       
-            <li>
-              <a href='#contact' className='page-scroll'>
+            <li className='nav-item'>
+              <a className='nav-link page-scroll' href='#contact'>
                 Contact
               </a>
             </li>
@@ -66,5 +61,5 @@ export const Navigation = (props) => {
         </div>
       </div>
     </nav>
-  )
-}
+  );
+};
