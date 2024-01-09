@@ -157,7 +157,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: white;
+  background: rgba(255, 255, 255, 0.3);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -568,7 +568,8 @@ img {
   height: 4px;
   width: 60px;
   bottom: 0;
-  left: 30px;
+  margin-left: -30px;
+  left: 50%;
 }
 #contact a{
   color: white;
