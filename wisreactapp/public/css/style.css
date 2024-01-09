@@ -302,11 +302,11 @@ header .intro-text {
 #about p {
   line-height: 24px;
   margin: 30px 0;
-  text-align: justify;
+  text-align: left;
 }
 
 #about li {
-  text-align: justify;
+  text-align: left;
 }
 /* join Section */
 #join {
