@@ -1,51 +1,56 @@
-import { useState } from 'react'
-import emailjs from 'emailjs-com'
-
+import { useState } from 'react';
+import emailjs from 'emailjs-com';
 
 const initialState = {
   name: '',
   email: '',
   message: '',
-}
+};
+
 export const Contact = (props) => {
-  const [{ name, email, message }, setState] = useState(initialState)
+  const [{ name, email, message }, setState] = useState(initialState);
 
   const handleChange = (e) => {
-    const { name, value } = e.target
-    setState((prevState) => ({ ...prevState, [name]: value }))
-  }
-  const clearState = () => setState({ ...initialState })
+    const { name, value } = e.target;
+    setState((prevState) => ({ ...prevState, [name]: value }));
+  };
+
+  const clearState = () => setState({ ...initialState });
 
   const handleSubmit = (e) => {
-    e.preventDefault()
-    console.log(name, email, message)
+    e.preventDefault();
+    console.log(name, email, message);
     emailjs
       .sendForm(
-        'service_3gmk19f', 'template_j7sicae', e.target, 'user_Yi0hwVNxNbgJ4HvfkuKEs'
+        'service_3gmk19f',
+        'template_j7sicae',
+        e.target,
+        'user_Yi0hwVNxNbgJ4HvfkuKEs'
       )
       .then(
         (result) => {
-          console.log(result.text)
-          clearState()
+          console.log(result.text);
+          clearState();
         },
         (error) => {
-          console.log(error.text)
+          console.log(error.text);
         }
-      )
-  }
+      );
+  };
+
   return (
     <div>
       <div id='contact'>
+        <div className='section-title text-center'>
+          <h2>Get In Touch</h2>
+          <p>
+            Please fill out the form below to send us an email, and we will get
+            back to you as soon as possible.
+          </p>
+        </div>
         <div className='container'>
-          <div className='col-md-8'>
-            <div className='row'>
-              <div className='section-title'>
-                <h2>Get In Touch</h2>
-                <p>
-                  Please fill out the form below to send us an email and we will
-                  get back to you as soon as possible.
-                </p>
-              </div>
+          <div className='row'>
+            <div className='col-md-8 mx-auto'>
               <form name='sentMessage' validate onSubmit={handleSubmit}>
                 <div className='row'>
                   <div className='col-md-6'>
@@ -95,34 +100,36 @@ export const Contact = (props) => {
                 </button>
               </form>
             </div>
-          </div>
-          <div className='col-md-3 col-md-offset-1 contact-info'>
-            <div className='contact-item'>
-              <h3>Contact Info</h3>
-              <p>
-                <span>
-                  <i className='fa fa-instagram'></i>
-                  <a title="Instagram" href="https://www.instagram.com/womeninscienceuwo/?hl=en" target="_blank" rel="noreferrer">
-                    Instagram </a>
-                </span>
-                <p></p>
-                <p><strong></strong></p>
-              </p>
-            </div>
-            <div className='contact-item'>
-              <p>
-
-                <i className='fa fa-facebook'> </i>
-                <a title="Facebook" href="https://www.facebook.com/WomeninScienceUWO" target="_blank" rel="noreferrer">
-                  Facebook </a>
-              </p>
-            </div>
-            <div className='contact-item'>
-              <p>
-                <i className='fa fa-envelope-o'></i>
-                <a title="Facebook" href="mailto: uwo.wis.events@gmail.com" target="_blank" rel="noreferrer">
-                  Email </a>
-              </p>
+            <div className='col-md-3 contact-info'>
+              <div className='contact-item'>
+                <h3>Contact Info</h3>
+                <p>
+                  <span>
+                    <i className='fa fa-instagram'></i>
+                    <a
+                      title='Instagram'
+                      href='https://www.instagram.com/womeninscienceuwo/?hl=en'
+                      target='_blank'
+                      rel='noreferrer'
+                    >
+                      <img src='/img/icons/icons8-instagram-50.png' alt='Instagram' id="instagram" />
+                      Instagram{' '}
+                    </a>
+                  </span>
+                </p>
+                <p>
+                  <i className='fa fa-facebook'> </i>
+                  <a
+                    title='Facebook'
+                    href='https://www.facebook.com/WomeninScienceUWO'
+                    target='_blank'
+                    rel='noreferrer'
+                  >
+                    <img src='/img/icons/icons8-facebook-50.png' alt='Facebook' id="facebook" />
+                    Facebook{' '}
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -130,10 +137,10 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2023 Created with Love by Women In Science at Western University.
+            &copy; 2024 Created with Love by Women In Science at Western University.
           </p>
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
