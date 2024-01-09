@@ -17,49 +17,49 @@
   },
   "Gallery": [
     {
-      "title": "Halloween Social",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Endless Exploration",
+      "largeImage": "img/portfolio/1EndlessExploration.png",
+      "smallImage": "img/portfolio/1EndlessExploration.png"
     },
     {
-      "title": "Connect 3.0",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Yoga Night",
+      "largeImage": "img/portfolio/2YogaNight.png",
+      "smallImage": "img/portfolio/2YogaNight.png"
     },
     {
-      "title": "Stemposium",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Free Headshots",
+      "largeImage": "img/portfolio/3Headshots.png",
+      "smallImage": "img/portfolio/3Headshots.png"
     },
     {
-      "title": "Study Night",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "Research Workshop",
+      "largeImage": "img/portfolio/4ResearchWorkshop.png",
+      "smallImage": "img/portfolio/4ResearchWorkshop.png"
     },
     {
-      "title": "Trivia Night",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "University Info Session",
+      "largeImage": "img/portfolio/5InfoSession.png",
+      "smallImage": "img/portfolio/5InfoSession.png"
     },
     {
-      "title": "Guided Imagery and Meditation Session",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "title": "Women in Academia Workshop",
+      "largeImage": "img/portfolio/6WomenInAcademiaWorkshop.png",
+      "smallImage": "img/portfolio/6WomenInAcademiaWorkshop.png"
     },
     {
-      "title": "Linkedin Workshop",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "title": "Paint Night",
+      "largeImage": "img/portfolio/7PaintNight.png",
+      "smallImage": "img/portfolio/7PaintNight.png"
     },
     {
-      "title": "Yoga Destressor",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "title": "Little Sisters in Science Mixer",
+      "largeImage": "img/portfolio/8LittleSisters.png",
+      "smallImage": "img/portfolio/8LittleSisters.png"
     },
     {
-      "title": "Scholarship Guide",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Sisters in Science Mixer",
+      "largeImage": "img/portfolio/9Sisters.png",
+      "smallImage": "img/portfolio/9Sisters.png"
     }
   ],
   "Merch": [
