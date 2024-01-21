@@ -58,8 +58,6 @@ ol {
 ul,
 ol {
   padding: 0;
-  webkit-padding: 0;
-  moz-padding: 0;
 }
 hr {
   height: 2px;
@@ -157,7 +155,7 @@ hr {
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: white;
+  background: rgba(255, 255, 255, 0.3);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -267,6 +265,7 @@ background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);}
   padding: 30px 0;
   border-radius: 50%;
   background-image: linear-gradient(-225deg, #7DE2FC 0%, #B9B6E5 100%);}
+
 /* About Section */
 #about {
   padding: 100px 0;
@@ -315,11 +314,11 @@ background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);}
 #about p {
   line-height: 24px;
   margin: 30px 0;
-  text-align: justify;
+  text-align: left;
 }
 
 #about li {
-  text-align: justify;
+  text-align: left;
 }
 /* join Section */
 #join {
@@ -419,11 +418,30 @@ img {
 .hover-bg:hover .hover-text > h4 {
   opacity: 1;
   -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   -webkit-transform: translateY(0);
   transform: translateY(0);
 }
 .hover-bg:hover .hover-text {
   opacity: 1;
+}
+
+/* schedule Section */
+#schedule {
+  padding: 100px 0;
+  background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+}
+
+#schedule i.fa {
+    font-size: 38px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    padding: 30px 0;
+    border-radius: 50%;
+    background-image: linear-gradient(-225deg, #7DE2FC 0%, #B9B6E5 100%);
 }
 
 /* Merch Section */
@@ -563,7 +581,8 @@ img {
   height: 4px;
   width: 60px;
   bottom: 0;
-  left: 30px;
+  margin-left: -30px;
+  left: 50%;
 }
 #contact a{
   color: white;
@@ -666,6 +685,19 @@ label {
 #contact .social i.fa:hover {
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);  background: #fff;
 }
+
+#contact #instagram {
+  width: 23px;
+  height: 23px;
+  margin-right: 5px;
+}
+
+#contact #facebook {
+  width: 23px;
+  height: 23px;
+  margin-right: 5px;
+}
+
 /* Footer Section*/
 #footer {
 background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);  padding: 30px 0;
