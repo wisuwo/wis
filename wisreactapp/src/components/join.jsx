@@ -4,20 +4,13 @@ export const Join = (props) => {
     <div id='join' className='text-center'>
       <div className='section-title'>
         <h2>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeCnMi2i9UfambAA0zzYpcLnzS0KnSpizlc9cMJliXwWEes_Q/viewform" target="_blank">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeCnMi2i9UfambAA0zzYpcLnzS0KnSpizlc9cMJliXwWEes_Q/viewform" target="_blank" rel="noreferrer">
             Let's Stay Connected
           </a>
         </h2>
         <p>
           Ready to take a stand against the gender disparities in STEM? Join our club.
         </p>
-        <div className='row'>
-          <>
-            {/* <Button className='btn btn-custom btn-lg' href = 'https://docs.google.com/forms/d/e/1FAIpQLSeCnMi2i9UfambAA0zzYpcLnzS0KnSpizlc9cMJliXwWEes_Q/viewform'>
-              Join our Club.
-            </Button>{''} */}
-          </>
-        </div>
         <div className='row justify-content-center'>
           <div className='col-md-8'>
             <iframe

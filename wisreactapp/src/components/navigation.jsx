@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Navigation = (props) => {
   return (
-    <nav className='navbar navbar-expand-lg fixed-top'>
+    <nav className='navbar navbar-expand-lg fixed-top navbar-dark'>
       <div className='container'>
         <a className='navbar-brand page-scroll' href='#page-top'>
           Women in Science
