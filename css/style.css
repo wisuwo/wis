@@ -459,17 +459,54 @@ img {
   padding: 100px 0;
   background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
 }
+
 #team h4 {
   margin: 5px 0;
 }
+
+
+.team-members-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.team-member {
+  position: relative;
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 8px;
+  text-align: center;
+  box-sizing: border-box;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.team-member:hover .caption {
+  opacity: 1;
+}
+
 #team .team-img {
-  width: 300px;
-  height: 300px;
+  border-radius: 15px;
+  width: 250px;
+  height: 250px;
   margin: 0 auto;
 }
 #team .team-img-back {
-  width: 300px;
-  height: 300px;
+  border-radius: 15px;
+  width: 250px;
+  height: 250px;
   margin: 0 auto;
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
@@ -479,9 +516,10 @@ img {
   background: transparent;
   border: 0;
   text-align: center;
+  justify-items: center;
 }
 #team .flip-card {
-  max-height: 300px;
+  max-height: 250px;
   perspective: 1000px;
   margin: 0 auto;
 }
@@ -513,9 +551,9 @@ img {
   top: 3%;
   color: #fff;
   text-align: left;
-  max-width: 280px;
+  max-width: 220px;
   font-size: 14px;
-  max-height: 250px;
+  max-height: 200px;
   word-wrap: break-word;
   overflow: scroll;
   overflow-x: hidden;
