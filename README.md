@@ -70,3 +70,9 @@
    - Hostname should contain ```_github-pages-challlenge-YOUR_ACCOUNT_NAME```
    - Name should contain the numbers given from verified domain name
 You should end up with 7 records total - 4 A, 2 TXT, 1 CName
+
+### 7. Google Search
+Once the website is up and running, you need to make sure it is findable on google search. 
+1. Go to <a href="https://search.google.com/search-console/welcome?action=inspect">google search console</a> and type in domain name for verification
+2. It will redirect to domain name provider and add a text file
+3. Wait for a few hours then you should be able to verify the domain
