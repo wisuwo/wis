@@ -76,3 +76,7 @@ Once the website is up and running, you need to make sure it is findable on goog
 1. Go to <a href="https://search.google.com/search-console/welcome?action=inspect">google search console</a> and type in domain name for verification
 2. It will redirect to domain name provider and add a text file
 3. Wait for a few hours then you should be able to verify the domain
+
+4. Once domain is verified, check if it is indexed or not. Indexed means you can find it through google search and unindexed you can't
+5. If unindexed, check reason and meaning of reason at <a href="https://support.google.com/webmasters/answer/7440203#crawled">google's faq page</a>
+6. You may need to create a site map depending on issue
