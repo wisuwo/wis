@@ -1,12 +1,18 @@
 import React from 'react';
+import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-router-dom';
 
 export const Navigation = (props) => {
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
+
   return (
     <nav className='navbar navbar-expand-lg fixed-top navbar-dark'>
       <div className='container'>
-        <a className='navbar-brand page-scroll' href='#page-top'>
+        <Link className='navbar-brand page-scroll' to='/' onClick={scrollToTop}>
           Women in Science
-        </a>
+        </Link>
 
         <button
           className='navbar-toggler'
@@ -23,39 +29,76 @@ export const Navigation = (props) => {
         <div className='collapse navbar-collapse' id='navbarResponsive'>
           <ul className='navbar-nav ml-auto'>
             <li className='nav-item'>
-              <a className='nav-link page-scroll' href='#about'>
+              <ScrollLink
+                className='nav-link page-scroll'
+                to='about'
+                spy={true}
+                smooth={true}
+                offset={-40}
+                duration={800}
+              >
                 About
-              </a>
+              </ScrollLink>
             </li>
             <li className='nav-item'>
-              <a className='nav-link page-scroll' href='#team'>
+              <ScrollLink
+                className='nav-link page-scroll'
+                to='team'
+                spy={true}
+                smooth={true}
+                offset={-40}
+                duration={800}
+              >
                 Team
-              </a>
+              </ScrollLink>
             </li>
             <li className='nav-item'>
-              <a className='nav-link page-scroll' href='#events'>
+              <ScrollLink
+                className='nav-link page-scroll'
+                to='events'
+                spy={true}
+                smooth={true}
+                offset={-40}
+                duration={800}
+              >
                 Events
-              </a>
+              </ScrollLink>
             </li>
             <li className='nav-item'>
-              <a className='nav-link page-scroll' href='#schedule'>
-                Schedule
-              </a>
-            </li>
-            <li className='nav-item'>
-              <a className='nav-link page-scroll' href='#merch'>
+              <ScrollLink
+                className='nav-link page-scroll'
+                to='merch'
+                spy={true}
+                smooth={true}
+                offset={-40}
+                duration={800}
+              >
                 Merch
-              </a>
+              </ScrollLink>
             </li>
             <li className='nav-item'>
-              <a className='nav-link page-scroll' href='#join'>
+              <ScrollLink
+                className='nav-link page-scroll'
+                to='join'
+                spy={true}
+                smooth={true}
+                offset={-40}
+                duration={800}
+              >
                 Join
-              </a>
+              </ScrollLink>
             </li>
             <li className='nav-item'>
-              <a className='nav-link page-scroll' href='#contact'>
+              <ScrollLink
+                className='nav-link page-scroll'
+                to='contact'
+                spy={true}
+                smooth={true}
+                offset={-40}
+                duration={800}
+              >
                 Contact
-              </a>
+              </ScrollLink>
             </li>
           </ul>
         </div>
