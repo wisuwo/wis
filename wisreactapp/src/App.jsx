@@ -8,6 +8,7 @@ import { About } from "./components/about";
 import { Gallery } from "./components/gallery";
 import { Team } from "./components/Team";
 import Calendar from "./components/calendar";
+import MeetTheTeam from "./components/teamexpanded";
 import { Merch } from "./components/merch";
 import { Join } from "./components/join";
 import { Contact } from "./components/contact";
@@ -31,6 +32,7 @@ const App = () => {
       <div>
         <Routes>
           <Route path="/" element={<HomePage landingPageData={landingPageData} />} />
+          <Route path="/team" element={<MeetTheTeam landingPageData={landingPageData} />} />
           <Route path="/calendar" element={<CalendarPage landingPageData={landingPageData} />} />
         </Routes>
       </div>
