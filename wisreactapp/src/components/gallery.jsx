@@ -21,9 +21,9 @@ export const Gallery = (props) => {
      <div className='container'>
        <div className='section-title'>
          <h2>Events</h2>
-         <p>Here are some of our past and future events!</p>
+         <p>Here are some of our current and past events!</p>
           <div className='calendar-link'>
-            <button className="btn btn-custom btn-lg"><Link to="/calendar">Go to Calendar</Link></button>
+          <Link to="/calendar"><button className="btn btn-custom btn-lg">Go to Calendar</button></Link>
           </div> 
        </div>
        {/* Render current events */}
