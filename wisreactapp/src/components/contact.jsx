@@ -134,13 +134,6 @@ export const Contact = (props) => {
           </div>
         </div>
       </div>
-      <div id='footer'>
-        <div className='container text-center'>
-          <p>
-            &copy; 2024 Created with Love by Women In Science at Western University.
-          </p>
-        </div>
-      </div>
     </div>
   );
 };

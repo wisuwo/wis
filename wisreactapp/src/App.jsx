@@ -12,6 +12,7 @@ import MeetTheTeam from "./components/teamexpanded";
 import { Merch } from "./components/merch";
 import { Join } from "./components/join";
 import { Contact } from "./components/contact";
+import { Footer } from "./components/footer";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
@@ -50,6 +51,7 @@ const HomePage = ({ landingPageData }) => (
     <Merch data={landingPageData.Merch} />
     <Join data={landingPageData.Join} />
     <Contact data={landingPageData.Contact} />
+    <Footer data={landingPageData.Footer} />
   </>
 );
 
@@ -60,8 +62,10 @@ const CalendarPage = ({ landingPageData }) => {
     <>
       <Navigation2 />
       <Calendar data={landingPageData.Calendar} trigger={trigger} setTrigger={setTrigger} />
+      <Footer data={landingPageData.Footer} />
     </>
   );
 };
+
 
 export default App;
