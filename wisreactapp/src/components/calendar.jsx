@@ -19,7 +19,7 @@ function Calendar(props) {
         </div>
         <div className='row justify-content-center'> 
           <div className='col-md-8'>
-            <iframe src="https://calendar.google.com/calendar/embed?src=sshb5he2u8ak5t72cjdu7dgefc%40group.calendar.google.com&ctz=America%2FNew_York"
+            <iframe src="https://calendar.google.com/calendar/embed?src=7d3cd944488769a5d31072863a482a8334024049eff407b9494887bc4f05e7ba%40group.calendar.google.com&ctz=America%2FToronto"
               width="100%"
               height="500"
               frameBorder="0"
