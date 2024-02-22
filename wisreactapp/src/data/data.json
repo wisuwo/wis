@@ -17,6 +17,18 @@
   },
   "Gallery": [
     {
+      "title": "Stemposium Conference",
+      "largeImage": "img/portfolio/12Stemposium.png",
+      "smallImage": "img/portfolio/12Stemposium.png",
+      "eventType": "current"
+    },
+    {
+      "title": "LinkedIn and Cover Letter Workshop",
+      "largeImage": "img/portfolio/10LinkedIn.png",
+      "smallImage": "img/portfolio/10LinkedIn.png",
+      "eventType": "current"
+    },
+    {
       "title": "Endless Exploration",
       "largeImage": "img/portfolio/1EndlessExploration.png",
       "smallImage": "img/portfolio/1EndlessExploration.png",
@@ -26,7 +38,7 @@
       "title": "Yoga Night",
       "largeImage": "img/portfolio/2YogaNight.png",
       "smallImage": "img/portfolio/2YogaNight.png",
-      "eventType": "current"
+      "eventType": "past"
     },
     {
       "title": "Free Headshots",
@@ -57,18 +69,6 @@
       "largeImage": "img/portfolio/7PaintNight.png",
       "smallImage": "img/portfolio/7PaintNight.png",
       "eventType": "past"
-    },
-    {
-      "title": "Little Sisters in Science Mixer",
-      "largeImage": "img/portfolio/8LittleSisters.png",
-      "smallImage": "img/portfolio/8LittleSisters.png",
-      "eventType": "past"
-    },
-    {
-      "title": "LinkedIn and Cover Letter Workshop",
-      "largeImage": "img/portfolio/10LinkedIn.png",
-      "smallImage": "img/portfolio/10LinkedIn.png",
-      "eventType": "current"
     }
   ],
   "Merch": [
