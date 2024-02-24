@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from "react-router-dom";
 
 export const Team = (props) => {
   const images = [
@@ -158,6 +158,9 @@ return (
           <p>
             Our amazing team of students seeking to eliminate gender disparity in science, technology, engineering, and mathematics!
           </p>
+          <div className='calendar-link'>
+          <Link to="/team"><button className="btn btn-custom btn-lg">Learn More</button></Link>
+          </div>
         </div>
 
         <div className="team-members-container">
