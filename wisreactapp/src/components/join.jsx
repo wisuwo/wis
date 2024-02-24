@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 export const Join = (props) => {
   return (
     <div id='join' className='text-center'>
@@ -33,6 +33,9 @@ export const Join = (props) => {
           </p>
         </div> */}
       </div>
+      <div className='calendar-link'>
+          <Link to="/contact"><button className="btn btn-custom btn-lg">Contact Us</button></Link>
+          </div>
     </div>
   );
 };
