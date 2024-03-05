@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import emailjs from 'emailjs-com';
+import { Navigation2 } from "./navigation2";
 
 const initialState = {
   name: '',
@@ -40,6 +41,7 @@ export const Contact = (props) => {
 
   return (
     <div>
+      <Navigation2 />
       <div id='contact'>
         <div className='section-title text-center'>
           <h2>Get In Touch</h2>
@@ -137,3 +139,5 @@ export const Contact = (props) => {
     </div>
   );
 };
+
+export default Contact;

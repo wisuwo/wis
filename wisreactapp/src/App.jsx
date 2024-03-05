@@ -34,6 +34,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage landingPageData={landingPageData} />} />
           <Route path="/team" element={<MeetTheTeam landingPageData={landingPageData} />} />
+          <Route path="/contact" element={<Contact landingPageData={landingPageData} />} />
           <Route path="/calendar" element={<CalendarPage landingPageData={landingPageData} />} />
         </Routes>
       </div>
@@ -50,8 +51,6 @@ const HomePage = ({ landingPageData }) => (
     <Gallery data={landingPageData.Gallery} />
     <Merch data={landingPageData.Merch} />
     <Join data={landingPageData.Join} />
-    <Contact data={landingPageData.Contact} />
-    <Footer data={landingPageData.Footer} />
   </>
 );
 

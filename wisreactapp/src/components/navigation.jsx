@@ -91,7 +91,7 @@ export const Navigation = (props) => {
             <li className='nav-item'>
               <ScrollLink
                 className='nav-link page-scroll'
-                to='contact'
+                to='join'
                 spy={true}
                 smooth={true}
                 offset={-40}
