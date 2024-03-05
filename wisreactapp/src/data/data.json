@@ -17,6 +17,18 @@
   },
   "Gallery": [
     {
+      "title": "Intergenerational Speed Mentorship Event",
+      "largeImage": "img/portfolio/14SpeedMentor.png",
+      "smallImage": "img/portfolio/14SpeedMentor.png",
+      "eventType": "current"
+    },
+    {
+      "title": "WIS Trivia Night",
+      "largeImage": "img/portfolio/13Trivia.png",
+      "smallImage": "img/portfolio/13Trivia.png",
+      "eventType": "current"
+    },
+    {
       "title": "Stemposium Conference",
       "largeImage": "img/portfolio/12Stemposium.png",
       "smallImage": "img/portfolio/12Stemposium.png",
@@ -38,7 +50,7 @@
       "title": "Yoga Night",
       "largeImage": "img/portfolio/2YogaNight.png",
       "smallImage": "img/portfolio/2YogaNight.png",
-      "eventType": "past"
+      "eventType": "current"
     },
     {
       "title": "Free Headshots",
@@ -68,6 +80,12 @@
       "title": "Paint Night",
       "largeImage": "img/portfolio/7PaintNight.png",
       "smallImage": "img/portfolio/7PaintNight.png",
+      "eventType": "past"
+    },
+    {
+      "title": "Little Sisters in Science Mixer",
+      "largeImage": "img/portfolio/8LittleSisters.png",
+      "smallImage": "img/portfolio/8LittleSisters.png",
       "eventType": "past"
     }
   ],
