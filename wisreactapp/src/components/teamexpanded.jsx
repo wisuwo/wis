@@ -1,5 +1,6 @@
 import React from 'react';
 import { Navigation2 } from "./navigation2";
+import { useEffect } from "react";
 
 const teamMembers = [
   {
@@ -113,6 +114,9 @@ const teamMembers = [
 ];
 
 function MeetTheTeam() {
+  useEffect(() => { 
+    window.scrollTo(0, 0);
+  }, [] );
   return (
     <>
     <Navigation2 />
