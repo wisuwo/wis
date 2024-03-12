@@ -1,6 +1,7 @@
 import React from 'react';
 import { Navigation2 } from "./navigation2";
 import { useEffect } from "react";
+import { Footer } from "./footer";
 
 const teamMembers = [
   {
@@ -138,6 +139,7 @@ function MeetTheTeam() {
     </div>
     </div>
     </div>
+    <Footer />
     </>
   );
 }

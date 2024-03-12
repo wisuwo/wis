@@ -1,6 +1,7 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 import { Navigation2 } from "./navigation2";
+import { Footer } from "./footer";
 
 const initialState = {
   name: '',
@@ -38,6 +39,10 @@ export const Contact = (props) => {
         }
       );
   };
+
+  useEffect(() => {
+    window.scrollTo(0,0);
+  });
 
   return (
     <div>
@@ -136,6 +141,7 @@ export const Contact = (props) => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
