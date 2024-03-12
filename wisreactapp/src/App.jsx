@@ -51,6 +51,7 @@ const HomePage = ({ landingPageData }) => (
     <Gallery data={landingPageData.Gallery} />
     <Merch data={landingPageData.Merch} />
     <Join data={landingPageData.Join} />
+    <Footer data={landingPageData.Footer} />
   </>
 );
 
