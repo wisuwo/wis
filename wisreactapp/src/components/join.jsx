@@ -15,7 +15,7 @@ export const Join = (props) => {
           <div className='col-md-8'>
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSeCnMi2i9UfambAA0zzYpcLnzS0KnSpizlc9cMJliXwWEes_Q/viewform?embedded=true"
-              width="100%"
+              width="80%"
               height="400"
               frameBorder="0"
               marginHeight="0"
