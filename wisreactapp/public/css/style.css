@@ -69,6 +69,70 @@ hr {
   border: 0;
 }
 
+.loading-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #ce93d8;
+}
+
+.loading-icon {
+  margin: auto;
+  width: 200px;
+  animation: rotation 6s infinite linear;
+}
+
+.loading-text {
+  font-size: 24px;
+  margin-top: 20px;
+  color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  animation: fadeIn 2s infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  } 
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  } 
+  to {
+    opacity: 0;
+    visiblity: hidden;
+  }
+}
+
+.fade-out {
+  animation: fadeOut 1s ease-out forwards;
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}
+
+
 .Logo {
   background-image: url(/Users/katepark/Documents/wiswebsite2021-main/public/img/portfolio/logo.png);
 }
@@ -469,6 +533,24 @@ img {
     padding: 30px 0;
     border-radius: 50%;
     background-image: linear-gradient(-225deg, #7DE2FC 0%, #B9B6E5 100%);
+}
+
+#schedule img {
+  width: 100px;
+  animation: rotation 6s infinite linear;
+}
+
+#schedule .loading-indicator {
+  height: 1000px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* Merch Section */
