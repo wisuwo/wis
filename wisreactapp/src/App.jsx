@@ -24,13 +24,38 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
+  const [isLoading, setIsLoading] = useState(true);
+  const [startFadeOut, setStartFadeOut] = useState(false);
+
   useEffect(() => {
+
+    const fadeOutTimer = setTimeout(() => {
+      setStartFadeOut(true);
+    }, 1000);
+
+    const removeTimer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+
     setLandingPageData(JsonData);
+
+    return () => {
+      clearTimeout(fadeOutTimer);
+      clearTimeout(removeTimer);
+    };
   }, []);
+
+  if (isLoading) {
+    return (
+      <div className={`loading-screen ${startFadeOut ? 'fade-out' : ''}`}>
+        <img src="img/icons/favicon.ico.png" className="loading-icon"></img>
+      </div>
+    );
+  }
 
   return (
     <Router>
-      <div>
+      <div className="fade-in">
         <Routes>
           <Route path="/" element={<HomePage landingPageData={landingPageData} />} />
           <Route path="/team" element={<MeetTheTeam landingPageData={landingPageData} />} />
