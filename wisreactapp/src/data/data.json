@@ -17,6 +17,18 @@
   },
   "Gallery": [
     {
+      "title": "End of Year Ceremony",
+      "largeImage": "img/portfolio/16Ceremony.png",
+      "smallImage": "img/portfolio/16Ceremony.png",
+      "eventType": "current"
+    },
+    {
+      "title": "ANOVA Charity Walk / Run",
+      "largeImage": "img/portfolio/15Anova.png",
+      "smallImage": "img/portfolio/15Anova.png",
+      "eventType": "current"
+    },
+    {
       "title": "Intergenerational Speed Mentorship Event",
       "largeImage": "img/portfolio/14SpeedMentor.png",
       "smallImage": "img/portfolio/14SpeedMentor.png",
@@ -44,13 +56,13 @@
       "title": "Endless Exploration",
       "largeImage": "img/portfolio/1EndlessExploration.png",
       "smallImage": "img/portfolio/1EndlessExploration.png",
-      "eventType": "current"
+      "eventType": "past"
     },
     {
       "title": "Yoga Night",
       "largeImage": "img/portfolio/2YogaNight.png",
       "smallImage": "img/portfolio/2YogaNight.png",
-      "eventType": "current"
+      "eventType": "past"
     },
     {
       "title": "Free Headshots",
@@ -74,18 +86,6 @@
       "title": "Women in Academia Workshop",
       "largeImage": "img/portfolio/6WomenInAcademiaWorkshop.png",
       "smallImage": "img/portfolio/6WomenInAcademiaWorkshop.png",
-      "eventType": "past"
-    },
-    {
-      "title": "Paint Night",
-      "largeImage": "img/portfolio/7PaintNight.png",
-      "smallImage": "img/portfolio/7PaintNight.png",
-      "eventType": "past"
-    },
-    {
-      "title": "Little Sisters in Science Mixer",
-      "largeImage": "img/portfolio/8LittleSisters.png",
-      "smallImage": "img/portfolio/8LittleSisters.png",
       "eventType": "past"
     }
   ],
