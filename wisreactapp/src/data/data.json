@@ -17,6 +17,12 @@
   },
   "Gallery": [
     {
+      "title": "Starry Night",
+      "largeImage": "img/portfolio/17starrynight.png",
+      "smallImage": "img/portfolio/17starrynight.png",
+      "eventType": "current"
+    },
+    {
       "title": "End of Year Ceremony",
       "largeImage": "img/portfolio/16Ceremony.png",
       "smallImage": "img/portfolio/16Ceremony.png",
@@ -50,7 +56,7 @@
       "title": "LinkedIn and Cover Letter Workshop",
       "largeImage": "img/portfolio/10LinkedIn.png",
       "smallImage": "img/portfolio/10LinkedIn.png",
-      "eventType": "current"
+      "eventType": "past"
     },
     {
       "title": "Endless Exploration",
@@ -80,12 +86,6 @@
       "title": "University Info Session",
       "largeImage": "img/portfolio/5InfoSession.png",
       "smallImage": "img/portfolio/5InfoSession.png",
-      "eventType": "past"
-    },
-    {
-      "title": "Women in Academia Workshop",
-      "largeImage": "img/portfolio/6WomenInAcademiaWorkshop.png",
-      "smallImage": "img/portfolio/6WomenInAcademiaWorkshop.png",
       "eventType": "past"
     }
   ],
