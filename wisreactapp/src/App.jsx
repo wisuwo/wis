@@ -9,6 +9,7 @@ import { Gallery } from "./components/gallery";
 import { Team } from "./components/Team";
 import Calendar from "./components/calendar";
 import MeetTheTeam from "./components/teamexpanded";
+import ImageGallery from "./components/imagegallery";
 import { Merch } from "./components/merch";
 import { Join } from "./components/join";
 import { Contact } from "./components/contact";
@@ -61,6 +62,7 @@ const App = () => {
           <Route path="/team" element={<MeetTheTeam landingPageData={landingPageData} />} />
           <Route path="/contact" element={<Contact landingPageData={landingPageData} />} />
           <Route path="/calendar" element={<CalendarPage landingPageData={landingPageData} />} />
+          <Route path="/imagegallery" element={<ImageGallery landingPageData={landingPageData} />} />
         </Routes>
       </div>
     </Router>

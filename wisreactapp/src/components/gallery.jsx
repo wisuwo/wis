@@ -40,6 +40,9 @@ export const Gallery = (props) => {
        <div className='row'>
          {props.data ? renderEvents(filterEvents('past')) : 'Loading...'}
        </div>
+       <div className='calendar-link'>
+            <button className="btn btn-custom btn-lg"><Link to="/imagegallery">Go To Event Gallery</Link></button>
+       </div> 
      </div>
    </div>
  );
