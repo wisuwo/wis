@@ -83,4 +83,11 @@ Once the website is up and running, you need to make sure it is findable on goog
      Creating a sitemap needs to be using xml file
 
 ### 8. Making a new page
-1. 
+
+### 9. Loading button
+
+### 10. Nav Bar
+
+### 11. Links
+
+### 12. Adding to events
