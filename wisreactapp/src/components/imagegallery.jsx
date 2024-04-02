@@ -125,16 +125,25 @@ const App = () => {
 
   ];
 
+  const customStyles = `
+  .image-gallery-slide img,
+  .image-gallery-thumbnail img {
+    animation: none !important;
+    transform: none !important;
+  }
+`;
+
   const imageUrls = images.map(image => image.original);
 
   return (
     <>
-    <Navigation2 />
-    <div id='schedule'>
-    <div className="App">
-      <ImageGallery items={images} />
-    </div>
-    </div>
+      <style>{customStyles}</style>
+      <Navigation2 />
+      
+        <div className="App">
+          <ImageGallery items={images} />
+        </div>
+      
     </>
   );
 };
