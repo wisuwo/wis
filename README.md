@@ -80,3 +80,7 @@ Once the website is up and running, you need to make sure it is findable on goog
 4. Once domain is verified, check if it is indexed or not. Indexed means you can find it through google search and unindexed you can't
 5. If unindexed, check reason and meaning of reason at <a href="https://support.google.com/webmasters/answer/7440203#crawled">google's faq page</a>
 6. You may need to create a site map depending on issue
+     Creating a sitemap needs to be using xml file
+
+### 8. Making a new page
+1. 
