@@ -93,12 +93,25 @@ Once the website is up and running, you need to make sure it is findable on goog
 5. If unindexed, check reason and meaning of reason at <a href="https://support.google.com/webmasters/answer/7440203#crawled">google's faq page</a>
 6. You may need to create a site map depending on issue -> Creating a sitemap needs to be using xml file
 
-### 8. Making a new page
+### 8. Making a new section on the landing page
+1. Create a new .jsx file in the wisreactapp/src/components folder
+2. Add the code for your new section. Follow the format of the other components for consistency
+3. Add the new page to the App.jsx file in the wisreactapp/src folder
+4. Add the new page to the navigation.jsx file in the wisreactapp/src/components folder
+5. If you are confused on how to format, just follow what was done for other landing page components (eg. Team.jsx)
 
-### 9. Loading button
+### 9. Making a separate page
+1. Create a new .jsx file in the wisreactapp/src/components folder
+2. Add the code for your separate page. Follow the format of the other components for consistency
+   - Ensure the new section uses the navigation2.jsx nav bar rather than the normal navigation.jsx nav bar
+4. Add the new page to the App.jsx file in the wisreactapp/src folder, as a route under the App function
+5. If you are confused on how to format, just follow what was done for other separate pages (eg. calendar.jsx)
 
-### 10. Nav Bar
+### 10. Loading Screen
+1. To adjust or remove the loading screen, navigate to the 
 
-### 11. Links
+### 11. Nav Bar
 
-### 12. Adding to events
+### 12. Links
+
+### 13. Adding to events
