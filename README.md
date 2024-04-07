@@ -41,17 +41,17 @@ In the Root Folder of your Locally Cloned Repository:
 4. To begin the deployment process, make sure you are ```cd``` into the wisreactapp folder
 5. Make sure github pages package installed: ```npm install gh-pages --save-dev```
 6. In both package.json files (root folder and the wisreactapp folder), update the first line "homepage": "https://USER_NAME.github.io/REPOSITORY_NAME"
-   a. You should be able to find the exact link after deploying on github pages
-7. Make sure the "scripts" line looks like this:
+   - You should be able to find the exact link after deploying on github pages
+8. Make sure the "scripts" line looks like this:
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
 }
-8. In terminal type ```npm run build```. Let that compile, then enter ```npm run deploy```
-9. Go to GitHub in your browser. Navigate to the repository, then the Actions page
-10. Wait for the "pages build and deployment" workflow run to finish
-11. Click on the workflow run when it is completed successfully, and the link to your website will be there. Click on it to view your website live!
-12. As mentioned in Step 5, this link is going to be what you will insert into the "homepage" line of your package.json files.
+9. In terminal type ```npm run build```. Let that compile, then enter ```npm run deploy```
+10. Go to GitHub in your browser. Navigate to the repository, then the Actions page
+11. Wait for the "pages build and deployment" workflow run to finish
+12. Click on the workflow run when it is completed successfully, and the link to your website will be there. Click on it to view your website live!
+13. As mentioned in Step 5, this link is going to be what you will insert into the "homepage" line of your package.json files.
 
 ### 5. Update/Push Changes to Github
 1. After making a change to local files, ```cd``` into general file
