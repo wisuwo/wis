@@ -3,48 +3,55 @@
 ## Steps (MacOS)
 ### 0. Required
 1. Node JS LTS | current version - 20.9.0
-2. Yarn LTS | current version - 1.22.19
-3. React LTS | current version - 18.2.0
-4. Github account with no deployed websites
+2. Node Package Manager (NPM) | current version - 10.3.0
+3. Node Version Manager (NVM) | current version - 0.39.5
+4. React LTS | current version - 18.2.0
+5. Github account with no deployed websites (?)
 
-### 1. Prep
-1. Download the LTS version of <a href="https://nodejs.org/en">Node JS</a>
-2. To check if NodeJS installed, open terminal and use command ```node -v```
-3. Install nvm using command ```npm install```
-4. To check if nvm is installed, open terminal and use command ```npm -v```
-5. Download LTS version of yarn using command ```sudo npm i -g yarn```
-6. To check if yarn is installed, use command ```yarn -v```
-7. Install bootstrap (css) using command ```npm install react-bootstrap@next bootstrap@5.1.1```
-
-### 2. Clone Files
+### 1. Clone Files
 1. Clone files locally by copying http link and in terminal running ```git clone HTTP_LINK_COPIED```
-2. Make sure your new local file has:
+2. The root folder of the cloned repository should have the following:
+   - CNAME
    - package.json
    - index.html
    - readme file
-   - reactapp folder
-     If there is no package.json, in terminal, ```cd``` into cloned files folder and type ```yarn init```
-     If there is no reactapp folder, in terminal, ```cd``` into cloned files folder and type ```mkdir REACT_FOLDER_NAME```. ```cd``` into the REACT_FOLDER_NAME. Type ```npx create-react-app```
+   - sitemap.xml
+   - wisreactapp folder
+
+### 2. Prepare Locally Cloned Repository
+In the Root Folder of your Locally Cloned Repository:
+1. Download the LTS version of <a href="https://nodejs.org/en">Node JS</a>
+2. To check if NodeJS installed, open terminal and use command ```node -v```
+3. Install nvm using command ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash```
+4. To check if nvm is installed, open terminal and use command ```nvm --version```
+5. NPM comes when you install Node JS. To ensure it is installed, run the command ```npm -v```
+6. ```cd``` into the wisreactapp folder, then run the ```npm i``` command. This will install all node modules being used in the React app.
+7. While still in the wisreactapp folder, install bootstrap (css) using command ```npm install react-bootstrap@next bootstrap@5.1.1```
+
 
 ### 3. Run Locally
-1. In terminal, make sure you ```cd``` into the cloned file
+1. In terminal, make sure you ```cd``` into the wisreactapp folder
 2. To run locally, type ```npm start```
+3. The website should open on your local host, and you are now ready to make changes and see these changes dynamically!
 
 ### 4. Deploy
-1. Make sure site runs correctly locally and add any changes
-2. In terminal, make sure you have ```cd``` into the cloned file
-3. ```cd``` into your REACT_FOLDER_NAME
-4. Make sure github pages package installed: ```npm install gh-pages --save-dev```
-5. In the package.json of the react folder, update the first line "homepage": "https://USER_NAME.github.io/REPOSITORY_NAME"
-   - you should be able to find the exact link after deploying on github pages
-6. Make sure the "scripts" line looks like this:
+1. Make sure you are on the main branch, and that all the changes you want are pushed and merged with main
+2. Make sure site runs correctly locally by ```cd``` into the wisreactapp folder and running ```npm start```
+   a. Fix any issues if they exist and push these changes
+4. To begin the deployment process, make sure you are ```cd``` into the wisreactapp folder
+5. Make sure github pages package installed: ```npm install gh-pages --save-dev```
+6. In both package.json files (root folder and the wisreactapp folder), update the first line "homepage": "https://USER_NAME.github.io/REPOSITORY_NAME"
+   a. You should be able to find the exact link after deploying on github pages
+7. Make sure the "scripts" line looks like this:
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
 }
-7. In terminal type ```npm run build``` then ```npm run deploy```
-8. In the github pages section, you should be able to see a link of the format in step 5 where website is deployed to
-
+8. In terminal type ```npm run build```. Let that compile, then enter ```npm run deploy```
+9. Go to GitHub in your browser. Navigate to the repository, then the Actions page
+10. Wait for the "pages build and deployment" workflow run to finish
+11. Click on the workflow run when it is completed successfully, and the link to your website will be there. Click on it to view your website live!
+12. As mentioned in Step 5, this link is going to be what you will insert into the "homepage" line of your package.json files.
 
 ### 5. Update/Push Changes to Github
 1. After making a change to local files, ```cd``` into general file
@@ -54,7 +61,7 @@
 
 ### 6. Adding Custom Domain Name
 1. Purchase from a domain manager site
-2. Verify domain name on <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site">github</a> (this will take 24 hours)
+2. Verify domain name on <a href="https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site">github</a> (this may take up to 24 hours)
 3. On domain managers site, find the Manage DNS page
 4. Add 4 A records:
    Under each ipv4 title add:
@@ -70,6 +77,11 @@
    - Hostname should contain ```_github-pages-challlenge-YOUR_ACCOUNT_NAME```
    - Name should contain the numbers given from verified domain name
 You should end up with 7 records total - 4 A, 2 TXT, 1 CName
+7. In your locally cloned repository, navigate back to the "homepage" line of both package.json files and replace the github.io link: "homepage": "https://YOUR_DOMAIN/"
+8. Open GitHub on your browser and navigate to your repository Settings -> Pages
+9. Scroll down and enter your custom domain. Click "Save". A DNS check will begin which may (unlikely) take up to 24 hours.
+10. Navigate to the Actions page of your repository. You should see the new workflow run for the deployment
+11. Once the workflow run is complete, click on it and you should see the link to your live website. If the DNS check succeeded, your website should load correctly!
 
 ### 7. Google Search
 Once the website is up and running, you need to make sure it is findable on google search. 
