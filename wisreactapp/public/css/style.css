@@ -137,6 +137,11 @@ hr {
   background-image: url(/Users/katepark/Documents/wiswebsite2021-main/public/img/portfolio/logo.png);
 }
 /* Navigation */
+
+.nav-item:hover {
+  cursor: pointer;
+}
+
 #menu {
   padding: 15px;
   transition: all 0.8s;
