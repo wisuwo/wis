@@ -26,8 +26,8 @@ In the Root Folder of your Locally Cloned Repository:
 4. To check if nvm is installed, open terminal and use command ```nvm --version```
 5. NPM comes when you install Node JS. To ensure it is installed, run the command ```npm -v```
 6. ```cd``` into the wisreactapp folder, then run the ```npm i``` command. This will install all node modules being used in the React app.
-7. While still in the wisreactapp folder, install bootstrap (css) using command ```npm install react-bootstrap@next bootstrap@5.1.1```
-
+   - NOTE: Ensure you have node_modules in your .gitignore within your React App file. This will ensure you DO NOT push tens of thousands of modules to the GitHub Repository.
+9. While still in the wisreactapp folder, install bootstrap (css) using command ```npm install react-bootstrap@next bootstrap@5.1.1```
 
 ### 3. Run Locally
 1. In terminal, make sure you ```cd``` into the wisreactapp folder
