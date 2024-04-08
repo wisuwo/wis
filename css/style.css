@@ -7,7 +7,6 @@ html {
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
-  overflow-x: hidden;
 }
 h2,
 h3,
@@ -138,6 +137,11 @@ hr {
   background-image: url(/Users/katepark/Documents/wiswebsite2021-main/public/img/portfolio/logo.png);
 }
 /* Navigation */
+
+.nav-item:hover {
+  cursor: pointer;
+}
+
 #menu {
   padding: 15px;
   transition: all 0.8s;
@@ -501,6 +505,12 @@ img {
 
 #cal-btn {
   margin-bottom: 10px;
+}
+
+.bolder {
+  font-weight: bold;
+  font-style: italic;
+
 }
 
 /* schedule Section */
