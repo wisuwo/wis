@@ -57,7 +57,7 @@ In the Root Folder of your Locally Cloned Repository:
 1. After making a change to local files, ```cd``` into general file
 2. Type ```git add .``` to add all changes, you can replace . with specific file
 3. Type ```git commit -m```
-4. Type ```git push origin main```
+4. Type ```git push origin main``` or just ```git push```
 
 ### 6. Adding Custom Domain Name
 1. Purchase from a domain manager site
@@ -103,6 +103,7 @@ Once the website is up and running, you need to make sure it is findable on goog
 4. Once domain is verified, check if it is indexed or not. Indexed means you can find it through google search and unindexed you can't
 5. If unindexed, check reason and meaning of reason at <a href="https://support.google.com/webmasters/answer/7440203#crawled">google's faq page</a>
 6. You may need to create a site map depending on issue -> Creating a sitemap needs to be using xml file
+7. Put the xml file into the root of the repository and push changes
 
 ### 9. Making a new section on the landing page
 1. Create a new .jsx file in the wisreactapp/src/components folder
