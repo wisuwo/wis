@@ -4,7 +4,7 @@ export const Join = (props) => {
     <div id='join' className='text-center'>
       <div className='section-title'>
         <h2>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSeCnMi2i9UfambAA0zzYpcLnzS0KnSpizlc9cMJliXwWEes_Q/viewform" target="_blank" rel="noreferrer">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSfZi63fsrFA4vDmpCkVh68dco-r5WRv-WvMYfFuPoJtKAiwaw/viewform" target="_blank" rel="noreferrer">
             Let's Stay Connected
           </a>
         </h2>
@@ -14,7 +14,7 @@ export const Join = (props) => {
         <div className='row justify-content-center'>
           <div className='col-md-8'>
             <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSeCnMi2i9UfambAA0zzYpcLnzS0KnSpizlc9cMJliXwWEes_Q/viewform?embedded=true"
+              src="https://docs.google.com/forms/d/e/1FAIpQLSfZi63fsrFA4vDmpCkVh68dco-r5WRv-WvMYfFuPoJtKAiwaw/viewform?embedded=true"
               width="80%"
               height="400"
               frameBorder="0"
