@@ -76,7 +76,6 @@ const HomePage = ({ landingPageData }) => (
     <About data={landingPageData.About} />
     <Team data={landingPageData.Team} />
     <Gallery data={landingPageData.Gallery} />
-    <Merch data={landingPageData.Merch} />
     <Join data={landingPageData.Join} />
     <Footer data={landingPageData.Footer} />
   </>
