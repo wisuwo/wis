@@ -34,7 +34,7 @@ In the Root Folder of your Locally Cloned Repository:
 2. To run locally, type ```npm start```
 3. The website should open on your local host, and you are now ready to make changes and see these changes dynamically!
 
-### 4. Deploy
+### 4a. Deploying as repository owner
 1. Make sure you are on the main branch, and that all the changes you want are pushed and merged with main
 2. Make sure site runs correctly locally by ```cd``` into the wisreactapp folder and running ```npm start```
    - Fix any issues if they exist and push these changes
@@ -52,6 +52,9 @@ In the Root Folder of your Locally Cloned Repository:
 9. Wait for the "pages build and deployment" workflow run to finish
 10. Click on the workflow run when it is completed successfully, and the link to your website will be there. Click on it to view your website live!
 11. As mentioned in Step 5, this link is going to be what you will insert into the "homepage" line of your package.json files.
+
+### 4b. Deploying as repository collaborator
+1. Locally add and commit changes to the main repository. You will need to manually redeploy from the repository owners account each time by reverifying the custom domain name
 
 ### 5. Update/Push Changes to Github
 1. After making a change to local files, ```cd``` into general file
