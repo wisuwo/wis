@@ -89,24 +89,6 @@
       "eventType": "past"
     }
   ],
-  "Merch": [
-    {
-      "title": "Sweater",
-      "smallImage": "img/merch/crewneck.png"
-    },
-    {
-      "title": "Tote Bag",
-      "smallImage": "img/merch/tote.png"
-    },
-    {
-      "title": "Round Sticker",
-      "smallImage": "img/merch/roundsticker.png"
-    },
-    {
-      "title": "Rectangle Sticker",
-      "smallImage": "img/merch/squaresticker.png"
-    }
-  ],
   "Services": [
     {
       "icon": "fa fa-wordpress",

@@ -10,7 +10,6 @@ import { Team } from "./components/Team";
 import Calendar from "./components/calendar";
 import MeetTheTeam from "./components/teamexpanded";
 import ImageGallery from "./components/imagegallery";
-import { Merch } from "./components/merch";
 import { Join } from "./components/join";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
@@ -76,7 +75,6 @@ const HomePage = ({ landingPageData }) => (
     <About data={landingPageData.About} />
     <Team data={landingPageData.Team} />
     <Gallery data={landingPageData.Gallery} />
-    <Merch data={landingPageData.Merch} />
     <Join data={landingPageData.Join} />
     <Footer data={landingPageData.Footer} />
   </>
