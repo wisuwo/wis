@@ -11,8 +11,8 @@ export const Join = (props) => {
         <p>
           Ready to take a stand against the gender disparities in STEM? Join our club.
         </p>
-        <div className='row justify-content-center'>
-          <div className='col-md-8'>
+        <div >
+          <div>
             <iframe
               src="https://docs.google.com/forms/d/e/1FAIpQLSfZi63fsrFA4vDmpCkVh68dco-r5WRv-WvMYfFuPoJtKAiwaw/viewform?embedded=true"
               width="80%"
