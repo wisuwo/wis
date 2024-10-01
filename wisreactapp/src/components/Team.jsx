@@ -120,7 +120,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Christina Paraskevopoulos \nJob: VP Finance and Admin\nProgram: Insert Here",
+      caption: "Name: Christina Paraskevopoulos \nJob: VP Finance and Admin\nProgram: 5th year, Dual Degree in Ivey HBA & HSP Genetics",
     }
 
   ];
