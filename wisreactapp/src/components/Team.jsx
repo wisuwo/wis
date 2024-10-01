@@ -130,7 +130,7 @@ return (
     <div id='team' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Meet the 2023/24 Team</h2>
+          <h2>Meet the Team</h2>
           <p>
             Our amazing team of students seeking to eliminate gender disparity in science, technology, engineering, and mathematics!
           </p>
