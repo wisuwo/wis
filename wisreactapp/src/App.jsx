@@ -87,6 +87,7 @@ const CalendarPage = ({ landingPageData }) => {
     <>
       <Navigation2 />
       <Calendar data={landingPageData.Calendar} trigger={trigger} setTrigger={setTrigger} />
+      <Footer data={landingPageData.Footer} />
     </>
   );
 };
