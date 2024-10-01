@@ -23,23 +23,35 @@ function Calendar(props) {
             Stay updated with all of our upcoming events.
           </p>
         </div>
-        <div className='row justify-content-center'> 
-          <div className='col-md-8'>
+        <div className=''> 
+          <div className=''>
             {isLoading && (
               <div className="loading-indicator">
                 <img src="img/icons/favicon.ico.png" className="loading"></img>
               </div>
             )}
-            <iframe src="https://calendar.google.com/calendar/embed?src=7d3cd944488769a5d31072863a482a8334024049eff407b9494887bc4f05e7ba%40group.calendar.google.com&ctz=America%2FToronto"
+            {/* GID for:
+              September: 109074858
+              October: 2013976279
+              November: 1978668936
+              December: 2023941331
+              January: 639744264
+
+              edit gid= in url depending on which month it is
+            */}
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQukFzUjMWWpT4KZrnb0wN3oH_CuKQJIOQyMYf2XW17VqonMaImTupwolRqNMDyOKGw_CmO4qq-UkBZ/pubhtml?gid=2013976279&amp;widget=true&amp;headers=false"              
               width="100%"
-              height="500"
+              height="1100px"
               frameBorder="0"
               marginHeight="0"
               marginWidth="0"
               title="calendar"
               className="mx-auto"
               onLoad={handleLoading}
-              style={{display: (isLoading) ? "none" : "block"}}
+              style={
+                {display: (isLoading) ? "none" : "block"
+                }
+              }
             >
               Loading…
             </iframe>
