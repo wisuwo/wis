@@ -65,6 +65,13 @@ export const Navigation = (props) => {
               </ScrollLink>
             </li>
 
+            {/* New Calendar Link */}
+            <li className='nav-item'>
+              <Link className='nav-link' to='/calendar'>
+                Calendar
+              </Link>
+            </li>
+
             {/* New Photo Gallery Link */}
             <li className='nav-item'>
               <Link className='nav-link' to='/imagegallery'>
