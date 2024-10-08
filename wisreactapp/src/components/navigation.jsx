@@ -41,7 +41,7 @@ export const Navigation = (props) => {
               </ScrollLink>
             </li>
             <li className='nav-item'>
-            <ScrollLink
+              <ScrollLink
                 className='nav-link page-scroll'
                 to='team'
                 spy={true}
@@ -64,6 +64,14 @@ export const Navigation = (props) => {
                 Events
               </ScrollLink>
             </li>
+
+            {/* New Photo Gallery Link */}
+            <li className='nav-item'>
+              <Link className='nav-link' to='/imagegallery'>
+                Photo Gallery
+              </Link>
+            </li>
+
             <li className='nav-item'>
               <ScrollLink
                 className='nav-link page-scroll'

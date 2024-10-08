@@ -4,148 +4,124 @@ import { Link } from "react-router-dom";
 export const Team = (props) => {
   const images = [
     {
-      src: process.env.PUBLIC_URL + '/img/team/addisyn.png',
+      src: process.env.PUBLIC_URL + '/img/team/Bobo 3.JPG',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Addisyn Smith \nJob: VP Sponsorship\nProgram: 4th year Medical Sciences, IMS and microbiology and immunology",
+      caption: "Name: Bobo Soong \nJob: Co-President\nProgram: 4th year Biology and Pharmacology",
     },
     
     {
-      src: process.env.PUBLIC_URL + '/img/team/anusha.png',
+      src: process.env.PUBLIC_URL + '/img/team/Cristina.jpg',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Anusha Merchant \nJob: VP Mentorship\nProgram: 4th year, Medical Sciences - HSP IMS",
+      caption: "Name: Cristina White \nJob: Co-President\nProgram: 4th year, Medical Sciences honours specialization IMS",
     },
 
     {
-      src: process.env.PUBLIC_URL + '/img/team/bobo.png',
+      src: process.env.PUBLIC_URL + '/img/team/Emaan .JPG',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Bobo Soong \nJob: VP Comms\nProgram: 3rd year, Biology and Pharmacology",
+      caption: "Name: Emaan Rana \nJob: Co-President\nProgram: 4th year, Honours Specialization in Pathology",
     },
 
     {
-      src: process.env.PUBLIC_URL + '/img/team/camryn.png',
+      src: process.env.PUBLIC_URL + '/img/team/Copy of Sophia 3.JPG',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Camryn Kabir-Bahk \nJob: Co-President\nProgram: 4th year HSP Epidemiology and Biostatistics",
+      caption: "Name: Sophia Yuan \nJob: VP Technology\nProgram: 3rd year, HBA1 and Computer Science",
     },
 
     {
-      src: process.env.PUBLIC_URL + '/img/team/cassidy.png',
+      src: process.env.PUBLIC_URL + '/img/team/Karolin 2.JPG',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Cassidy Coderre \nJob: VP Mentorship\nProgram: 4th year, Medical Sciences with an Honours Spec in Biochemistry",
+      caption: "Name: Karolin Volodko \nJob: VP Ethics and Advocacy\nProgram: 4th year, Honours Biochemistry and Genetics",
     },
 
     {
-      src: process.env.PUBLIC_URL + '/img/team/claudia.png',
+      src: process.env.PUBLIC_URL + '/img/team/Harleen 1.JPG',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Claudia Drewitt \nJob: VP Comms\nProgram: 3rd year, Honours Spec. in IMS and Major in Physiology",
+      caption: "Name: Harleen Multani \nJob: VP Design\nProgram: 4th year, Honours in Biology",
     },
 
     {
-      src: process.env.PUBLIC_URL + '/img/team/cristina.png',
+      src: process.env.PUBLIC_URL + '/img/team/Kate.JPG',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Cristina White \nJob: VP External\nProgram: 3rd year, Honours Spec in IMS",
+      caption: "Name: Kate La \nJob: VP Communications\nProgram: 2nd Year Medical Sciences",
     },
 
     {
-      src: process.env.PUBLIC_URL + '/img/team/diana.png',
+      src: process.env.PUBLIC_URL + '/img/team/Diana.jpg',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Diana Abdolmaleki \nJob: VP Ethics and Advocacy\nProgram: 3rd year, Medical Sciences with Honours Specialization in Microbiology & Immunology",
+      caption: "Name: Diana Abdolmaleki \nJob: VP Communications\nProgram: 4th year, Medical Sciences with Honours Specialization in Microbiology & Immunology",
     },
 
     {
-      src: process.env.PUBLIC_URL + '/img/team/emaan.png',
+      src: process.env.PUBLIC_URL + '/img/team/Trinity 4.JPG',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Emaan Rana \nJob: VP External\nProgram: 3rd year, Honours Spec in Pathology",
+      caption: "Name: Trinity Yan \nJob: VP Internals\nProgram: 3rd Year, Honours Specialization in Physiology",
     },
 
     {
-      src: process.env.PUBLIC_URL + '/img/team/emma.png',
+      src: process.env.PUBLIC_URL + '/img/team/Brielle 1.jpg',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Emma Punkari \nJob: Co-President\nProgram: 4th year Honours Spec Biology",
+      caption: "Name: Brielle Hall \nJob: VP Internals\nProgram: 3rd year, Dual degree interdisciplinary medical sciences and HBA at Ivey",
     },
 
     {
-      src: process.env.PUBLIC_URL + '/img/team/hannah.png',
+      src: process.env.PUBLIC_URL + '/img/team/Julie 3.JPG',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Hannah Lye \nJob: VP Internal\nProgram: 4th Year Synthetic Biology",
+      caption: "Name: Julie Le \nJob: VP Mentorship\nProgram: 3rd Year, Honors Specialization Genetics",
     },
 
     {
-      src: process.env.PUBLIC_URL + '/img/team/karolin.png',
+      src: process.env.PUBLIC_URL + '/img/team/Bahar 1.jpg',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Karolin Volodko \nJob: VP Ethics and Advocacy\nProgram: 4th year Biochemistry and Genetics",
+      caption: "Name: Bahar Mohammadi \nJob: VP Mentorship\nProgram: 3rd Year, HSP Biology",
     },
 
     {
-      src: process.env.PUBLIC_URL + '/img/team/kayla.png',
+      src: process.env.PUBLIC_URL + '/img/team/Lily.jpg',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Kayla TenHag \nJob: VP Internal\nProgram: 3rd year, Hsp Path",
+      caption: "Name: Lily Zhu \nJob: VP Externals\nProgram: 4th Year, IMS",
     },
 
     {
-      src: process.env.PUBLIC_URL + '/img/team/kirsten.png',
+      src: process.env.PUBLIC_URL + '/img/team/Melinda 2.JPG',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Kirsten Favreau \nJob: VP Admin\nProgram: 4th year HBsc. Medical Cell Biology & English",
+      caption: "Name: Melinda Gao \nJob: VP Externals\nProgram: 3rd year general sciences, double majoring in biology and environmental science",
     },
 
     {
-      src: process.env.PUBLIC_URL + '/img/team/natasha.png',
+      src: process.env.PUBLIC_URL + '/img/team/Christina 2.JPG',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Natasha Bruce \nJob: Senior Advisor\nProgram: Double Major IMS and Biochemistry",
-    },
-
-    {
-      src: process.env.PUBLIC_URL + '/img/team/sadia.png',
-      width: 320,
-      height: 174,
-      isSelected: true,
-      caption: "Name: Sadia Bahadoor \nJob: VP Finance\nProgram: 4th year, Computer Science with a French minor",
-    },
-
-    {
-      src: process.env.PUBLIC_URL + '/img/team/samantha.png',
-      width: 320,
-      height: 174,
-      isSelected: true,
-      caption: "Name: Samantha Romero \nJob: VP Design\nProgram: 4th year, Computer Science w a Certificate in Digital Communications",
-    },
-
-    {
-      src: process.env.PUBLIC_URL + '/img/team/sophia.png',
-      width: 320,
-      height: 174,
-      isSelected: true,
-      caption: "Name: Sophia Yuan \nJob: VP Technology\nProgram: 2nd year Comp Sci",
-    },
+      caption: "Name: Christina Paraskevopoulos \nJob: VP Finance and Admin\nProgram: 5th year, Dual Degree in Ivey HBA & HSP Genetics",
+    }
 
   ];
 
@@ -154,7 +130,7 @@ return (
     <div id='team' className='text-center'>
       <div className='container'>
         <div className='section-title'>
-          <h2>Meet the 2023/24 Team</h2>
+          <h2>Meet the Team</h2>
           <p>
             Our amazing team of students seeking to eliminate gender disparity in science, technology, engineering, and mathematics!
           </p>
