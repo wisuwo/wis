@@ -17,77 +17,42 @@
   },
   "Gallery": [
     {
-      "title": "Starry Night",
-      "largeImage": "img/portfolio/17starrynight.png",
-      "smallImage": "img/portfolio/17starrynight.png",
+      "title": "Yoga Night",
+      "largeImage": "img/portfolio/oct8-yoga.jpg",
+      "smallImage": "img/portfolio/oct8-yoga.jpg",
       "eventType": "current"
     },
     {
-      "title": "End of Year Ceremony",
-      "largeImage": "img/portfolio/16Ceremony.png",
-      "smallImage": "img/portfolio/16Ceremony.png",
+      "title": "Graduate Sisters in Science",
+      "largeImage": "img/portfolio/oct1-graduate-sisters.jpg",
+      "smallImage": "img/portfolio/oct1-graduate-sisters.jpg",
+      "eventType": "current"
+    },
+    {
+      "title": "Women in Science Annual General Meeting",
+      "largeImage": "img/portfolio/sep24-agm.jpg",
+      "smallImage": "img/portfolio/sep24-agm.jpg",
       "eventType": "current"
     },
     {
       "title": "ANOVA Charity Walk / Run",
       "largeImage": "img/portfolio/15Anova.png",
       "smallImage": "img/portfolio/15Anova.png",
-      "eventType": "current"
-    },
-    {
-      "title": "Intergenerational Speed Mentorship Event",
-      "largeImage": "img/portfolio/14SpeedMentor.png",
-      "smallImage": "img/portfolio/14SpeedMentor.png",
-      "eventType": "current"
-    },
-    {
-      "title": "WIS Trivia Night",
-      "largeImage": "img/portfolio/13Trivia.png",
-      "smallImage": "img/portfolio/13Trivia.png",
-      "eventType": "current"
+      "eventType": "past"
     },
     {
       "title": "Stemposium Conference",
       "largeImage": "img/portfolio/12Stemposium.png",
       "smallImage": "img/portfolio/12Stemposium.png",
-      "eventType": "current"
-    },
-    {
-      "title": "LinkedIn and Cover Letter Workshop",
-      "largeImage": "img/portfolio/10LinkedIn.png",
-      "smallImage": "img/portfolio/10LinkedIn.png",
       "eventType": "past"
-    },
+    },    
     {
       "title": "Endless Exploration",
       "largeImage": "img/portfolio/1EndlessExploration.png",
       "smallImage": "img/portfolio/1EndlessExploration.png",
       "eventType": "past"
-    },
-    {
-      "title": "Yoga Night",
-      "largeImage": "img/portfolio/2YogaNight.png",
-      "smallImage": "img/portfolio/2YogaNight.png",
-      "eventType": "past"
-    },
-    {
-      "title": "Free Headshots",
-      "largeImage": "img/portfolio/3Headshots.png",
-      "smallImage": "img/portfolio/3Headshots.png",
-      "eventType": "past"
-    },
-    {
-      "title": "Research Workshop",
-      "largeImage": "img/portfolio/4ResearchWorkshop.png",
-      "smallImage": "img/portfolio/4ResearchWorkshop.png",
-      "eventType": "past"
-    },
-    {
-      "title": "University Info Session",
-      "largeImage": "img/portfolio/5InfoSession.png",
-      "smallImage": "img/portfolio/5InfoSession.png",
-      "eventType": "past"
     }
+
   ],
   "Services": [
     {
