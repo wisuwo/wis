@@ -24,7 +24,7 @@ export const Gallery = (props) => {
          <p>Below are some of our current and past events! See our <Link to="/calendar" className="bolder">Calendar</Link> or our <Link to="/imagegallery" className="bolder">Photo Gallery</Link> for more.</p>
        </div>
        {/* Render current events */}
-       <h3>Recent Events</h3>
+       <h3>Upcoming and Recent Events</h3>
         <hr></hr>
        <div className='row'>
          {props.data ? renderEvents(filterEvents('current')) : 'Loading...'}
@@ -32,7 +32,7 @@ export const Gallery = (props) => {
        {/* Render past events */}
        <br></br>
        <br></br>
-       <h3>Past Events</h3>
+       <h3>Past Featured Events</h3>
        <hr></hr>
        <div className='row'>
          {props.data ? renderEvents(filterEvents('past')) : 'Loading...'}
