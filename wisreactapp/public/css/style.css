@@ -241,6 +241,8 @@ hr {
   font-size: 18px;
 }
 
+/* BUTTONS */
+
 .btn-custom {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
@@ -271,6 +273,25 @@ hr {
   background-image: none;
   outline: 0;
   box-shadow: none;
+}
+
+.back-btn img {
+  height: 40px;
+  width: 40px;
+}
+
+.back-btn img:hover {
+  cursor: pointer;
+}
+
+.back-btn {
+  padding: 0;
+}
+
+@media (max-width: 1024px) {
+  .back-btn {
+    display: none;
+  }
 }
 
 a:focus,

@@ -39,12 +39,10 @@ function Calendar(props) {
 
               edit gid= in url depending on which month it is
             */}
-            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQukFzUjMWWpT4KZrnb0wN3oH_CuKQJIOQyMYf2XW17VqonMaImTupwolRqNMDyOKGw_CmO4qq-UkBZ/pubhtml?gid=2013976279&amp;widget=true&amp;headers=false"              
-              width="100%"
-              height="1100px"
-              frameBorder="0"
-              marginHeight="0"
-              marginWidth="0"
+
+            <iframe src="https://calendar.google.com/calendar/embed?src=7d3cd944488769a5d31072863a482a8334024049eff407b9494887bc4f05e7ba%40group.calendar.google.com&ctz=America%2FToronto"              
+              width="90%"
+              height="700px"
               title="calendar"
               className="mx-auto"
               onLoad={handleLoading}
