@@ -7,8 +7,17 @@ export const Navigation2 = (props) => {
     scroll.scrollToTop();
   };
 
+  const goBack = () => {
+    window.history.back();
+  }
+
   return (
     <nav className='navbar navbar-expand-lg fixed-top navbar-dark'>
+      <div className="back">
+        <button className="btn back-btn" onClick={goBack}>
+          <img src="img/icons/back-arrow-white.png"></img>
+        </button>
+      </div>
       <div className='container'>
         <Link className='navbar-brand page-scroll' to='/' onClick={scrollToTop}>
           Women in Science
