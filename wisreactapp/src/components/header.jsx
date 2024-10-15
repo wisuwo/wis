@@ -2,7 +2,7 @@
 export const Header = (props) => {
   return (
     <header id='header'>
-      <div className='intro'>
+      <div className='intro' title="Background image of three female scientists." aria-label="Background image of three animated female scientists.">
         <div className='overlay'>
           <div className='container'>
             <div className='row'>

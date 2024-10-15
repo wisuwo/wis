@@ -21,11 +21,15 @@ const Carousel = ({ images }) => {
   return (
     <div className="carousel">
       <button onClick={prevSlide}>Previous</button>
-      <img src={images[currentIndex]} alt="carousel slide" />
+      <img 
+        src={images[currentIndex].original} 
+        alt={images[currentIndex].description} 
+      />
       <button onClick={nextSlide}>Next</button>
     </div>
   );
 };
+
 
 const App = () => {
   const images = [
@@ -82,27 +86,81 @@ const App = () => {
     },
 
     {
-      original: process.env.PUBLIC_URL + '/' + 'img/gallery/IMG_1492.jpg',
-      thumbnail: process.env.PUBLIC_URL + '/' + 'img/gallery/IMG_1492.jpg',
+      original: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5218.jpg',
+      thumbnail: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5218.jpg',
       description: 'AGM 1',
     },
 
     {
-      original: process.env.PUBLIC_URL + '/' + 'img/gallery/IMG_2349.jpg',
-      thumbnail: process.env.PUBLIC_URL + '/' + 'img/gallery/IMG_2349.jpg',
+      original: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5220.jpg',
+      thumbnail: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5220.jpg',
       description: 'AGM 2',
     },
 
     {
-      original: process.env.PUBLIC_URL + '/' + 'img/gallery/IMG_4958.jpg',
-      thumbnail: process.env.PUBLIC_URL + '/' + 'img/gallery/IMG_4958.jpg',
+      original: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5222.jpg',
+      thumbnail: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5222.jpg',
       description: 'AGM 3',
     },
 
     {
-      original: process.env.PUBLIC_URL + '/' + 'img/gallery/IMG_5063.jpg',
-      thumbnail: process.env.PUBLIC_URL + '/' + 'img/gallery/IMG_5063.jpg',
+      original: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5225.jpg',
+      thumbnail: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5225.jpg',
       description: 'AGM 4',
+    },
+
+    {
+      original: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5232.jpg',
+      thumbnail: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5232.jpg',
+      description: 'AGM 5',
+    },
+
+    {
+      original: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5233.jpg',
+      thumbnail: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5233.jpg',
+      description: 'AGM 6',
+    },
+
+    {
+      original: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5234.jpg',
+      thumbnail: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5234.jpg',
+      description: 'AGM 7',
+    },
+
+    {
+      original: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5235.jpg',
+      thumbnail: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5235.jpg',
+      description: 'AGM 8',
+    },
+
+    {
+      original: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5236.jpg',
+      thumbnail: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5236.jpg',
+      description: 'AGM 9',
+    },
+
+    {
+      original: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5237.jpg',
+      thumbnail: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5237.jpg',
+      description: 'AGM 10',
+    },
+
+    {
+      original: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5238.jpg',
+      thumbnail: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5238.jpg',
+      description: 'AGM 11',
+    },
+
+    {
+      original: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5213.jpg',
+      thumbnail: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5213.jpg',
+      description: 'AGM 12',
+    },
+
+    {
+      original: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5215.jpg',
+      thumbnail: process.env.PUBLIC_URL + '/' + 'img/gallery/DSCN5215.jpg',
+      description: 'AGM 13',
     },
 
     {
@@ -125,14 +183,26 @@ const App = () => {
 
   ];
 
-  const customStyles = `
-  .image-gallery-slide img,
-  .image-gallery-thumbnail img {
-    animation: none !important;
-    transform: none !important;
-  }
-`;
+ const customStyles = `
+    .App {
+      background-color: white; /* Black background */
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
+    .image-gallery {
+      width: 80%; /* Adjust width as needed */
+      margin: auto;
+    }
+
+    .image-gallery-slide img,
+    .image-gallery-thumbnail img {
+      animation: none !important;
+      transform: none !important;
+    }
+  `;
   const imageUrls = images.map(image => image.original);
 
   return (

@@ -8,7 +8,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Bobo Soong \nJob: Co-President\nProgram: 4th year Biology and Pharmacology",
+      caption: "Name: Bobo Soong \nRole: Co-President\nProgram: 4th year Biology and Pharmacology",
     },
     
     {
@@ -16,7 +16,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Cristina White \nJob: Co-President\nProgram: 4th year, Medical Sciences honours specialization IMS",
+      caption: "Name: Cristina White \nRole: Co-President\nProgram: 4th year, Medical Sciences honours specialization IMS",
     },
 
     {
@@ -24,7 +24,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Emaan Rana \nJob: Co-President\nProgram: 4th year, Honours Specialization in Pathology",
+      caption: "Name: Emaan Rana \nRole: Co-President\nProgram: 4th year, Honours Specialization in Pathology",
     },
 
     {
@@ -32,7 +32,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Sophia Yuan \nJob: VP Technology\nProgram: 3rd year, HBA1 and Computer Science",
+      caption: "Name: Sophia Yuan \nRole: VP Technology\nProgram: 3rd year, HBA1 and Computer Science",
     },
 
     {
@@ -40,7 +40,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Karolin Volodko \nJob: VP Ethics and Advocacy\nProgram: 4th year, Honours Biochemistry and Genetics",
+      caption: "Name: Karolin Volodko \nRole: VP Ethics and Advocacy\nProgram: 4th year, Honours Biochemistry and Genetics",
     },
 
     {
@@ -48,7 +48,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Harleen Multani \nJob: VP Design\nProgram: 4th year, Honours in Biology",
+      caption: "Name: Harleen Multani \nRole: VP Design\nProgram: 4th year, Honours in Biology",
     },
 
     {
@@ -56,7 +56,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Kate La \nJob: VP Communications\nProgram: 2nd Year Medical Sciences",
+      caption: "Name: Kate La \nRole: VP Communications\nProgram: 2nd Year Medical Sciences",
     },
 
     {
@@ -64,7 +64,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Diana Abdolmaleki \nJob: VP Communications\nProgram: 4th year, Medical Sciences with Honours Specialization in Microbiology & Immunology",
+      caption: "Name: Diana Abdolmaleki \nRole: VP Communications\nProgram: 4th year, Medical Sciences with Honours Specialization in Microbiology & Immunology",
     },
 
     {
@@ -72,7 +72,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Trinity Yan \nJob: VP Internals\nProgram: 3rd Year, Honours Specialization in Physiology",
+      caption: "Name: Trinity Yan \nRole: VP Internals\nProgram: 3rd Year, Honours Specialization in Physiology",
     },
 
     {
@@ -80,7 +80,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Brielle Hall \nJob: VP Internals\nProgram: 3rd year, Dual degree interdisciplinary medical sciences and HBA at Ivey",
+      caption: "Name: Brielle Hall \nRole: VP Internals\nProgram: 3rd year, Dual degree interdisciplinary medical sciences and HBA at Ivey",
     },
 
     {
@@ -88,7 +88,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Julie Le \nJob: VP Mentorship\nProgram: 3rd Year, Honors Specialization Genetics",
+      caption: "Name: Julie Le \nRole: VP Mentorship\nProgram: 3rd Year, Honors Specialization Genetics",
     },
 
     {
@@ -96,7 +96,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Bahar Mohammadi \nJob: VP Mentorship\nProgram: 3rd Year, HSP Biology",
+      caption: "Name: Bahar Mohammadi \nRole: VP Mentorship\nProgram: 3rd Year, HSP Biology",
     },
 
     {
@@ -104,7 +104,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Lily Zhu \nJob: VP Externals\nProgram: 4th Year, IMS",
+      caption: "Name: Lily Zhu \nRole: VP Externals\nProgram: 4th Year, IMS",
     },
 
     {
@@ -112,7 +112,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Melinda Gao \nJob: VP Externals\nProgram: 3rd year general sciences, double majoring in biology and environmental science",
+      caption: "Name: Melinda Gao \nRole: VP Externals\nProgram: 3rd year general sciences, double majoring in biology and environmental science",
     },
 
     {
@@ -120,7 +120,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Christina Paraskevopoulos \nJob: VP Finance and Admin\nProgram: 5th year, Dual Degree in Ivey HBA & HSP Genetics",
+      caption: "Name: Christina Paraskevopoulos \nRole: VP Finance and Admin\nProgram: 5th year, Dual Degree in Ivey HBA & HSP Genetics",
     }
 
   ];
@@ -142,7 +142,7 @@ return (
         <div className="team-members-container">
           {images.map((image, index) => (
             <div key={index} className="team-member">
-              <img src={image.src} width={image.width} alt={`Team Member ${index + 1}`} />
+              <img src={image.src} width={image.width} alt={`Photo of ${image.caption.split('\n')[0].replace('Name: ', '').trim()}, ${image.caption.split('\n')[1].replace('Role: ', '').trim()}`} />
               <p className="caption" dangerouslySetInnerHTML={{ __html: image.caption.replace(/\n/g, '<br>') }} />
             </div>
           ))}
