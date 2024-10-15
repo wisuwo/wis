@@ -111,7 +111,7 @@ function MeetTheTeam() {
       <div className="meet-the-team-two">
         {teamMembers.map((member, index) => (
           <div key={index} className="team-member-containers">
-            <img className="team-member-imgs" src={process.env.PUBLIC_URL + '/' + member.photo} alt={member.name} />
+            <img className="team-member-imgs" src={process.env.PUBLIC_URL + '/' + member.photo} alt={`Photo of ${member.name}`} title={`Photo of ${member.name}`}  />
             <div className="member-infos">
             <h2 className="team-member-name">{member.name}</h2>
               <p>{member.bio}</p>

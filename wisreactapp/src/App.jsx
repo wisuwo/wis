@@ -48,7 +48,7 @@ const App = () => {
   if (isLoading) {
     return (
       <div className={`loading-screen ${startFadeOut ? 'fade-out' : ''}`}>
-        <img src="img/icons/favicon.ico.png" className="loading-icon"></img>
+        <img src="img/icons/favicon.ico.png" className="loading-icon" alt="Loading symbol of a group of three molecules." title="Loading symbol of a group of three molecules."></img>
       </div>
     );
   }
