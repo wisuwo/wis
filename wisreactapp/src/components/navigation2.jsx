@@ -19,9 +19,9 @@ export const Navigation2 = (props) => {
         </button>
       </div>
       <div className='container'>
-        <Link className='navbar-brand page-scroll' to='/' onClick={scrollToTop}>
+        <h1 className='navbar-brand'>
           Women in Science
-        </Link>
+        </h1>
       </div>
     </nav>
   );
