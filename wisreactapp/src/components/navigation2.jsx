@@ -19,7 +19,7 @@ export const Navigation2 = (props) => {
         </button>
       </div>
       <div className='container'>
-        <h1 className='navbar-brand'>
+        <h1 className='navbar-brand' style={{margin: 0}}>
           Women in Science
         </h1>
       </div>
