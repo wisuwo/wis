@@ -843,6 +843,10 @@ img {
 }
 
 /* Contact Section */
+.contact-container {
+  height: 90vh;
+}
+
 #contact {
   padding: 100px 0 60px;
   width: 100%;
@@ -898,6 +902,13 @@ img {
   color: #1f386e;
   background: #fff;
 }
+
+#contact .btn-newsletter {
+  margin: 0px !important;
+  background: transparent;
+  border: 2px solid #fff;
+}
+
 label {
   font-size: 12px;
   font-weight: 400;
@@ -984,6 +995,111 @@ label {
   width: 23px;
   height: 23px;
   margin-right: 5px;
+}
+
+/* Newsletter Section */
+
+#newsletter {
+  padding: 100px 0 60px;
+  width: 100%;
+  background-image: linear-gradient(120deg, #71a5f4 0%, #e497f9 100%);  color: rgba(255, 255, 255, 0.75);
+}
+
+#newsletter .section-title {
+  margin-bottom: 40px;
+}
+#newsletter .section-title p {
+  font-size: 16px;
+}
+#newsletter h2 {
+  color: #fff;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+#newsletter .section-title h2::after {
+  position: absolute;
+  content: "";
+  background: rgba(255, 255, 255, 0.3);
+  height: 4px;
+  width: 60px;
+  bottom: 0;
+  margin-left: -30px;
+  left: 50%;
+}
+#newsletter a{
+  color: white;
+}
+#newsletter h3 {
+  color: #fff;
+  margin-top: 80px;
+  margin-bottom: 25px;
+  padding-bottom: 20px;
+  font-weight: 400;
+}
+#newsletter form {
+  padding-top: 20px;
+}
+#newsletter .text-danger {
+  color: #cc0033;
+  text-align: left;
+}
+#newsletter .btn-custom {
+  margin: 30px 0;
+  background: transparent;
+  border: 2px solid #fff;
+}
+#newsletter .btn-custom:hover {
+  color: #1f386e;
+  background: #fff;
+}
+
+#newsletter .btn-newsletter {
+  margin: 0px !important;
+  background: transparent;
+  border: 2px solid #fff;
+}
+
+label {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+  float: left;
+}
+#newsletter .form-control {
+  display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 16px;
+  line-height: 1.42857143;
+  color: #444;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ddd;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  -webkit-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+#newsletter .form-control:focus {
+  border-color: #999;
+  outline: 0;
+  -webkit-box-shadow: transparent;
+  box-shadow: transparent;
+}
+.form-control::-webkit-input-placeholder {
+  color: #777;
+}
+.form-control:-moz-placeholder {
+  color: #777;
+}
+.form-control::-moz-placeholder {
+  color: #777;
+}
+.form-control:-ms-input-placeholder {
+  color: #777;
 }
 
 /* Footer Section*/
