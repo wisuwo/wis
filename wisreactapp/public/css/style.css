@@ -288,12 +288,6 @@ hr {
   padding: 0;
 }
 
-@media (max-width: 1024px) {
-  .back-btn {
-    display: none;
-  }
-}
-
 a:focus,
 .btn:focus,
 .btn:active:focus,

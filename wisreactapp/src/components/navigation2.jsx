@@ -13,12 +13,12 @@ export const Navigation2 = (props) => {
 
   return (
     <nav className='navbar navbar-expand-lg fixed-top navbar-dark'>
-      <div className="back">
-        <button className="btn back-btn" onClick={goBack}>
-          <img src="img/icons/back-arrow-white.png"></img>
-        </button>
-      </div>
       <div className='container'>
+        <div className="back">
+          <button className="btn back-btn" onClick={goBack}>
+            <img src="img/icons/back-arrow-white.png"></img>
+          </button>
+        </div>
         <h1 className='navbar-brand' style={{margin: 0}}>
           Women in Science
         </h1>
