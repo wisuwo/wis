@@ -47,6 +47,7 @@ export const Contact = (props) => {
   return (
     <div>
       <Navigation2 />
+      <div className='contact-container'>
       <div id='contact'>
         <div className='section-title text-center'>
           <h2>Get In Touch</h2>
@@ -142,6 +143,7 @@ export const Contact = (props) => {
         </div>
       </div>
       <Footer />
+      </div>
     </div>
   );
 };

@@ -843,6 +843,10 @@ img {
 }
 
 /* Contact Section */
+.contact-container {
+  height: 90vh;
+}
+
 #contact {
   padding: 100px 0 60px;
   width: 100%;
