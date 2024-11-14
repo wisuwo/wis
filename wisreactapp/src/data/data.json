@@ -17,6 +17,12 @@
   },
   "Gallery": [
     {
+      "title": "My Journey Panel",
+      "largeImage": "img/portfolio/nov12-panel.jpg",
+      "smallImage": "img/portfolio/nov12-panel.jpg",
+      "eventType": "current"
+    },
+    {
       "title": "Yoga Night",
       "largeImage": "img/portfolio/oct8-yoga.jpg",
       "smallImage": "img/portfolio/oct8-yoga.jpg",
@@ -32,12 +38,6 @@
       "title": "Women in Science Annual General Meeting",
       "largeImage": "img/portfolio/sep24-agm.jpg",
       "smallImage": "img/portfolio/sep24-agm.jpg",
-      "eventType": "current"
-    },
-    {
-      "title": "ANOVA Charity Walk / Run",
-      "largeImage": "img/portfolio/15Anova.png",
-      "smallImage": "img/portfolio/15Anova.png",
       "eventType": "past"
     },
     {
