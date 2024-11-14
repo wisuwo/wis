@@ -1,6 +1,20 @@
 import { Image } from "./image";
 import { Link } from "react-router-dom";
 
+/* 
+Here is the Gallery component displayed on the Home page. It consists of a
+section displaying current and past events. It displays a grid of images
+representing the events.
+
+Events can be added and configured in the data.json file, under the data folder.
+The data.json file contains an array of objects, each representing an event.
+Each event object contains the following properties:
+- title: the title of the event
+- eventType: the type of event (current or past)
+- largeImage: the path to the large image file
+- smallImage: the path to the small image file
+*/ 
+
 export const Gallery = (props) => {
  const filterEvents = (eventType)=> {
    return props.data.filter(event => event.eventType == eventType);
@@ -14,7 +28,6 @@ export const Gallery = (props) => {
      </div>
    ));
  };
-
 
  return (
    <div id='events' className='text-center'>

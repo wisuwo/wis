@@ -2,6 +2,13 @@ import React from 'react';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import { Link } from 'react-router-dom';
 
+/* 
+Here is the second Navigation component for separate pages. This navigation bar
+is used to avoid conflict with scroll links when viewing separate pages. It consists
+of a simple back button which will take you back to the section of the home
+page you were viewing previously.
+*/ 
+
 export const Navigation2 = (props) => {
   const scrollToTop = () => {
     scroll.scrollToTop();

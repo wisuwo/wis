@@ -1,3 +1,23 @@
+/* This CSS file is separated into components:
+
+  - General Styles
+  - Loading Screen
+  - Navigation
+  - Buttons
+  - Header Section
+  - Schedule Section
+  - About Section
+  - Join Section
+  - Events / Gallery Section
+  - Team Section
+  - Contact Section
+  - Newsletter Section
+  - Footer Section
+
+  Please refer to the comments or use CTRL-F to find the specific section you are looking for.
+*/
+
+/* GENERAL STYLES */
 body,
 html {
   font-family: "Open Sans", sans-serif;
@@ -74,6 +94,8 @@ hr {
   border: 0;
 }
 
+/* LOADING SCREEN */
+
 .loading-screen {
   display: flex;
   justify-content: center;
@@ -141,7 +163,8 @@ hr {
 .Logo {
   background-image: url(/Users/katepark/Documents/wiswebsite2021-main/public/img/portfolio/logo.png);
 }
-/* Navigation */
+
+/* NAVIGATION */
 
 .nav-item:hover {
   cursor: pointer;
@@ -299,7 +322,7 @@ a:focus,
   outline-offset: none;
 }
 
-/* Header Section */
+/* HEADER SECTION */
 .intro {
   display: table;
   width: 100%;
@@ -341,24 +364,11 @@ header .intro-text {
   text-align: center;
 }
 
-/* schedule Section */
+/* SCHEDULE SECTION */
 #schedule {
   background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
   min-height:100vh
 }
-
-/* 
-#schedule i.fa {
-  font-size: 38px;
-  margin-bottom: 20px;
-  transition: all 0.5s;
-  color: #fff;
-  width: 100px;
-  height: 100px;
-  padding: 30px 0;
-  border-radius: 50%;
-  background-image: linear-gradient(-225deg, #7DE2FC 0%, #B9B6E5 100%);} 
-*/
 
 @media (max-width: 1000px) {
   #schedule iframe  {
@@ -376,7 +386,49 @@ header .intro-text {
   }
 }
 
-/* About Section */
+#schedule {
+  padding: 50px 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+#schedule i.fa {
+    font-size: 38px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    padding: 30px 0;
+    border-radius: 50%;
+    background-image: linear-gradient(-225deg, #7DE2FC 0%, #B9B6E5 100%);
+}
+
+#schedule img {
+  width: 100px;
+  animation: rotation 6s infinite linear;
+}
+
+#schedule .loading-indicator {
+  height: 1000px;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* ABOUT SECTION */
 #about {
   padding: 100px 0; /* Vertical padding */
   background-color: #f9d29d;
@@ -451,7 +503,8 @@ header .intro-text {
   text-align: left; /* Center align list items */
 }
 
-/* join Section */
+/* JOIN SECTION */
+
 #join {
   padding: 100px 0;
   width: 100%;
@@ -509,7 +562,7 @@ img {
   font-weight: 800;
 }
 
-/* events Section */
+/* EVENTS / GALLERY SECTION */
 #events {
   padding: 100px 0;
   background-color: #f39f86;
@@ -570,59 +623,7 @@ img {
 
 }
 
-/* schedule Section */
-/* #schedule {
-  padding: 50px 0;
-  border-radius: 15px;
-  background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
-  width: 70%;
-  display: inline-block;
-} */
-
-#schedule {
-  padding: 50px 0;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-image: linear-gradient(-20deg, #f794a4 0%, #fdd6bd 100%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 10;
-}
-
-#schedule i.fa {
-    font-size: 38px;
-    margin-bottom: 20px;
-    transition: all 0.5s;
-    color: #fff;
-    width: 100px;
-    height: 100px;
-    padding: 30px 0;
-    border-radius: 50%;
-    background-image: linear-gradient(-225deg, #7DE2FC 0%, #B9B6E5 100%);
-}
-
-#schedule img {
-  width: 100px;
-  animation: rotation 6s infinite linear;
-}
-
-#schedule .loading-indicator {
-  height: 1000px;
-}
-
-@keyframes rotation {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-/* Team Section */
+/* TEAM SECTION */
 #team {
   padding: 100px 0;
   width: 100%;
@@ -632,7 +633,6 @@ img {
 #team h4 {
   margin: 5px 0;
 }
-
 
 .team-members-container {
   display: grid;
@@ -819,7 +819,7 @@ img {
   color: black; /* Set the specific h2 color to black */
 }
 
-/* Additional styles for better responsiveness */
+/* ADDITIONAL STYLES FOR BETTER RESPONSIVENESS */
 @media (max-width: 768px) {
   .team-container {
     align-items: flex-start;
@@ -836,7 +836,7 @@ img {
   }
 }
 
-/* Contact Section */
+/* CONTACT SECTION */
 .contact-container {
   height: 90vh;
 }
@@ -991,7 +991,7 @@ label {
   margin-right: 5px;
 }
 
-/* Newsletter Section */
+/* NEWSLETTER SECTION */
 
 #newsletter {
   padding: 100px 0 60px;
@@ -1096,7 +1096,7 @@ label {
   color: #777;
 }
 
-/* Footer Section*/
+/* FOOTER SECTION */
 #footer {
 background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);  padding: 30px 0;
 }

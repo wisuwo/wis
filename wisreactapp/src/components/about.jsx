@@ -1,5 +1,11 @@
 import React from 'react';
 
+/* 
+Here is the About component. It is displayed on the Home page and consists of a
+brief description of the club, as well as a mission statement. It also displays a 
+group photo of club executives.
+*/ 
+
 export const About = (props) => {
   // Function to make the first word of a string bold
   const makeFirstWordBold = (str) => {
