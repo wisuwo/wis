@@ -185,7 +185,7 @@ const App = () => {
 
  const customStyles = `
     .App {
-      background-color: white; /* Black background */
+      background-image: linear-gradient(-225deg, #2CD8D5 0%, #C5C1FF 56%, #FFBAC3 100%);
       min-height: 100vh;
       display: flex;
       justify-content: center;
