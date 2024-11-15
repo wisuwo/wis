@@ -1,3 +1,8 @@
+/* 
+Here is the Header component for the Home page. It consists of the title and
+paragraph text displayed at the top of the page, as well as a button that links
+to the About section.
+*/ 
 
 export const Header = (props) => {
   return (

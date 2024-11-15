@@ -1,4 +1,11 @@
 import { Link } from "react-router-dom";
+
+/* 
+Here is the Join component displayed on the Home page.
+It consists of an embedded Google Form for users to sign up for the club.
+It also consists of a button that links to the separate Contact Us page.
+*/ 
+
 export const Join = (props) => {
   return (
     <div id='join' className='text-center'>

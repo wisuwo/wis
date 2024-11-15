@@ -1,3 +1,9 @@
+/* 
+  This file is used to reset the default styles of the browser.
+  It is used to make sure that the styles are consistent across all browsers.
+  It is also used to make sure that the styles are consistent across all devices.
+*/ 
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
