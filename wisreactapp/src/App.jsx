@@ -17,6 +17,18 @@ import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
 
+/* 
+Here is the App component which serves as the main component for the website.
+Here, all the components are imported and rendered in the correct order. The
+App component is responsible for rendering the correct components based on the
+current route. The App component also contains the logic for the loading screen
+that is displayed when the website is first loaded or refreshed.
+
+If you want to add a new section or separate page to the website, you should first
+create a new component for that section or page. Then, you can import the new
+component here and add a new Route element to render the new page.
+*/ 
+
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,

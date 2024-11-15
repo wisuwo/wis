@@ -1,6 +1,13 @@
 import { useState, useEffect } from 'react';
 import emailjs from 'emailjs-com';
 
+/* 
+Here is the Newsletter component. It is displayed at the end of the homepage.
+It does not have its own scroll link in the Navigation bar.
+It consists of a simple pdf of the current monthly newsletter for the user
+to view or download.
+*/ 
+
 const initialState = {
   name: '',
   email: '',

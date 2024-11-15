@@ -3,6 +3,12 @@ import emailjs from 'emailjs-com';
 import { Navigation2 } from "./navigation2";
 import { Footer } from "./footer";
 
+/* 
+Here is the separate Contact page for the website. It uses the separate Navigation bar.
+It consists of a form for the user to fill out and send an email to the club with any
+inquiries. It also includes links to the club's social media pages.
+*/ 
+
 const initialState = {
   name: '',
   email: '',

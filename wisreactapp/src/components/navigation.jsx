@@ -2,6 +2,12 @@ import React from 'react';
 import { Link as ScrollLink, animateScroll as scroll } from 'react-scroll';
 import { Link } from 'react-router-dom';
 
+/* 
+Here is the Navigation component for the Home page. This navigation bar
+consists of links to other pages on the website, as well as scroll links to
+other sections of the home page.
+*/ 
+
 export const Navigation = (props) => {
   const scrollToTop = () => {
     scroll.scrollToTop();
