@@ -54,6 +54,12 @@
     }
 
   ],
+  "Newsletters": [
+    {
+      "title": "November 2024",
+      "pdf": "img/newsletters/november2024.pdf"
+    }
+  ],
   "Services": [
     {
       "icon": "fa fa-wordpress",
