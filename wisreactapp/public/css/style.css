@@ -838,8 +838,15 @@ img {
 }
 
 /* CONTACT SECTION */
+
 .contact-container {
-  height: 90vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact {
+  flex-grow: 1;
 }
 
 #contact {
