@@ -11,6 +11,7 @@ import Calendar from "./components/calendar";
 import MeetTheTeam from "./components/teamexpanded";
 import ImageGallery from "./components/imagegallery";
 import { Join } from "./components/join";
+import { Newsletter2 } from "./components/newsletter2";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
 import JsonData from "./data/data.json";
@@ -88,6 +89,7 @@ const HomePage = ({ landingPageData }) => (
     <Team data={landingPageData.Team} />
     <Gallery data={landingPageData.Gallery} />
     <Join data={landingPageData.Join} />
+    <Newsletter2 data={landingPageData.Newsletter2} />
     <Footer data={landingPageData.Footer} />
   </>
 );
