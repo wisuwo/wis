@@ -17,6 +17,12 @@
   },
   "Gallery": [
     {
+      "title": "UPAW x WiS Women's Panel",
+      "largeImage": "img/portfolio/nov23-panel.jpg",
+      "smallImage": "img/portfolio/nov23-panel.jpg",
+      "eventType": "current"
+    },
+    {
       "title": "My Journey Panel",
       "largeImage": "img/portfolio/nov12-panel.jpg",
       "smallImage": "img/portfolio/nov12-panel.jpg",
@@ -32,7 +38,7 @@
       "title": "Graduate Sisters in Science",
       "largeImage": "img/portfolio/oct1-graduate-sisters.jpg",
       "smallImage": "img/portfolio/oct1-graduate-sisters.jpg",
-      "eventType": "current"
+      "eventType": "past"
     },
     {
       "title": "Women in Science Annual General Meeting",
@@ -44,12 +50,6 @@
       "title": "Stemposium Conference",
       "largeImage": "img/portfolio/12Stemposium.png",
       "smallImage": "img/portfolio/12Stemposium.png",
-      "eventType": "past"
-    },    
-    {
-      "title": "Endless Exploration",
-      "largeImage": "img/portfolio/1EndlessExploration.png",
-      "smallImage": "img/portfolio/1EndlessExploration.png",
       "eventType": "past"
     }
 
