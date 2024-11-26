@@ -1,4 +1,17 @@
 saving last years events here in case we decide to upload them again:
+    {
+      "title": "Women in Science Annual General Meeting",
+      "largeImage": "img/portfolio/sep24-agm.jpg",
+      "smallImage": "img/portfolio/sep24-agm.jpg",
+      "eventType": "past"
+    },
+    {
+      "title": "Stemposium Conference",
+      "largeImage": "img/portfolio/12Stemposium.png",
+      "smallImage": "img/portfolio/12Stemposium.png",
+      "eventType": "past"
+    }
+
 
 {
       "title": "Starry Night",
