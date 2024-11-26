@@ -17,6 +17,18 @@
   },
   "Gallery": [
     {
+      "title": "Paint Night",
+      "largeImage": "img/portfolio/nov28-paint.jpg",
+      "smallImage": "img/portfolio/nov28-paint.jpg",
+      "eventType": "current"
+    },
+    {
+      "title": "Cocoa and Cram",
+      "largeImage": "img/portfolio/nov26-cocoa.jpg",
+      "smallImage": "img/portfolio/nov26-cocoa.jpg",
+      "eventType": "current"
+    },
+    {
       "title": "UPAW x WiS Women's Panel",
       "largeImage": "img/portfolio/nov23-panel.jpg",
       "smallImage": "img/portfolio/nov23-panel.jpg",
@@ -26,30 +38,18 @@
       "title": "My Journey Panel",
       "largeImage": "img/portfolio/nov12-panel.jpg",
       "smallImage": "img/portfolio/nov12-panel.jpg",
-      "eventType": "current"
+      "eventType": "past"
     },
     {
       "title": "Yoga Night",
       "largeImage": "img/portfolio/oct8-yoga.jpg",
       "smallImage": "img/portfolio/oct8-yoga.jpg",
-      "eventType": "current"
+      "eventType": "past"
     },
     {
       "title": "Graduate Sisters in Science",
       "largeImage": "img/portfolio/oct1-graduate-sisters.jpg",
       "smallImage": "img/portfolio/oct1-graduate-sisters.jpg",
-      "eventType": "past"
-    },
-    {
-      "title": "Women in Science Annual General Meeting",
-      "largeImage": "img/portfolio/sep24-agm.jpg",
-      "smallImage": "img/portfolio/sep24-agm.jpg",
-      "eventType": "past"
-    },
-    {
-      "title": "Stemposium Conference",
-      "largeImage": "img/portfolio/12Stemposium.png",
-      "smallImage": "img/portfolio/12Stemposium.png",
       "eventType": "past"
     }
 
