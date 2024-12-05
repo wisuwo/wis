@@ -17,6 +17,12 @@
   },
   "Gallery": [
     {
+      "title": "Ornament Decorating",
+      "largeImage": "img/portfolio/dec4-ornament.jpg",
+      "smallImage": "img/portfolio/dec4-ornament.jpg",
+      "eventType": "current"
+    },
+    {
       "title": "Paint Night",
       "largeImage": "img/portfolio/nov28-paint.jpg",
       "smallImage": "img/portfolio/nov28-paint.jpg",
@@ -32,7 +38,7 @@
       "title": "UPAW x WiS Women's Panel",
       "largeImage": "img/portfolio/nov23-panel.jpg",
       "smallImage": "img/portfolio/nov23-panel.jpg",
-      "eventType": "current"
+      "eventType": "past"
     },
     {
       "title": "My Journey Panel",
@@ -45,14 +51,7 @@
       "largeImage": "img/portfolio/oct8-yoga.jpg",
       "smallImage": "img/portfolio/oct8-yoga.jpg",
       "eventType": "past"
-    },
-    {
-      "title": "Graduate Sisters in Science",
-      "largeImage": "img/portfolio/oct1-graduate-sisters.jpg",
-      "smallImage": "img/portfolio/oct1-graduate-sisters.jpg",
-      "eventType": "past"
     }
-
   ],
   "Newsletters": [
     {
