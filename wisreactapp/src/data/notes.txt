@@ -11,6 +11,12 @@ saving last years events here in case we decide to upload them again:
       "smallImage": "img/portfolio/12Stemposium.png",
       "eventType": "past"
     }
+        {
+      "title": "Graduate Sisters in Science",
+      "largeImage": "img/portfolio/oct1-graduate-sisters.jpg",
+      "smallImage": "img/portfolio/oct1-graduate-sisters.jpg",
+      "eventType": "past"
+    }
 
 
 {
