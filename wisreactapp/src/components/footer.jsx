@@ -22,6 +22,12 @@ export const Footer = (props) => {
                         rel="noopener noreferrer" // Ensures safe external linking
                     >
                         here
+                    </a>.<br></br>
+                    Contact us {' '}
+                    <a 
+                        href="/contact" 
+                    >
+                        here
                     </a>.
                 </p>
             </div>

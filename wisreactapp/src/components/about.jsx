@@ -20,9 +20,11 @@ export const About = (props) => {
     return <strong>{str}</strong>;
   };
 
+  // this returns the about us section in format 
   return (
     <div id="about">
       <div className="container">
+        {/* formats content of the about us section*/}
         <h2>About Us</h2>
         <img src="img/about.jpg" className="img-responsive" alt="Group photo of the WIS executive team." title="Group photo of the WIS executive team." />
         <p>{props.data ? props.data.paragraph : "loading..."}</p>

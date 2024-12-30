@@ -1,12 +1,14 @@
+// this jsx file is for the team information in the additional page outside of the homepage
 import React from 'react';
 import { Navigation2 } from "./navigation2";
 import { useEffect } from "react";
 import { Footer } from "./footer";
 
+// includes team member information
 const teamMembers = [
   {
     name: 'Bobo Soong',
-    photo: 'img/team/Bobo 3.JPG', // Add an image file in the 'public' folder
+    photo: 'img/team/Bobo 3.JPG', 
     bio: 'I wanted to join a supportive community that offers opportunities for networking, advocacy, and personal and professional growth. Favourite Food: Sushi, Least Favourite Food: Rhubarb',
   },
   
@@ -96,22 +98,34 @@ const teamMembers = [
 
 ];
 
+// Ensures the user starts at the top of the page
 function MeetTheTeam() {
   useEffect(() => { 
     window.scrollTo(0, 0);
   }, [] );
+
+  // returns the formatted page
   return (
     <>
+    {/* Navigation bar at the top of the page */}
     <Navigation2 />
+
+    {/* Main team section */}
     <div id='team' className='text-center'>
     <div className='container'>
     <div className='section-title'>
       <h2>Meet the Team</h2>
       </div>
       <div className="meet-the-team-two">
+
+        {/* Loop through the teamMembers array to display each member */}
         {teamMembers.map((member, index) => (
           <div key={index} className="team-member-containers">
+
+            {/* Display team member's photo */}
             <img className="team-member-imgs" src={process.env.PUBLIC_URL + '/' + member.photo} alt={`Photo of ${member.name}`} title={`Photo of ${member.name}`}  />
+            
+            {/* Display team member's name and bio */}
             <div className="member-infos">
             <h2 className="team-member-name">{member.name}</h2>
               <p>{member.bio}</p>
@@ -121,6 +135,8 @@ function MeetTheTeam() {
     </div>
     </div>
     </div>
+
+    {/* Footer at the bottom of the page */}
     <Footer />
     </>
   );
