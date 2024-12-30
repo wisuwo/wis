@@ -1,6 +1,8 @@
+// this jsx file is for the initial team information that appears on the homepage
 import React from 'react';
 import { Link } from "react-router-dom";
 
+// includes information of each executive member for team section
 export const Team = (props) => {
   const images = [
     {
@@ -125,7 +127,7 @@ export const Team = (props) => {
 
   ];
 
-
+// renders team section
 return (
     <div id='team' className='text-center'>
       <div className='container'>
@@ -134,11 +136,13 @@ return (
           <p>
             Our amazing team of students seeking to eliminate gender disparity in science, technology, engineering, and mathematics!
           </p>
+          {/*includes button to another page with more information about the team members*/}
           <div className='calendar-link'>
           <Link to="/team"><button className="btn btn-custom btn-lg">Learn More</button></Link>
           </div>
         </div>
 
+        {/* formats team member photos and captions */}
         <div className="team-members-container">
           {images.map((image, index) => (
             <div key={index} className="team-member">

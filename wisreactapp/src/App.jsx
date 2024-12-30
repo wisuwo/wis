@@ -30,16 +30,20 @@ create a new component for that section or page. Then, you can import the new
 component here and add a new Route element to render the new page.
 */ 
 
+// smooth scrolling for anchor links
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 1000,
   speedAsDuration: true,
 });
 
+// main application component
 const App = () => {
+  // states to track different screens
   const [landingPageData, setLandingPageData] = useState({});
   const [isLoading, setIsLoading] = useState(true);
   const [startFadeOut, setStartFadeOut] = useState(false);
 
+  // handles fading in and fading out for loading screen
   useEffect(() => {
 
     const fadeOutTimer = setTimeout(() => {
@@ -58,6 +62,7 @@ const App = () => {
     };
   }, []);
 
+  // shows loading screen elements
   if (isLoading) {
     return (
       <div className={`loading-screen ${startFadeOut ? 'fade-out' : ''}`}>
@@ -66,6 +71,7 @@ const App = () => {
     );
   }
 
+  // renders main application content once loading is complete
   return (
     <Router>
       <div className="fade-in">
@@ -81,6 +87,7 @@ const App = () => {
   );
 };
 
+// renders homepage
 const HomePage = ({ landingPageData }) => (
   <>
     <Navigation />
@@ -94,6 +101,7 @@ const HomePage = ({ landingPageData }) => (
   </>
 );
 
+// renders calendar page
 const CalendarPage = ({ landingPageData }) => {
   const [trigger, setTrigger] = useState(true);
 
