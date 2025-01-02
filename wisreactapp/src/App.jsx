@@ -11,7 +11,8 @@ import Calendar from "./components/calendar";
 import MeetTheTeam from "./components/teamexpanded";
 import ImageGallery from "./components/imagegallery";
 import { Join } from "./components/join";
-import { Newsletter2 } from "./components/newsletter2";
+import { Newsletter } from "./components/newsletter";
+import PastNewsletters from "./components/pastnewsletters";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
 import JsonData from "./data/data.json";
@@ -81,6 +82,7 @@ const App = () => {
           <Route path="/contact" element={<Contact landingPageData={landingPageData} />} />
           <Route path="/calendar" element={<CalendarPage landingPageData={landingPageData} />} />
           <Route path="/imagegallery" element={<ImageGallery landingPageData={landingPageData} />} />
+          <Route path="/pastnewsletters" element={<PastNewsletters landingPageData={landingPageData} />} />
         </Routes>
       </div>
     </Router>
@@ -96,7 +98,7 @@ const HomePage = ({ landingPageData }) => (
     <Team data={landingPageData.Team} />
     <Gallery data={landingPageData.Gallery} />
     <Join data={landingPageData.Join} />
-    <Newsletter2 data={landingPageData.Newsletter2} />
+    <Newsletter data={landingPageData.Newsletter} />
     <Footer data={landingPageData.Footer} />
   </>
 );

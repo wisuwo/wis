@@ -56,7 +56,13 @@
   "Newsletters": [
     {
       "title": "November 2024",
-      "pdf": "img/newsletters/november2024.pdf"
+      "pdf": "img/newsletters/november2024.pdf",
+      "mostRecent": true
+    },
+    {
+      "title": "September 2024",
+      "pdf": "img/newsletters/september2024.pdf",
+      "mostRecent": false
     }
   ],
   "Services": [
