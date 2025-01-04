@@ -5,6 +5,7 @@ import { Footer } from "./footer";
 
 /* 
 The PastNewsletter component displays a list of past newsletters
+All newsletters are defined in the data.json file
 */
 
 function PastNewsletters(props) {
@@ -12,7 +13,6 @@ function PastNewsletters(props) {
   useEffect(() => { 
     window.scrollTo(0, 0);
   }, [] );
-  // Renders the Calendar component only if the `trigger` prop is true
   return (
     <div>
         {/* Navigation bar component */}
@@ -57,7 +57,7 @@ function PastNewsletters(props) {
             <Footer /> 
         </div>
     </div>
-  ); // Render nothing if `trigger` is false
+  );
 }
 
 export default PastNewsletters;

@@ -7,6 +7,9 @@ Here is the Newsletter component. It is displayed at the end of the homepage.
 It does not have its own scroll link in the Navigation bar.
 It consists of a simple pdf of the current monthly newsletter for the user
 to view or download.
+Current monthly newsletter is defined as the "mostRecent" newsletter in the data.json file.
+To display a newsletter, set mostRecent as true
+To hide a newsletter, set mostRecent as false
 */ 
 
 export const Newsletter = () => {
@@ -29,6 +32,7 @@ export const Newsletter = () => {
           <Link to="/pastnewsletters" className="bolder">here</Link>.</p>
       </div>
       <div className="container">
+        {/* Renders the most recent newsletter */}
         {mostRecentNewsletter ? (
           <div className="row mb-4">
           <div className="col-md-6 mx-auto text-center">
