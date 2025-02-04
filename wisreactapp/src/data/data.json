@@ -17,6 +17,12 @@
   },
   "Gallery": [
     {
+      "title": "WiS X SSC Panel",
+      "largeImage": "img/portfolio/feb5-wisxssc.jpeg",
+      "smallImage": "img/portfolio/feb5-wisxssc.jpeg",
+      "eventType": "current"
+    },
+    {
       "title": "Ornament Decorating",
       "largeImage": "img/portfolio/dec4-ornament.jpg",
       "smallImage": "img/portfolio/dec4-ornament.jpg",
@@ -32,7 +38,7 @@
       "title": "Cocoa and Cram",
       "largeImage": "img/portfolio/nov26-cocoa.jpg",
       "smallImage": "img/portfolio/nov26-cocoa.jpg",
-      "eventType": "current"
+      "eventType": "past"
     },
     {
       "title": "UPAW x WiS Women's Panel",
@@ -44,12 +50,6 @@
       "title": "My Journey Panel",
       "largeImage": "img/portfolio/nov12-panel.jpg",
       "smallImage": "img/portfolio/nov12-panel.jpg",
-      "eventType": "past"
-    },
-    {
-      "title": "Yoga Night",
-      "largeImage": "img/portfolio/oct8-yoga.jpg",
-      "smallImage": "img/portfolio/oct8-yoga.jpg",
       "eventType": "past"
     }
   ],
