@@ -1,5 +1,6 @@
 import random
 import json
+import time
 
 import torch
 
@@ -47,13 +48,16 @@ def get_response(msg):
     
     return "I do not understand..."
 
+goodbye_prompts = ["goodbye", "quit", "exit", "bye", "later", "stop", "end"]
 
 if __name__ == "__main__":
-    print("Let's chat! (type 'quit' to exit)")
+    print("Let's chat! (Say Goodbye to quit)")
     while True:
         # sentence = "do you use credit cards?"
         sentence = input("You: ")
-        if sentence == "quit":
+        if sentence.lower() in goodbye_prompts:
+            print(get_response("Goodbye"))
+            time.sleep(4)
             break
 
         resp = get_response(sentence)
