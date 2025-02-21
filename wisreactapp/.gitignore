@@ -24,3 +24,5 @@ yarn-error.log*
 
 # pycache
 __pycache__/
+data.pth
+
