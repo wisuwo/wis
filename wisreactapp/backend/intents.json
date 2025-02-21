@@ -19,53 +19,29 @@
     },
     {
       "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"
+      ],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "See you later, thanks for visiting. Closing the chat…",
+        "Have a nice day. Closing the chat…",
+        "Bye! Come back again soon. Closing the chat…"
       ]
     },
     {
       "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
-    },
-    {
-      "tag": "items",
       "patterns": [
-        "Which items do you have?",
-        "What kinds of items are there?",
-        "What do you sell?"
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thank's a lot!"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
-      ]
-    },
-    {
-      "tag": "payments",
-      "patterns": [
-        "Do you take credit cards?",
-        "Do you accept Mastercard?",
-        "Can I pay with Paypal?",
-        "Are you cash only?"
-      ],
-      "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
-      ]
-    },
-    {
-      "tag": "delivery",
-      "patterns": [
-        "How long does delivery take?",
-        "How long does shipping take?",
-        "When do I get my delivery?"
-      ],
-      "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Happy to help!",
+        "Any time!",
+        "My pleasure"
       ]
     },
     {
@@ -79,7 +55,133 @@
         "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
         "What did the buffalo say when his son left for college? Bison."
       ]
+    },
+    {
+      "tag": "general_advice",
+      "patterns": [
+        "What advice do you have for university students?",
+        "Do you have any general tips for university?",
+        "How do I succeed in university?",
+        "Advice for university life"
+      ],
+      "responses": [
+        "Stay organized and plan your schedule to balance all aspects of university life.",
+        "Take care of your health and make time for social activities."
+      ]
+    },
+    {
+      "tag": "study_advice",
+      "patterns": [
+        "Advice for studying in university",
+        "How can I study effectively in university?",
+        "Tips for university studies",
+        "How to be better at studying?"
+      ],
+      "responses": [
+        "Make sure to attend lectures and actively participate in class.",
+        "Break your study sessions into smaller, focused intervals with regular breaks.",
+        "Use resources like the library, online tutorials, and study groups."
+      ]
+    },
+    {
+      "tag": "time_management_advice",
+      "patterns": [
+        "How do I manage my time in university?",
+        "Time management tips for university students",
+        "How can I balance my studies and personal life?"
+      ],
+      "responses": [
+        "Use a planner or calendar to track deadlines and allocate study time.",
+        "Prioritize tasks and focus on what's most important each day.",
+        "Avoid procrastination by breaking tasks into smaller steps."
+      ]
+    },
+    {
+      "tag": "joining",
+      "patterns": [
+        "How can I join Women in Science?",
+        "I want to be a part of Women in Science",
+        "Are there any requirements to join Women in Science?",
+        "Can anyone join Women in Science?",
+        "I have more specific questions about joining Women in Science."
+      ],
+      "responses": [
+        "You can join Women in Science by visiting the Join section on our website, and filling out the Google form.",
+        "To join, check out the 'Join' section on our website for all the details.",
+        "There are no specific requirements to join—everyone who supports our mission is welcome!",
+        "Feel free to reach out to our team for those specific questions at the Contact section of our website.",
+        "We’re excited to have you be a part of Women in Science! Head over to the Join section on the website and sign up today."
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": [
+        "Is there a fee to join?",
+        "How much does it cost to join?",
+        "How do I pay the joining fee?"
+      ],
+      "responses": [
+        "Yes, there is a small fee of $5 that is there to ensure we can support club activities throughout the year!",
+        "It costs $5 to join! We do this so that we can support the ongoing club activities and make it the best experience for everyone!",
+        "You can pay the fee via E-Transfer. You can find more information about it in our Membership Google Form."
+      ]
+    },
+    {
+      "tag": "women_in_science",
+      "patterns": [
+        "Tell me a fact about women in science?",
+        "Who was the first woman in science?"
+      ],
+      "responses": [
+        "The first known female physician was Pesenet. She was an Egyptian physician who lived around 2600–2500 BCE.",
+        "The first known female astronomer was Aglaonike. She was an ancient Greek astronomer who predicted eclipses.",
+        "Marie Curie was a Polish-born physicist who was the first woman to win a Nobel Prize. She won the Nobel Prize in Physics in 1903 and the Nobel Prize in Chemistry in 1911."
+      ]
+    },
+    {
+      "tag": "women_in_tech",
+      "patterns": [
+        "Who was the first woman in tech?",
+        "Who was the first woman in technology?"
+      ],
+      "responses": [
+        "Ada Lovelace was the first female programmer.",
+        "Ada Lovelace, the first female programmer, made an algorithm that was designed to calculate Bernoulli numbers using the Analytical Engine, a hypothetical machine that was never built."
+      ]
+    },
+    {
+      "tag": "women_in_engineering",
+      "patterns": [
+        "Who was the first woman in engineering?"
+      ],
+      "responses": [
+        "Rita de Morais Sarmento was the first woman to earn an engineering degree in Europe in 1894.",
+        "Mary Winston Jackson was NASA's first African-American engineer. She worked in wind tunnels and analyzed data on aircraft flight experiments.",
+        "Elsie MacGill was the first Canadian woman to earn an electrical engineering degree in 1927. She became the first female aeronautical engineer in the world after earning her master's degree in aeronautical engineering."
+      ]
+    },
+    {
+      "tag": "women_in_math",
+      "patterns": [
+        "Who was the first woman in math?",
+        "Who was the first woman in mathematics?"
+      ],
+      "responses": [
+        "Hypatia of Alexandria is one of the earliest known female mathematicians. She was born in 350 CE, and was deeply interested in astronomy–then considered part of mathematics. She constructed her own versions of astrolabes and hydrometers, instruments used for physics and astronomy research.",
+        "In 1874, Russian mathematician Sofya Kovalevskaya became the first woman to earn a doctorate in mathematics.",
+        "In 1930, Cecilia Kreiger became the first woman to earn a PhD in mathematics in Canada, at the University of Toronto."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact you?",
+        "How can I contact the WIS team?",
+        "How can I contact the women in science team?"
+      ],
+      "responses": [
+        "You can go to the contact page of this website to submit a message through the contact form! If you would prefer, you can also send us an email at uwo.wis.events@gmail.com, or send us a message on our instagram @womeninscienceuwo. You can also find us on our facebook: Women in Science UWO."
+      ]
     }
   ]
 }
-
