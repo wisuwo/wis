@@ -100,17 +100,60 @@
       "tag": "joining",
       "patterns": [
         "How can I join Women in Science?",
-        "I want to be a part of Women in Science",
-        "Are there any requirements to join Women in Science?",
-        "Can anyone join Women in Science?",
-        "I have more specific questions about joining Women in Science."
+        "I want to be a part of Women in Science.",
+        "Where do I sign up for Women in Science?",
+        "How do I register for Women in Science?",
+        "What is the process to become a member?"
       ],
       "responses": [
-        "You can join Women in Science by visiting the Join section on our website, and filling out the Google form.",
-        "To join, check out the 'Join' section on our website for all the details.",
-        "There are no specific requirements to join—everyone who supports our mission is welcome!",
-        "Feel free to reach out to our team for those specific questions at the Contact section of our website.",
-        "We’re excited to have you be a part of Women in Science! Head over to the Join section on the website and sign up today."
+        "You can join Women in Science by visiting the 'Join' section on our website and filling out the Google form.",
+        "To sign up, head over to the 'Join' section on our website. All details, including membership fees and benefits, are listed there!",
+        "Just visit the 'Join' section on our website and complete the registration form. We’d love to have you!"
+      ]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": [
+        "Who can join Women in Science?",
+        "Is Women in Science only for women?",
+        "Can men join Women in Science?",
+        "Are non-STEM students allowed to join?",
+        "Is this club open to everyone?"
+      ],
+      "responses": [
+        "Women in Science is open to everyone! You don’t have to be a woman or in a science field to join—anyone who supports our mission is welcome.",
+        "We welcome all students who are interested in supporting women in STEM! Regardless of gender or field of study, you can be part of our community.",
+        "Yes! Our club is open to everyone, regardless of gender or academic background."
+      ]
+    },
+    {
+      "tag": "membership_benefits",
+      "patterns": [
+        "What do I get as a Women in Science member?",
+        "What are the benefits of joining?",
+        "Why should I join Women in Science?",
+        "What do members of Women in Science do?",
+        "Are there any perks for joining?"
+      ],
+      "responses": [
+        "As a member, you get access to exclusive networking events, mentorship programs, workshops, and career development opportunities!",
+        "Joining Women in Science gives you a chance to connect with professionals, attend speaker events, and gain valuable skills for your future career.",
+        "We offer mentorship, skill-building workshops, social events, and a supportive community of like-minded individuals."
+      ]
+    },
+    {
+      "tag": "what_we_do",
+      "patterns": [
+        "What does Women in Science do?",
+        "What kind of events does Women in Science hold?",
+        "What activities does this club organize?",
+        "Tell me more about Women in Science’s events",
+        "What happens in Women in Science meetings?"
+      ],
+      "responses": [
+        "Women in Science hosts networking events, mentorship programs, workshops, and career panels to support students in STEM.",
+        "We organize speaker events, hands-on workshops, and networking opportunities to help members connect and grow.",
+        "Our club holds a variety of events, including mentorship programs, career development sessions, and fun social activities!"
       ]
     },
     {
