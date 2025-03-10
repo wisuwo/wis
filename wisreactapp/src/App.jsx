@@ -17,6 +17,7 @@ import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+import Chatbot from "./components/chatbot";
 import "./App.css";
 
 /* 
@@ -99,6 +100,7 @@ const HomePage = ({ landingPageData }) => (
     <Gallery data={landingPageData.Gallery} />
     <Join data={landingPageData.Join} />
     <Newsletter data={landingPageData.Newsletter} />
+    <Chatbot />
     <Footer data={landingPageData.Footer} />
   </>
 );
