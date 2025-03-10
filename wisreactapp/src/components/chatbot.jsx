@@ -1,41 +1,72 @@
-// Credits to patrickloeber on GitHub:
-// https://github.com/patrickloeber/chatbot-deployment
-
-import React from "react";
+import React, { useState } from "react";
+import { IoChatbubblesOutline, IoClose } from "react-icons/io5"; // Import icons
 
 const Chatbot = () => {
+  const [messages, setMessages] = useState([]);
+  const [input, setInput] = useState("");
+  const [isOpen, setIsOpen] = useState(false); // Track if the chat is open
+
+  const sendMessage = async () => {
+    if (!input.trim()) return;
+
+    const newMessage = { sender: "user", text: input };
+    setMessages((prev) => [...prev, newMessage]);
+
+    try {
+      const response = await fetch("http://127.0.0.1:5001/predict", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: input }),
+      });
+
+      const data = await response.json();
+      const botMessage = { sender: "bot", text: data.answer };
+
+      setMessages((prev) => [...prev, botMessage]);
+    } catch (error) {
+      console.error("Error:", error);
+    }
+
+    setInput("");
+  };
+
   return (
-    <div className="container">
-      <div className="chatbox">
-        <div className="chatbox__support">
-          <div className="chatbox__header">
-            <div className="chatbox__image--header">
-              <img
-                src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png"
-                alt="image"
-              />
-            </div>
-            <div className="chatbox__content--header">
-              <h4 className="chatbox__heading--header">Chat support</h4>
-              <p className="chatbox__description--header">
-                Hi. I am the Women in Science Chatbot! How can I help you?
-              </p>
-            </div>
+    <div className="chatbot-container">
+      {/* Floating Chat Icon */}
+      {!isOpen && (
+        <button className="chatbot-icon" onClick={() => setIsOpen(true)}>
+          <IoChatbubblesOutline size={30} />
+        </button>
+      )}
+
+      {/* Chat Window */}
+      {isOpen && (
+        <div className="chatbot">
+          <div className="chatbot-header">
+            <h3>Chatbot</h3>
+            <button className="close-btn" onClick={() => setIsOpen(false)}>
+              <IoClose size={20} />
+            </button>
           </div>
-          <div className="chatbox__messages">
-            <div></div>
+          <div className="chatbot-messages">
+            {messages.map((msg, index) => (
+              <div key={index} className={`message ${msg.sender}`}>
+                <strong>{msg.sender === "user" ? "You" : "Bot"}: </strong>
+                {msg.text}
+              </div>
+            ))}
           </div>
-          <div className="chatbox__footer">
-            <input type="text" placeholder="Write a message..." />
-            <button className="chatbox__send--footer send__button">Send</button>
+          <div className="chatbot-footer">
+            <input
+              type="text"
+              placeholder="Type a message..."
+              value={input}
+              onChange={(e) => setInput(e.target.value)}
+            />
+            <button onClick={sendMessage}>Send</button>
           </div>
         </div>
-        <div className="chatbox__button">
-          <button>
-            <img src="" alt="Chatbox icon" />
-          </button>
-        </div>
-      </div>
+      )}
     </div>
   );
 };
