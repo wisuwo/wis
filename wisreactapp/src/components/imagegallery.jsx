@@ -20,56 +20,48 @@ const App = () => {
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-2.jpg`,
       description: 'STEMPOSIUM 2025',
     },
-
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-3.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-3.jpg`,
-      description: 'STEMPOSIUM 2025',
-    },
-
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-4.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-4.jpg`,
-      description: 'STEMPOSIUM 2025',
-    },
-
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-5.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-5.jpg`,
-      description: 'STEMPOSIUM 2025',
-    },
-
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-6.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-6.jpg`,
-      description: 'STEMPOSIUM 2025',
-    },
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-7.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-7.jpg`,
-      description: 'STEMPOSIUM 2025',
-    },
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-8.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-8.jpg`,
-      description: 'STEMPOSIUM 2025',
-    },
     {
       original: `${process.env.PUBLIC_URL}/img/gallery/ornament-1.jpg`,
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/ornament-1.jpg`,
       description: 'ORNAMENT DECORATING',
     },
-
     {
       original: `${process.env.PUBLIC_URL}/img/gallery/ornament-2.jpg`,
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/ornament-2.jpg`,
       description: 'ORNAMENT DECORATING',
     },
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/upaw-1.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/upaw-1.jpg`,
+      description: 'UPAW X WIS WOMENS PANEL',
+    },
 
     {
-      original: `${process.env.PUBLIC_URL}/img/gallery/ornament-3.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/ornament-3.jpg`,
-      description: 'ORNAMENT DECORATING',
+      original: `${process.env.PUBLIC_URL}/img/gallery/upaw-2.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/upaw-2.jpg`,
+      description: 'UPAW X WIS WOMENS PANEL',
+    },
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/journey-1.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/journey-1.jpg`,
+      description: 'MY JOURNEY PANEL',
+    },
+
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/journey-2.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/journey-2.jpg`,
+      description: 'MY JOURNEY PANEL',
+    },
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/yoga-1.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/yoga-1.jpg`,
+      description: 'YOGA NIGHT',
+    },
+
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/yoga-2.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/yoga-2.jpg`,
+      description: 'YOGA NIGHT',
     },
     {
       original: `${process.env.PUBLIC_URL}/img/gallery/agm-24-1.jpg`,
@@ -82,84 +74,25 @@ const App = () => {
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/agm-24-2.jpg`,
       description: 'AGM 2024/2025',
     },
-
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/agm-24-3.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/agm-24-3.jpg`,
-      description: 'AGM 2024/2025',
-    },
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/agm-24-4.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/agm-24-4.jpg`,
-      description: 'AGM 2024/2025',
-    },
-
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/agm-24-5.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/agm-24-5.jpg`,
-      description: 'AGM 2024/2025',
-    },
-
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/agm-24-6.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/agm-24-6.jpg`,
-      description: 'AGM 2024/2025',
-    },
-
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/agm-24-7.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/agm-24-7.jpg`,
-      description: 'AGM 2024/2025',
-    },
     {
       original: `${process.env.PUBLIC_URL}/img/gallery/paint-1.jpg`,
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paint-1.jpg`,
-      description: 'Paint Night 1',
+      description: 'PAINT NIGHT',
     },
     {
       original: `${process.env.PUBLIC_URL}/img/gallery/paint-2.jpg`,
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paint-2.jpg`,
-      description: 'Paint Night 2',
+      description: 'PAINT NIGHT',
     },
     {
-      original: `${process.env.PUBLIC_URL}/img/gallery/paint-3.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paint-3.jpg`,
-      description: 'Paint Night 3',
-    },
-
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-1.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-1.jpg`,
+      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-1.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-1.jpeg`,
       description: 'STEMPOSIUM 2024',
     },
 
     {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-2.jpeg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-2.jpeg`,
-      description: 'STEMPOSIUM 2024',
-    },
-
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-3.jpeg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-3.jpeg`,
-      description: 'STEMPOSIUM 2024',
-    },
-
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-4.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-4.jpg`,
-      description: 'STEMPOSIUM 2024',
-    },
-
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-5.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-5.jpg`,
-      description: 'STEMPOSIUM 2024',
-    },
-
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-6.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-6.jpg`,
+      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-2.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-2.jpg`,
       description: 'STEMPOSIUM 2024',
     }
   ];
