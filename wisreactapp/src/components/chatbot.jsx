@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import { IoChatbubblesOutline, IoClose } from "react-icons/io5"; // Import icons
+import { IoChatbubblesOutline, IoClose } from "react-icons/io5";
 
 const Chatbot = () => {
   const [messages, setMessages] = useState([]);
   const [input, setInput] = useState("");
-  const [isOpen, setIsOpen] = useState(false); // Track if the chat is open
+  const [isOpen, setIsOpen] = useState(false);
 
   const sendMessage = async () => {
     if (!input.trim()) return;
@@ -30,6 +30,12 @@ const Chatbot = () => {
     setInput("");
   };  
 
+  // Reset messages when closing the chat
+  const handleCloseChat = () => {
+    setMessages([]); // Clear chat history
+    setIsOpen(false); // Close the chat
+  };
+
   return (
     <div className="chatbot-container">
       {/* Floating Chat Icon */}
@@ -44,7 +50,7 @@ const Chatbot = () => {
         <div className="chatbot">
           <div className="chatbot-header">
             <h3>Chatbot</h3>
-            <button className="close-btn" onClick={() => setIsOpen(false)}>
+            <button className="close-btn" onClick={handleCloseChat}>
               <IoClose size={20} />
             </button>
           </div>
@@ -62,6 +68,7 @@ const Chatbot = () => {
               placeholder="Type a message..."
               value={input}
               onChange={(e) => setInput(e.target.value)}
+              onKeyPress={(e) => e.key === "Enter" && sendMessage()}
             />
             <button onClick={sendMessage}>Send</button>
           </div>
