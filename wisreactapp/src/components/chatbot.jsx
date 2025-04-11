@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"; // Add useEffect
+import React, { useState, useEffect } from "react";
 import { IoChatbubblesOutline, IoClose } from "react-icons/io5";
 
 const Chatbot = () => {
@@ -6,27 +6,31 @@ const Chatbot = () => {
   const [input, setInput] = useState("");
   const [isOpen, setIsOpen] = useState(false);
 
+  // Farewell phrases to trigger auto-close
+  const farewellPhrases = ["bye", "goodbye", "see you later", "see ya", "farewell"];
+
   // Close chat and clear messages
   const handleCloseChat = () => {
     setMessages([]);
     setIsOpen(false);
   };
 
-  // Auto-close if the last message is a bot response to "bye"
+  // Auto-close if the user says a farewell phrase and the bot responds
   useEffect(() => {
     if (messages.length === 0) return;
 
     const lastUserMessage = messages[messages.length - 2]?.text?.toLowerCase();
     const lastBotMessage = messages[messages.length - 1]?.text?.toLowerCase();
 
-    // Check if the user said "bye" and the bot responded
-    if (
-      lastUserMessage?.includes("bye") &&
-      lastBotMessage // Bot replied to "bye"
-    ) {
+    // Check if the user's last message matches any farewell phrase
+    const userSaidGoodbye = farewellPhrases.some(phrase => 
+      lastUserMessage?.includes(phrase)
+    );
+
+    if (userSaidGoodbye && lastBotMessage) {
       const timer = setTimeout(() => {
-        handleCloseChat(); // Close after a delay (5 seconds)
-      }, 5000); // Adjust delay as needed
+        handleCloseChat(); // Close after 5 seconds
+      }, 5000);
 
       return () => clearTimeout(timer); // Cleanup
     }
@@ -57,14 +61,12 @@ const Chatbot = () => {
 
   return (
     <div className="chatbot-container">
-      {/* Floating Chat Icon */}
       {!isOpen && (
         <button className="chatbot-icon" onClick={() => setIsOpen(true)}>
           <IoChatbubblesOutline size={30} />
         </button>
       )}
 
-      {/* Chat Window */}
       {isOpen && (
         <div className="chatbot">
           <div className="chatbot-header">
