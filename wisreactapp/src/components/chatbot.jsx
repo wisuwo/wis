@@ -8,27 +8,27 @@ const Chatbot = () => {
 
   const sendMessage = async () => {
     if (!input.trim()) return;
-
+  
     const newMessage = { sender: "user", text: input };
     setMessages((prev) => [...prev, newMessage]);
-
+  
     try {
-      const response = await fetch("http://127.0.0.1:5001/predict", {
+      const response = await fetch("https://chatbot-backend-az4e.onrender.com/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: input }),
       });
-
+  
       const data = await response.json();
       const botMessage = { sender: "bot", text: data.answer };
-
+  
       setMessages((prev) => [...prev, botMessage]);
     } catch (error) {
       console.error("Error:", error);
     }
-
+  
     setInput("");
-  };
+  };  
 
   return (
     <div className="chatbot-container">
