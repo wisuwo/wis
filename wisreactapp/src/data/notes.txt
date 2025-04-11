@@ -10,16 +10,14 @@ saving last years events here in case we decide to upload them again:
       "largeImage": "img/portfolio/12Stemposium.png",
       "smallImage": "img/portfolio/12Stemposium.png",
       "eventType": "past"
-    }
-        {
+    },
+    {
       "title": "Graduate Sisters in Science",
       "largeImage": "img/portfolio/oct1-graduate-sisters.jpg",
       "smallImage": "img/portfolio/oct1-graduate-sisters.jpg",
       "eventType": "past"
-    }
-
-
-{
+    },
+    {
       "title": "Starry Night",
       "largeImage": "img/portfolio/17starrynight.png",
       "smallImage": "img/portfolio/17starrynight.png",
@@ -90,4 +88,16 @@ saving last years events here in case we decide to upload them again:
       "largeImage": "img/portfolio/5InfoSession.png",
       "smallImage": "img/portfolio/5InfoSession.png",
       "eventType": "past"
-    }
+    }, 
+    {
+      "title": "My Journey Panel",
+      "largeImage": "img/portfolio/nov12-panel.jpg",
+      "smallImage": "img/portfolio/nov12-panel.jpg",
+      "eventType": "past"
+    },
+    {
+      "title": "Cocoa and Cram",
+      "largeImage": "img/portfolio/nov26-cocoa.jpg",
+      "smallImage": "img/portfolio/nov26-cocoa.jpg",
+      "eventType": "past"
+    },
