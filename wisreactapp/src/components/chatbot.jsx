@@ -43,7 +43,7 @@ const Chatbot = () => {
     setMessages((prev) => [...prev, newMessage]);
 
     try {
-      const response = await fetch("https://chatbot-backend-uz7e.onrender.com", {
+      const response = await fetch("https://chatbot-backend-fcwu.onrender.com", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: input }),
