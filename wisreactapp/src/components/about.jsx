@@ -26,7 +26,9 @@ export const About = (props) => {
       <div className="container">
         {/* formats content of the about us section*/}
         <h2>About Us</h2>
-        <img src="img/about.jpg" className="img-responsive" alt="Group photo of the WIS executive team." title="Group photo of the WIS executive team." />
+        <div class="about-image-container">
+          <img src="img/about.jpg" class="img-responsive" alt="Group photo of the WIS executive team." title="Group photo of the WIS executive team."/>
+        </div>
         <p>{props.data ? props.data.paragraph : "loading..."}</p>
         <h3>Mission Statement</h3>
         <div className="about-text">
