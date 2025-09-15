@@ -17,6 +17,12 @@
   },
   "Gallery": [
     {
+      "title": "WiS x Lost Love Bar Night",
+      "largeImage": "img/portfolio/WiS x Lost Love Bar Night POSTER.png",
+      "smallImage": "img/portfolio/WiS x Lost Love Bar Night POSTER.png",
+      "eventType": "current"
+    },
+    {
       "title": "10 Year Anniversary",
       "largeImage": "img/portfolio/mar19-10-year.jpeg",
       "smallImage": "img/portfolio/mar19-10-year.jpeg",
@@ -26,12 +32,6 @@
       "title": "2025 Stemposium",
       "largeImage": "img/portfolio/feb23-stemposium.jpeg",
       "smallImage": "img/portfolio/feb23-stemposium.jpeg",
-      "eventType": "current"
-    },
-    {
-      "title": "WiS X SSC Panel",
-      "largeImage": "img/portfolio/feb5-wisxssc.jpeg",
-      "smallImage": "img/portfolio/feb5-wisxssc.jpeg",
       "eventType": "current"
     },
     {
