@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { useState, useEffect } from "react";
+import Mentorship from "./components/mentorship";
 import { Navigation } from "./components/navigation";
 import { Navigation2 } from "./components/navigation2";
 import { Header } from "./components/header";
@@ -83,6 +84,9 @@ const App = () => {
           <Route path="/calendar" element={<CalendarPage landingPageData={landingPageData} />} />
           <Route path="/imagegallery" element={<ImageGallery landingPageData={landingPageData} />} />
           <Route path="/pastnewsletters" element={<PastNewsletters landingPageData={landingPageData} />} />
+                  
+          <Route path="/mentorship" element={<Mentorship />} />
+
         </Routes>
       </div>
     </Router>
