@@ -13,16 +13,16 @@ function Mentorship() {
   }, []);
 
   return (
-    <div
+<div
   id="mentorship"
   className="text-center"
   style={{
-    background: "linear-gradient(135deg, #f8c8dc 0%, #c1a7f0 50%, #a0d2ff 100%)",
+    background: "linear-gradient(135deg, #f4b8d4 0%, #b893e0 50%, #8fc2ff 100%)",
     minHeight: "100vh",
     paddingTop: "70px"
   }}
-  
-    >
+>
+
       <Navigation2 />
 
       <div className="container">
