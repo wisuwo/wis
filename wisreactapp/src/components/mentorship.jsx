@@ -17,7 +17,7 @@ function Mentorship() {
   id="mentorship"
   className="text-center"
   style={{
-    background: "linear-gradient(135deg, #f8c8dc 0%, #c1a7f0 50%, #a0d2ff 100%)",
+    background: "linear-gradient(135deg, #f8c8dc 34%, #c1a7f0 33%, #a0d2ff 33%)",
     minHeight: "100vh",
     paddingTop: "70px"
   }}
