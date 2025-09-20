@@ -83,8 +83,7 @@ const App = () => {
           <Route path="/contact" element={<Contact landingPageData={landingPageData} />} />
           <Route path="/calendar" element={<CalendarPage landingPageData={landingPageData} />} />
           <Route path="/imagegallery" element={<ImageGallery landingPageData={landingPageData} />} />
-          <Route path="/pastnewsletters" element={<PastNewsletters landingPageData={landingPageData} />} />
-                  
+          <Route path="/pastnewsletters" element={<PastNewsletters landingPageData={landingPageData} />} />      
           <Route path="/mentorship" element={<Mentorship />} />
 
         </Routes>
