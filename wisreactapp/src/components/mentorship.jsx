@@ -14,13 +14,14 @@ function Mentorship() {
 
   return (
     <div
-      id="mentorship"
-      className="text-center"
-      style={{
-        padding: "100px 0",
-        background: "linear-gradient(to right, #6a11cb, #2575fc)",
-        color: "#fff",
-      }}
+  id="mentorship"
+  className="text-center"
+  style={{
+    background: "linear-gradient(135deg, #f8c8dc 0%, #c1a7f0 50%, #a0d2ff 100%)",
+    minHeight: "100vh",
+    paddingTop: "70px"
+  }}
+  
     >
       <Navigation2 />
 
