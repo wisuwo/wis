@@ -82,6 +82,14 @@ export const Navigation = (props) => {
               </ScrollLink>
             </li>
 
+            {/* Link to the Mentorship page */}
+            <li className='nav-item'>
+              <Link className='nav-link' to='/mentorship'>
+                Mentorship
+              </Link>
+            </li>
+
+
             {/* Link to the Calendar page */}
             <li className='nav-item'>
               <Link className='nav-link' to='/calendar'>
