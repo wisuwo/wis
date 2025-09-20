@@ -20,7 +20,7 @@ function Mentorship() {
         minHeight: "100vh",
         paddingTop: "70px",
         paddingBottom: "50px",
-        color: "#000", // text color consistent
+        color: "#fff", // ALL TEXT WHITE
         fontFamily:
           "-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif",
       }}
