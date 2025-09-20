@@ -13,7 +13,15 @@ function Mentorship() {
   }, []);
 
   return (
-    <div id="mentorship" className="text-center">
+    <div
+      id="mentorship"
+      className="text-center"
+      style={{
+        padding: "100px 0",
+        background: "linear-gradient(to right, #6a11cb, #2575fc)",
+        color: "#fff",
+      }}
+    >
       <Navigation2 />
 
       <div className="container">
@@ -90,4 +98,3 @@ function Mentorship() {
 }
 
 export default Mentorship;
-
