@@ -16,6 +16,14 @@
     ]
   },
   "Gallery": [
+
+    {
+      "title": "Graduate Sisters in Science Mentorship Program",
+      "largeImage": "img/portfolio/Graduate Mentorship Program POSTER.png",
+      "smallImage": "img/portfolio/Graduate Mentorship Program POSTER.png",
+      "eventType": "current"
+    },
+
     {
       "title": "WiS x Lost Love Bar Night",
       "largeImage": "img/portfolio/WiS x Lost Love Bar Night POSTER.png",
@@ -28,12 +36,7 @@
       "smallImage": "img/portfolio/mar19-10-year.jpeg",
       "eventType": "current"
     },
-    {
-      "title": "2025 Stemposium",
-      "largeImage": "img/portfolio/feb23-stemposium.jpeg",
-      "smallImage": "img/portfolio/feb23-stemposium.jpeg",
-      "eventType": "current"
-    },
+    
     {
       "title": "Ornament Decorating",
       "largeImage": "img/portfolio/dec4-ornament.jpg",
