@@ -18,7 +18,8 @@ export const Join = (props) => {
         <h2>
           {/* External link to the Google Form */}
           <a 
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfZi63fsrFA4vDmpCkVh68dco-r5WRv-WvMYfFuPoJtKAiwaw/viewform" 
+            href= "https://docs.google.com/forms/d/e/1FAIpQLSfo3dnJuaJAkE3X4gwk7g7G6-BSLih32LwRrTbGYn39v6jl7g/viewform?usp=header"
+
             target="_blank" 
             rel="noreferrer" // Ensures secure and safe external linking
           >
@@ -33,7 +34,8 @@ export const Join = (props) => {
         <div>
           <div>
             <iframe
-              src="https://docs.google.com/forms/d/e/1FAIpQLSfZi63fsrFA4vDmpCkVh68dco-r5WRv-WvMYfFuPoJtKAiwaw/viewform?embedded=true"
+              src= "https://docs.google.com/forms/d/e/1FAIpQLSfo3dnJuaJAkE3X4gwk7g7G6-BSLih32LwRrTbGYn39v6jl7g/viewform?embedded=true"
+
               width="80%"
               height="400"
               frameBorder="0"
