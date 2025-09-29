@@ -6,29 +6,30 @@ import { Link } from "react-router-dom";
 export const Team = (props) => {
   const images = [
     {
-      src: process.env.PUBLIC_URL + '/img/team/Bobo 3.JPG',
+      // first three are co presidents 
+      src: process.env.PUBLIC_URL + '/img/team/Bobo.JPG', //Done
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Bobo Soong \nRole: Co-President\nProgram: 4th year Biology and Pharmacology",
+      caption: "Name: Bobo Soong \nRole: Co-President\nProgram: 5th year, Health Science and Biology",
     },
     
     {
-      src: process.env.PUBLIC_URL + '/img/team/Cristina.jpg',
+      src: process.env.PUBLIC_URL + '/img/team/Julie.JPG', //Done
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Cristina White \nRole: Co-President\nProgram: 4th year, Medical Sciences honours specialization IMS",
+      caption: "Name: Julie Le \nRole: Co-President\nProgram: 4th year, Honour Specialization in Genetics",
     },
 
     {
-      src: process.env.PUBLIC_URL + '/img/team/Emaan .JPG',
+      src: process.env.PUBLIC_URL + '/img/team/Bahar.jpg', //Done
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Emaan Rana \nRole: Co-President\nProgram: 4th year, Honours Specialization in Pathology",
+      caption: "Name: Bahar M \nRole: Co-President\nProgram: 4th year, Honours Specialization in Biology",
     },
-
+    // other VPs
     {
       src: process.env.PUBLIC_URL + '/img/team/Copy of Sophia 3.JPG',
       width: 320,
