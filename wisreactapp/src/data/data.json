@@ -41,7 +41,7 @@
       "title": "10 Year Anniversary",
       "largeImage": "img/portfolio/mar19-10-year.jpeg",
       "smallImage": "img/portfolio/mar19-10-year.jpeg",
-      "eventType": "current"
+      "eventType": "past"
     },
     
     {
@@ -54,12 +54,6 @@
       "title": "Paint Night",
       "largeImage": "img/portfolio/nov28-paint.jpg",
       "smallImage": "img/portfolio/nov28-paint.jpg",
-      "eventType": "past"
-    },
-    {
-      "title": "UPAW x WiS Women's Panel",
-      "largeImage": "img/portfolio/nov23-panel.jpg",
-      "smallImage": "img/portfolio/nov23-panel.jpg",
       "eventType": "past"
     }
   ],
