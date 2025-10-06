@@ -86,7 +86,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Ramandeep \nRole: VP Technology\nProgram: 3rd year, Computer Science",
+      caption: "Name: Ramandeep Saini \nRole: VP Technology\nProgram: 3rd year, Computer Science",
     },
 
     // Mentorship
@@ -134,7 +134,7 @@ export const Team = (props) => {
 
     // sponsership
      {
-      src: process.env.PUBLIC_URL + '/img/team/', // blank picture
+      src: process.env.PUBLIC_URL + '/img/team/BrielleHall.jpeg', // blank picture
       width: 320,
       height: 174,
       isSelected: true,
