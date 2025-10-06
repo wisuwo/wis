@@ -17,10 +17,17 @@
   },
   "Gallery": [
 
+        {
+      "title": "AGM 2025",
+      "largeImage": "img/portfolio/AGM.jpeg",
+      "smallImage": "img/portfolio/AGM.jpeg",
+      "eventType": "current"
+    },
+
     {
       "title": "Graduate Sisters in Science Mentorship Program",
-      "largeImage": "img/portfolio/Graduate Mentorship Program POSTER.png",
-      "smallImage": "img/portfolio/Graduate Mentorship Program POSTER.png",
+      "largeImage": "img/portfolio/Graduate Mentorship.png",
+      "smallImage": "img/portfolio/Graduate Mentorship.png",
       "eventType": "current"
     },
 
@@ -34,7 +41,7 @@
       "title": "10 Year Anniversary",
       "largeImage": "img/portfolio/mar19-10-year.jpeg",
       "smallImage": "img/portfolio/mar19-10-year.jpeg",
-      "eventType": "current"
+      "eventType": "past"
     },
     
     {
@@ -47,12 +54,6 @@
       "title": "Paint Night",
       "largeImage": "img/portfolio/nov28-paint.jpg",
       "smallImage": "img/portfolio/nov28-paint.jpg",
-      "eventType": "past"
-    },
-    {
-      "title": "UPAW x WiS Women's Panel",
-      "largeImage": "img/portfolio/nov23-panel.jpg",
-      "smallImage": "img/portfolio/nov23-panel.jpg",
       "eventType": "past"
     }
   ],
