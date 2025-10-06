@@ -17,10 +17,17 @@
   },
   "Gallery": [
 
+        {
+      "title": "AGM 2025",
+      "largeImage": "img/portfolio/AGM.jpeg",
+      "smallImage": "img/portfolio/AGM.jpeg",
+      "eventType": "current"
+    },
+
     {
       "title": "Graduate Sisters in Science Mentorship Program",
-      "largeImage": "img/portfolio/Graduate Mentorship Program POSTER.png",
-      "smallImage": "img/portfolio/Graduate Mentorship Program POSTER.png",
+      "largeImage": "img/portfolio/Graduate Mentorship.png",
+      "smallImage": "img/portfolio/Graduate Mentorship.png",
       "eventType": "current"
     },
 
