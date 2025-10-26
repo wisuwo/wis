@@ -72,8 +72,34 @@ function Mentorship() {
             Join the Sisters in Science Mentorship Program as a 1st or 2nd year undergraduate student to be paired with an upper year undergraduate student! 
             You will be able to receive advice on academics, campus life, networking, and more through the mentorship program. 
             You will also be able to attend professional development events through the WiS club as a mentee or a mentor. 
-            Applications will be opening soon, so follow @womeninscienceuwo on Instagram to keep an eye out for when those open!
+            
+            <span style={{ color: "purple", fontWeight: "bold", display: "block" }}>
+            Applications for mentees and mentors are now closed. 
+            If you missed the deadline but are interested in joining, please contact Women in Science UWO at wis.uwo.events@gmail.com.
+          </span>
           </p>
+
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScHqaNxdkIaYDwr1547HraMn_OjzRburQ8A0F7gd6en2vRzKw/closedform"
+            className="btn btn-custom btn-lg"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ marginTop: "10px", marginBottom: "30px" }}
+          >
+            Apply as a Mentor
+          </a>
+
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeuumiCP1lHcSpU6iGaQiFLDHp7WmSTYfvoS6F26GYPg_NzUQ/closedform"
+            className="btn btn-custom btn-lg"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ marginTop: "10px", marginBottom: "30px" }}
+          >
+            Apply as a Mentee
+          </a>
+
+          
         </div>
 
         {/* Little Sisters */}
@@ -84,9 +110,31 @@ function Mentorship() {
           <p style={{ fontSize: "16px", lineHeight: "1.6" }}>
             Join the Little Sisters in Science program as a mentor to high school students looking to pursue STEM careers or university programs! 
             As a mentor, you will be able to guide your mentee through university applications, attend professional development events at Western University together, and help uplift other women in science. 
-            This program is open to undergraduate students at Western University to be mentors, and high school students to be mentees. 
-            Applications will be opening soon, so follow @womeninscienceuwo on Instagram to keep an eye out for when those open!
+            This program is open to undergraduate students at Western University to be mentors, and high school students to be mentees.
+            Mentee applications close on October 30th, 11:59pm EST, and Mentor Applications close October 17th, 11:59pm EST
           </p>
+
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeKdkroTCuiLAfP-PEQeoArQGbxzLReiS1PnkhcVA1Ome-9tw/viewform"
+            className="btn btn-custom btn-lg"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ marginTop: "10px", marginBottom: "30px" }}
+          >
+            Apply as a Mentor
+          </a>
+
+          <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLScyB4Scl-ttXkQO_lEQxbWNlQ3-Y8S0D2ePWqJxN3DuBzlgRQ/viewform"
+            className="btn btn-custom btn-lg"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ marginTop: "10px", marginBottom: "30px" }}
+          >
+            Apply as a Mentee
+          </a>
+
+
         </div>
       </div>
 
