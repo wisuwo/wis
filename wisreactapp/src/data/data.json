@@ -31,39 +31,32 @@
       "eventType": "current"
     },
 
+    {
+    
+      "title": "Graduate Sisters in Science Mentorship Program",
+      "largeImage": "img/portfolio/Graduate Mentorship.png",
+      "smallImage": "img/portfolio/Graduate Mentorship.png",
+      "eventType": "current"
+    },
 
-        {
+    {
       "title": "AGM 2025",
       "largeImage": "img/portfolio/AGM.jpeg",
       "smallImage": "img/portfolio/AGM.jpeg",
-      "eventType": "current"
+      "eventType": "past"
     },
 
     {
       "title": "WiS x Lost Love Bar Night",
       "largeImage": "img/portfolio/WiS x Lost Love Bar Night POSTER.png",
       "smallImage": "img/portfolio/WiS x Lost Love Bar Night POSTER.png",
-      "eventType": "current"
-    },
-    {
-      "title": "10 Year Anniversary",
-      "largeImage": "img/portfolio/mar19-10-year.jpeg",
-      "smallImage": "img/portfolio/mar19-10-year.jpeg",
-      "eventType": "past"
-    },
-    
-    {
-      "title": "Ornament Decorating",
-      "largeImage": "img/portfolio/dec4-ornament.jpg",
-      "smallImage": "img/portfolio/dec4-ornament.jpg",
       "eventType": "past"
     },
 
     {
-    
-      "title": "Graduate Sisters in Science Mentorship Program",
-      "largeImage": "img/portfolio/Graduate Mentorship.png",
-      "smallImage": "img/portfolio/Graduate Mentorship.png",
+      "title": "10 Year Anniversary",
+      "largeImage": "img/portfolio/mar19-10-year.jpeg",
+      "smallImage": "img/portfolio/mar19-10-year.jpeg",
       "eventType": "past"
     }
   ],
