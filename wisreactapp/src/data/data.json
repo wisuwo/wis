@@ -17,17 +17,25 @@
   },
   "Gallery": [
 
+            {
+      "title": "Slime making & Tote Bag Painting",
+      "largeImage": "img/portfolio/Slime making event.jpg",
+      "smallImage": "img/portfolio/Slime making event.jpg",
+      "eventType": "current"
+    },
+
+            {
+      "title": "Investing in Children - Volunteering Opportunity",
+      "largeImage": "img/portfolio/investing in children.jpg",
+      "smallImage": "img/portfolio/investing in children.jpg",
+      "eventType": "current"
+    },
+
+
         {
       "title": "AGM 2025",
       "largeImage": "img/portfolio/AGM.jpeg",
       "smallImage": "img/portfolio/AGM.jpeg",
-      "eventType": "current"
-    },
-
-    {
-      "title": "Graduate Sisters in Science Mentorship Program",
-      "largeImage": "img/portfolio/Graduate Mentorship.png",
-      "smallImage": "img/portfolio/Graduate Mentorship.png",
       "eventType": "current"
     },
 
@@ -50,10 +58,12 @@
       "smallImage": "img/portfolio/dec4-ornament.jpg",
       "eventType": "past"
     },
+
     {
-      "title": "Paint Night",
-      "largeImage": "img/portfolio/nov28-paint.jpg",
-      "smallImage": "img/portfolio/nov28-paint.jpg",
+    
+      "title": "Graduate Sisters in Science Mentorship Program",
+      "largeImage": "img/portfolio/Graduate Mentorship.png",
+      "smallImage": "img/portfolio/Graduate Mentorship.png",
       "eventType": "past"
     }
   ],
