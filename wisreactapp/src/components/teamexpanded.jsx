@@ -127,7 +127,7 @@ const teamMembers = [
 // VP Sponsership
 {
     name: "Brielle Hall",
-    photo: 'img/team/Bri.JPG',
+    photo: 'img/team/BrielleHall.jpeg',
     bio: "I joined WiS to give girls at western a community where they can feel welcomed and supported. Bringing the events to WiS members gives me so much joy!",
     favMovie: 'Enchanted'
   },
@@ -184,6 +184,7 @@ function MeetTheTeam() {
 
 
 export default MeetTheTeam;
+
 
 
 
