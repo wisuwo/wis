@@ -22,8 +22,7 @@ const teamMembers = [
   {
     name: 'Bahar M',
     photo: 'img/team/Bahar.jpg',
-    bio: 'I joined WiS to meet people with similar interests, and have stayed because of the amazing friendships I’ve made over the years!
-'
+    bio: 'I joined WiS to meet people with similar interests, and have stayed because of the amazing friendships I’ve made over the years!'
   },
 
 //VP comms
@@ -101,20 +100,20 @@ const teamMembers = [
     name: "Rory Paraskevopoulos",
     photo: 'img/team/Rory.jpeg',
     bio: "I joined WiS to be part of a welcoming, empowering community for women in science, and to have inspiring role models to look up too!"
-  }
+  },
 // VP Finance 
   {
     name: "Harleen Multani",
     photo: 'img/team/Harleen.JPG',
     bio: "I joined WiS because I’m passionate about creating opportunities for women in science to share experiences, resources, and inspiration"
-  }
+  },
 
 // VP Sponsership
 {
     name: "Brielle Hall",
     photo: 'img/team/Bri.JPG',
     bio: "I joined WiS to give girls at western a community where they can feel welcomed and supported. Bringing the events to WiS members gives me so much joy!"
-  }
+  },
 ];
 
 // Ensures the user starts at the top of the page
@@ -163,3 +162,4 @@ function MeetTheTeam() {
 
 
 export default MeetTheTeam;
+
