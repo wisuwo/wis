@@ -60,7 +60,7 @@ const teamMembers = [
 
   // VP tech
   {
-    name: 'Ramandeep',
+    name: 'Ramandeep Saini',
     photo: 'img/team/Ramandeep.JPG',
     bio: 'I joined WiS to improve my technical skills on the technology team and to help build a community of women in science!',
     favMovie: 'The Glassworker'
