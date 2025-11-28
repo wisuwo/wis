@@ -7,10 +7,10 @@ const Blog = (props) => {
     {
       id: 1,
       title: "From High School to University: Building the Next Generation of Women in STEM",
-      description: "Add short, one sentence description of the article here.",
+      description: "Exploring how high school STEM programs inspire young women to become leaders and mentors in university communities.",
       image: "img/blog/University.jpg",
       date: "2025-11-13",
-      excerpt: "Enter the excerpt (first half sentence) of the article here."
+      excerpt: "Many young women first discover their passion for STEM through summer programs designed to inspire confidence, collaboration, and creativity."
     }
   ];
 
