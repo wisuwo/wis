@@ -28,7 +28,7 @@ export const Navigation2 = (props) => {
         <div className="back">
           <button className="btn back-btn" onClick={goBack}> {/* Trigger goBack function on click */}
             <img 
-              src="img/icons/back-arrow-white.png" 
+              src="/img/icons/back-arrow-white.png" 
               alt="Back" /* Alt text for accessibility */
             />
           </button>
