@@ -62,9 +62,14 @@
   ],
   "Newsletters": [
     {
+      "title": "October 2025",
+      "pdf": "img/newsletters/october2025.pdf",
+      "mostRecent": true
+    },
+    {
       "title": "November 2024",
       "pdf": "img/newsletters/november2024.pdf",
-      "mostRecent": true
+      "mostRecent": false
     },
     {
       "title": "September 2024",
