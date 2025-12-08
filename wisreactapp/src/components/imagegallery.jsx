@@ -10,13 +10,13 @@ const App = () => {
   /* array of image objects with their file paths, thumbnails, and descriptions */
   const images = [
     {
-      original: `${process.env.PUBLIC_URL}/img/gallery/paintnight1.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paintnight1.jpg`,
+      original: `${process.env.PUBLIC_URL}/img/gallery/paintnight1.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paintnight1.jpeg`,
       description: 'PAINT & SLIME NIGHT',
     },
     {
-      original: `${process.env.PUBLIC_URL}/img/gallery/paintnight2.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paintnight2.jpg`,
+      original: `${process.env.PUBLIC_URL}/img/gallery/paintnight2.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paintnight2.jpeg`,
       description: 'PAINT & SLIME NIGHT',
     },
     {
@@ -134,4 +134,5 @@ const App = () => {
 
 
 export default App;
+
 
