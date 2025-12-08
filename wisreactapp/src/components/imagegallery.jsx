@@ -10,23 +10,23 @@ const App = () => {
   /* array of image objects with their file paths, thumbnails, and descriptions */
   const images = [
     {
-      original: `${process.env.PUBLIC_URL}/img/gallery/cocoanight1.HEIC`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/cocoanight1.HEIC`,
+      original: `${process.env.PUBLIC_URL}/img/gallery/cocoanight1.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/cocoanight1.jpeg`,
       description: 'COCOA & CRAM',
     },
     {
-      original: `${process.env.PUBLIC_URL}/img/gallery/cocoanight2.HEIC`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/cocoanight2.HEIC`,
+      original: `${process.env.PUBLIC_URL}/img/gallery/cocoanight2.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/cocoanight2.jpeg`,
       description: 'COCOA & CRAM',
     },
     {
-      original: `${process.env.PUBLIC_URL}/img/gallery/mentorshipkickoff1.HEIC`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/mentorshipkickoff1.HEIC`,
+      original: `${process.env.PUBLIC_URL}/img/gallery/mentorshipkickoff1.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/mentorshipkickoff1.jpeg`,
       description: 'SISTERS IN SCIENCE MENTORSHIP KICKOFF',
     },
     {
-      original: `${process.env.PUBLIC_URL}/img/gallery/mentorshipkickoff2.HEIC`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/mentorshipkickoff2.HEIC`,
+      original: `${process.env.PUBLIC_URL}/img/gallery/mentorshipkickoff2.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/mentorshipkickoff2.jpeg`,
       description: 'SISTERS IN SCIENCE MENTORSHIP KICKOFF',
     },
     {
@@ -154,6 +154,7 @@ const App = () => {
 
 
 export default App;
+
 
 
 
