@@ -18,6 +18,20 @@
   "Gallery": [
 
             {
+      "title": "Cocoa and Cram",
+      "largeImage": "img/portfolio/cocoa-cram.png",
+      "smallImage": "img/portfolio/cocoa-cram.png",
+      "eventType": "current"
+    },
+
+            {
+      "title": "Sisters in Science Kick-Off Event",
+      "largeImage": "img/portfolio/sisters-kickoff.png",
+      "smallImage": "img/portfolio/sisters-kickoff.png",
+      "eventType": "current"
+    },
+
+            {
       "title": "Slime making & Tote Bag Painting",
       "largeImage": "img/portfolio/Slime making event.jpg",
       "smallImage": "img/portfolio/Slime making event.jpg",
@@ -28,7 +42,7 @@
       "title": "Investing in Children - Volunteering Opportunity",
       "largeImage": "img/portfolio/investing in children.jpg",
       "smallImage": "img/portfolio/investing in children.jpg",
-      "eventType": "current"
+      "eventType": "past"
     },
 
     {
@@ -36,27 +50,13 @@
       "title": "Graduate Sisters in Science Mentorship Program",
       "largeImage": "img/portfolio/Graduate Mentorship.png",
       "smallImage": "img/portfolio/Graduate Mentorship.png",
-      "eventType": "current"
+      "eventType": "past"
     },
 
     {
       "title": "AGM 2025",
       "largeImage": "img/portfolio/AGM.jpeg",
       "smallImage": "img/portfolio/AGM.jpeg",
-      "eventType": "past"
-    },
-
-    {
-      "title": "WiS x Lost Love Bar Night",
-      "largeImage": "img/portfolio/WiS x Lost Love Bar Night POSTER.png",
-      "smallImage": "img/portfolio/WiS x Lost Love Bar Night POSTER.png",
-      "eventType": "past"
-    },
-
-    {
-      "title": "10 Year Anniversary",
-      "largeImage": "img/portfolio/mar19-10-year.jpeg",
-      "smallImage": "img/portfolio/mar19-10-year.jpeg",
       "eventType": "past"
     }
   ],
