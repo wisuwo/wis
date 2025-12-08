@@ -42,7 +42,7 @@
       "title": "Investing in Children - Volunteering Opportunity",
       "largeImage": "img/portfolio/investing in children.jpg",
       "smallImage": "img/portfolio/investing in children.jpg",
-      "eventType": "current"
+      "eventType": "past"
     },
 
     {
@@ -57,13 +57,6 @@
       "title": "AGM 2025",
       "largeImage": "img/portfolio/AGM.jpeg",
       "smallImage": "img/portfolio/AGM.jpeg",
-      "eventType": "past"
-    },
-
-    {
-      "title": "WiS x Lost Love Bar Night",
-      "largeImage": "img/portfolio/WiS x Lost Love Bar Night POSTER.png",
-      "smallImage": "img/portfolio/WiS x Lost Love Bar Night POSTER.png",
       "eventType": "past"
     }
   ],
