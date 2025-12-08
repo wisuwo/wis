@@ -10,6 +10,16 @@ const App = () => {
   /* array of image objects with their file paths, thumbnails, and descriptions */
   const images = [
     {
+      original: `${process.env.PUBLIC_URL}/img/gallery/paintnight1.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paintnight1.jpg`,
+      description: 'PAINT & SLIME NIGHT',
+    },
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/paintnight2.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paintnight2.jpg`,
+      description: 'PAINT & SLIME NIGHT',
+    },
+    {
       original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-1.jpg`,
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-1.jpg`,
       description: 'STEMPOSIUM 2025',
@@ -124,3 +134,4 @@ const App = () => {
 
 
 export default App;
+
