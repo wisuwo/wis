@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 /* 
 Here is the About component. It is displayed on the Home page and consists of a
@@ -51,6 +52,11 @@ export const About = (props) => {
             </div>
           </div>
         </div>
+        
+        <div className='calendar-link'>
+          <Link to="/blog"><button className="btn btn-custom btn-lg">Blog</button></Link>
+        </div>
+        
       </div>
     </div>
   );
