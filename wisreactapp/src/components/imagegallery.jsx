@@ -10,6 +10,36 @@ const App = () => {
   /* array of image objects with their file paths, thumbnails, and descriptions */
   const images = [
     {
+      original: `${process.env.PUBLIC_URL}/img/gallery/cocoanight1.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/cocoanight1.jpeg`,
+      description: 'COCOA & CRAM',
+    },
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/cocoanight2.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/cocoanight2.jpeg`,
+      description: 'COCOA & CRAM',
+    },
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/mentorshipkickoff1.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/mentorshipkickoff1.jpeg`,
+      description: 'SISTERS IN SCIENCE MENTORSHIP KICKOFF',
+    },
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/mentorshipkickoff2.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/mentorshipkickoff2.jpeg`,
+      description: 'SISTERS IN SCIENCE MENTORSHIP KICKOFF',
+    },
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/paintnight1.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paintnight1.jpeg`,
+      description: 'PAINT & SLIME NIGHT',
+    },
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/paintnight2.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paintnight2.jpeg`,
+      description: 'PAINT & SLIME NIGHT',
+    },
+    {
       original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-1.jpg`,
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-1.jpg`,
       description: 'STEMPOSIUM 2025',
@@ -84,17 +114,6 @@ const App = () => {
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paint-2.jpg`,
       description: 'PAINT NIGHT',
     },
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-1.jpeg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-1.jpeg`,
-      description: 'STEMPOSIUM 2024',
-    },
-
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-2.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-2.jpg`,
-      description: 'STEMPOSIUM 2024',
-    }
   ];
 
  /* custom styles for the app and image gallery */
@@ -133,4 +152,9 @@ const App = () => {
   );
 };
 
+
 export default App;
+
+
+
+
