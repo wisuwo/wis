@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 /* 
 The Footer component is displayed on every page of the website. 
@@ -24,11 +25,9 @@ export const Footer = (props) => {
                         here
                     </a>.<br></br>
                     Contact us {' '}
-                    <a 
-                        href="/contact" 
-                    >
+                    <Link to="/contact">
                         here
-                    </a>.
+                    </Link>.
                 </p>
             </div>
         </div>
