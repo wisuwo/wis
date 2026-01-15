@@ -9,6 +9,16 @@ import 'react-image-gallery/styles/css/image-gallery.css';
 const App = () => {
   /* array of image objects with their file paths, thumbnails, and descriptions */
   const images = [
+        {
+      original: `${process.env.PUBLIC_URL}/img/gallery/AGM2025 1.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/AGM2025 1.jpeg`,
+      description: 'ANNUAL GENERAL MEETING',
+    },
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/AGM2025 2.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/AGM2025 2.jpeg`,
+      description: 'ANNUAL GENERAL MEETING',
+    },
     {
       original: `${process.env.PUBLIC_URL}/img/gallery/cocoanight1.jpeg`,
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/cocoanight1.jpeg`,
