@@ -468,6 +468,8 @@ header .intro-text {
 }
 
 #about p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
   line-height: 24px;
   margin: 30px 0;
   text-align: left;
@@ -503,6 +505,8 @@ header .intro-text {
 
 #about li {
   text-align: left; /* Center align list items */
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* JOIN SECTION */
