@@ -11,7 +11,17 @@ const Blog = (props) => {
       image: "img/blog/University.jpg",
       date: "2025-11-13",
       excerpt: "Many young women first discover their passion for STEM through summer programs designed to inspire confidence, collaboration, and creativity."
+    },
+
+    {
+      id: 2,
+      title: "Unlocking the STEM Cheat Code: Why Mentors Matter More Than You Think",
+      description: "Exploring the importance of mentorship in STEM education and career development.",
+      image: "img/intro-bg.jpg",
+      date: "2026-01-21",
+      excerpt: "Mentors play a crucial role in guiding students through their academic and professional journeys."
     }
+
   ];
 
   return (
