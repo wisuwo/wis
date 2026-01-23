@@ -9,7 +9,7 @@ const Blog = (props) => {
       title: "From High School to University: Building the Next Generation of Women in STEM",
       description: "Exploring how high school STEM programs inspire young women to become leaders and mentors in university communities.",
       image: "img/blog/University.jpg",
-      date: "2025-11-13",
+      date: "2025-11-27",
       excerpt: "Many young women first discover their passion for STEM through summer programs designed to inspire confidence, collaboration, and creativity."
     }
   ];

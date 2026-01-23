@@ -22,13 +22,15 @@ const BlogPost = (props) => {
         <h3>High School Programs That Sparked my Tech Journey</h3>
         <p>Kode With Klossy offers several intensive two-week programs designed to introduce high school girls to technology and innovation. Each curriculum focuses on a key area of computer science:</p>
         
-        <p><strong>Web Development:</strong> Scholars build dynamic websites using JavaScript, HTML, and CSS while learning about responsive design, accessibility, and improving user interface (UI) and user experience (UX).</p>
-        
-        <p><strong>Machine Learning:</strong> Scholars explore the fundamentals of artificial intelligence and machine learning using Python. They study algorithms, datasets, and natural language processing to train a chatbot while also examining bias and ethics in AI.</p>
-        
-        <p><strong>Mobile App Development:</strong> Scholars code in Swift and use SwiftUI within Xcode to design fully functioning iOS applications.</p>
-        
-        <p><strong>Data Science:</strong> Scholars analyze data using SQL, Python, and visualization tools to create visual projects based on topics they care about.</p>
+        <ul>
+          <li><strong>Web Development:</strong> Scholars build dynamic websites using JavaScript, HTML, and CSS while learning about responsive design, accessibility, and improving user interface (UI) and user experience (UX).</li>
+          
+          <li><strong>Machine Learning:</strong> Scholars explore the fundamentals of artificial intelligence and machine learning using Python. They study algorithms, datasets, and natural language processing to train a chatbot while also examining bias and ethics in AI.</li>
+          
+          <li><strong>Mobile App Development:</strong> Scholars code in Swift and use SwiftUI within Xcode to design fully functioning iOS applications.</li>
+          
+          <li><strong>Data Science:</strong> Scholars analyze data using SQL, Python, and visualization tools to create visual projects based on topics they care about.</li>
+        </ul>
         
         <p>Through these specialized tracks, Kode With Klossy empowers participants to understand not only how technology works, but also how to use it responsibly and creatively.</p>
         
@@ -36,13 +38,15 @@ const BlogPost = (props) => {
         
         <p>HackerGal focuses on inspiring Canadian girls and gender-diverse learners in grades 9–12 to explore post-secondary education and careers in technology. Its National Ambassador Program is a four-year journey that builds leadership and mentorship skills:</p>
         
-        <p><strong>Year 1: Becoming a Role Model</strong> – Ambassadors create and launch a Hackergal Club in their community.</p>
-        
-        <p><strong>Year 2: Learning to Lead</strong> – They mentor first-year Ambassadors and begin exploring career pathways.</p>
-        
-        <p><strong>Year 3: Expanding Your Network</strong> – Participants meet women in tech, develop networking skills, and prepare for post-secondary education.</p>
-        
-        <p><strong>Year 4: Shaping Future-Ready Learners</strong> – Ambassadors build portfolios, strengthen professional competencies, and empower others through mentorship.</p>
+        <ul>
+          <li><strong>Year 1: Becoming a Role Model</strong> – Ambassadors create and launch a Hackergal Club in their community.</li>
+          
+          <li><strong>Year 2: Learning to Lead</strong> – They mentor first-year Ambassadors and begin exploring career pathways.</li>
+          
+          <li><strong>Year 3: Expanding Your Network</strong> – Participants meet women in tech, develop networking skills, and prepare for post-secondary education.</li>
+          
+          <li><strong>Year 4: Shaping Future-Ready Learners</strong> – Ambassadors build portfolios, strengthen professional competencies, and empower others through mentorship.</li>
+        </ul>
         
         <p>HackerGal participants also gain digital skills training, mentorship, scholarship opportunities, and volunteer experience that supports both their personal and professional growth.</p>
 
