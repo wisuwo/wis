@@ -4,22 +4,23 @@ import { Link } from 'react-router-dom';
 const Blog = (props) => {
   // Sample blog data - can replace with data from API later
   const blogPosts = [
-    {
-      id: 1,
-      title: "From High School to University: Building the Next Generation of Women in STEM",
-      description: "Exploring how high school STEM programs inspire young women to become leaders and mentors in university communities.",
-      image: "img/blog/University.jpg",
-      date: "2025-11-27",
-      excerpt: "Many young women first discover their passion for STEM through summer programs designed to inspire confidence, collaboration, and creativity."
-    },
 
     {
-      id: 2,
+      id: 1,
       title: "Unlocking the STEM Cheat Code: Why Mentors Matter More Than You Think",
       description: "Exploring the importance of mentorship in STEM education and career development.",
       image: "img/intro-bg.jpg",
       date: "2026-01-21",
       excerpt: "Mentors play a crucial role in guiding students through their academic and professional journeys."
+    },
+
+      {
+      id: 2,
+      title: "From High School to University: Building the Next Generation of Women in STEM",
+      description: "Exploring how high school STEM programs inspire young women to become leaders and mentors in university communities.",
+      image: "img/blog/University.jpg",
+      date: "2025-11-28",
+      excerpt: "Many young women first discover their passion for STEM through summer programs designed to inspire confidence, collaboration, and creativity."
     }
 
   ];
