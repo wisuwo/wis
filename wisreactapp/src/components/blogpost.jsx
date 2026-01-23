@@ -118,7 +118,7 @@ const BlogPost = (props) => {
         <p>The same encouragement that once came from instructors or mentors now comes from peers and professionals within the university community. It is about carrying forward that passion for STEM, this time, not as a participant, but as an advocate and role model.</p>
 
         <div class="blog-image-with-caption">
-            <img src="/img/blog/community.png" alt="WiS team events" class="blog-content-image" />
+            <img src="/img/blog/community.jpeg" alt="WiS team events" class="blog-content-image" />
             <p class="image-caption">Women in Science members fostering mentorship and community at Western.</p>
         </div>
 
