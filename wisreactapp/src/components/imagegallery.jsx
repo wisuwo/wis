@@ -102,16 +102,6 @@ const App = () => {
       original: `${process.env.PUBLIC_URL}/img/gallery/yoga-2.jpg`,
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/yoga-2.jpg`,
       description: 'YOGA NIGHT',
-    },
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/paint-1.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paint-1.jpg`,
-      description: 'PAINT NIGHT',
-    },
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/paint-2.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paint-2.jpg`,
-      description: 'PAINT NIGHT',
     }
   ];
 
