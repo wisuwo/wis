@@ -104,17 +104,6 @@ const App = () => {
       description: 'YOGA NIGHT',
     },
     {
-      original: `${process.env.PUBLIC_URL}/img/gallery/agm-24-1.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/agm-24-1.jpg`,
-      description: 'AGM 2024/2025',
-    },
-
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/agm-24-2.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/agm-24-2.jpg`,
-      description: 'AGM 2024/2025',
-    },
-    {
       original: `${process.env.PUBLIC_URL}/img/gallery/paint-1.jpg`,
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paint-1.jpg`,
       description: 'PAINT NIGHT',
@@ -123,7 +112,7 @@ const App = () => {
       original: `${process.env.PUBLIC_URL}/img/gallery/paint-2.jpg`,
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paint-2.jpg`,
       description: 'PAINT NIGHT',
-    },
+    }
   ];
 
  /* custom styles for the app and image gallery */
