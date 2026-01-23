@@ -11,7 +11,7 @@ const BlogPost = (props) => {
       title: "Unlocking the STEM Cheat Code: Why Mentors Matter More Than You Think",
       image: "/img/intro-bg.jpg",
       date: "2026-01-21",
-      author: "Hania Yasin, Director of Technology for Women in Science",
+      author: "Hania Yasin, Director of Technology for Women in Science at Western University",
 
       content: `
         <p>Learning on your own and working through difficult problems builds important skills. There's real value in figuring things out independently. However, there's a faster path to success in STEM, and it comes through mentorship. For women in science, where we already see fewer female faces in classrooms and labs, mentorship becomes even more critical.</p>
