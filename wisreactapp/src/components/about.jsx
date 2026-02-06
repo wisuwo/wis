@@ -76,6 +76,6 @@ export const About = ({ data }) => {
           </Link>
         </div>
       </div>
-    </div>
+    </div> 
   );
 };
