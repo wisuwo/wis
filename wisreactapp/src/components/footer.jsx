@@ -13,7 +13,7 @@ export const Footer = (props) => {
             <div className='container text-center'>
                 <p>
                     {/* Credits to the Women in Science team */}
-                    &copy; 2024 Created with Love by Women In Science at Western University. 
+                    &copy; 2026 Created with Love by Women In Science at Western University. 
                     {' '}
                     {/* Link to the feedback form */}
                     Have any feedback? Let us know{' '}
