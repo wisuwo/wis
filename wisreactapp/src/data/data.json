@@ -17,6 +17,20 @@
   },
   "Gallery": [
 
+          {
+        "title": "Career Panel & Networking Event",
+        "largeImage": "img/portfolio/career-panel-networking.JPEG",
+        "smallImage": "img/portfolio/career-panel-networking.JPEG",
+        "eventType": "current"
+      },
+
+          {
+        "title": "Bar Night",
+        "largeImage": "img/portfolio/bar-night.JPEG",
+        "smallImage": "img/portfolio/bar-night.JPEG",
+        "eventType": "current"
+      },
+
             {
       "title": "Cocoa and Cram",
       "largeImage": "img/portfolio/cocoa-cram.png",
@@ -28,14 +42,14 @@
       "title": "Sisters in Science Kick-Off Event",
       "largeImage": "img/portfolio/sisters-kickoff.png",
       "smallImage": "img/portfolio/sisters-kickoff.png",
-      "eventType": "current"
+      "eventType": "past"
     },
 
             {
       "title": "Slime making & Tote Bag Painting",
       "largeImage": "img/portfolio/Slime making event.jpg",
       "smallImage": "img/portfolio/Slime making event.jpg",
-      "eventType": "current"
+      "eventType": "past"
     },
 
             {
@@ -43,22 +57,8 @@
       "largeImage": "img/portfolio/investing in children.jpg",
       "smallImage": "img/portfolio/investing in children.jpg",
       "eventType": "past"
-    },
-
-    {
-    
-      "title": "Graduate Sisters in Science Mentorship Program",
-      "largeImage": "img/portfolio/Graduate Mentorship.png",
-      "smallImage": "img/portfolio/Graduate Mentorship.png",
-      "eventType": "past"
-    },
-
-    {
-      "title": "AGM 2025",
-      "largeImage": "img/portfolio/AGM.jpeg",
-      "smallImage": "img/portfolio/AGM.jpeg",
-      "eventType": "past"
     }
+
   ],
   "Newsletters": [
     {
