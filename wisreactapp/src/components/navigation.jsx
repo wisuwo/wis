@@ -82,6 +82,14 @@ export const Navigation = (props) => {
               </ScrollLink>
             </li>
 
+            {/* Link to the Mentorship page */}
+            <li className='nav-item'>
+              <Link className='nav-link' to='/mentorship'>
+                Mentorship
+              </Link>
+            </li>
+
+
             {/* Link to the Calendar page */}
             <li className='nav-item'>
               <Link className='nav-link' to='/calendar'>
@@ -96,6 +104,13 @@ export const Navigation = (props) => {
               </Link>
             </li>
 
+            {/* Link to blog */}
+            <li className='nav-item'>
+              <Link className='nav-link' to='/blog'>
+                Blog
+              </Link>
+            </li>
+
             {/* Scroll link to the Join section */}
             <li className='nav-item'>
               <ScrollLink
@@ -107,20 +122,6 @@ export const Navigation = (props) => {
                 duration={800}
               >
                 Join
-              </ScrollLink>
-            </li>
-
-            {/* Scroll link to the Join section */}
-            <li className='nav-item'>
-              <ScrollLink
-                className='nav-link page-scroll'
-                to='newsletter'
-                spy={true}
-                smooth={true}
-                offset={-40}
-                duration={800}
-              >
-                Newsletter
               </ScrollLink>
             </li>
 

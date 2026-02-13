@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 /* 
 The Footer component is displayed on every page of the website. 
@@ -12,7 +13,7 @@ export const Footer = (props) => {
             <div className='container text-center'>
                 <p>
                     {/* Credits to the Women in Science team */}
-                    &copy; 2024 Created with Love by Women In Science at Western University. 
+                    &copy; 2026 Created with Love by Women In Science at Western University. 
                     {' '}
                     {/* Link to the feedback form */}
                     Have any feedback? Let us know{' '}
@@ -24,11 +25,9 @@ export const Footer = (props) => {
                         here
                     </a>.<br></br>
                     Contact us {' '}
-                    <a 
-                        href="/contact" 
-                    >
+                    <Link to="/contact">
                         here
-                    </a>.
+                    </Link>.
                 </p>
             </div>
         </div>

@@ -4,7 +4,7 @@
     "paragraph": "Dedictated to supporting and encouraging women in the Faculty of Science at Western University"
   },
   "About": {
-    "paragraph": "Women in Science (WiS) at Western University is a student-led organization dedicated to fostering a vibrant community of friendship, leadership and mentorship, while showcasing talented women in the Faculty of Science. Research has proven the invaluable impact of mentorship on female scientists, so we aim to connect young women with mentors established in their fields through the Little Sisters in Science and Sisters in Science mentorship programs. We support the inclusivity and continued contributions of women in science, while encouraging male participation in stereotypical “feminine” fields, and promoting gender non-conforming people in all scientific endeavours.",
+    "paragraph": "Women in Science (WiS) at Western University is a student-led organization dedicated to fostering a vibrant community of friendship, leadership and mentorship, while showcasing talented women in the Faculty of Science. Research has proven the invaluable impact of mentorship on female scientists, so we aim to connect young women with mentors established in their fields through the Little Sisters in Science and Sisters in Science mentorship programs. We support the inclusivity and continued contributions of women in science, while encouraging male participation in stereotypical “feminine” fields, and promoting gender non-conforming people in all scientific endeavours. Check out our blog page through the button below to hear more from our team, and learn more about our mission!",
     "Why": [
       "Identify: We seek to identify and eliminate the sources of gender disparity in the STEM fields",
       "Connection: We aim to connect young women with peers and mentors to help them pursue their dream careers in STEM"
@@ -16,42 +16,49 @@
     ]
   },
   "Gallery": [
-    {
-      "title": "Ornament Decorating",
-      "largeImage": "img/portfolio/dec4-ornament.jpg",
-      "smallImage": "img/portfolio/dec4-ornament.jpg",
-      "eventType": "current"
-    },
-    {
-      "title": "Paint Night",
-      "largeImage": "img/portfolio/nov28-paint.jpg",
-      "smallImage": "img/portfolio/nov28-paint.jpg",
-      "eventType": "current"
-    },
-    {
+
+          {
+        "title": "Career Panel & Networking Event",
+        "largeImage": "img/portfolio/career-panel-networking.JPEG",
+        "smallImage": "img/portfolio/career-panel-networking.JPEG",
+        "eventType": "current"
+      },
+
+          {
+        "title": "Bar Night",
+        "largeImage": "img/portfolio/bar-night.JPEG",
+        "smallImage": "img/portfolio/bar-night.JPEG",
+        "eventType": "current"
+      },
+
+            {
       "title": "Cocoa and Cram",
-      "largeImage": "img/portfolio/nov26-cocoa.jpg",
-      "smallImage": "img/portfolio/nov26-cocoa.jpg",
+      "largeImage": "img/portfolio/cocoa-cram.png",
+      "smallImage": "img/portfolio/cocoa-cram.png",
       "eventType": "current"
     },
-    {
-      "title": "UPAW x WiS Women's Panel",
-      "largeImage": "img/portfolio/nov23-panel.jpg",
-      "smallImage": "img/portfolio/nov23-panel.jpg",
+
+            {
+      "title": "Sisters in Science Kick-Off Event",
+      "largeImage": "img/portfolio/sisters-kickoff.png",
+      "smallImage": "img/portfolio/sisters-kickoff.png",
       "eventType": "past"
     },
-    {
-      "title": "My Journey Panel",
-      "largeImage": "img/portfolio/nov12-panel.jpg",
-      "smallImage": "img/portfolio/nov12-panel.jpg",
+
+            {
+      "title": "Slime making & Tote Bag Painting",
+      "largeImage": "img/portfolio/Slime making event.jpg",
+      "smallImage": "img/portfolio/Slime making event.jpg",
       "eventType": "past"
     },
-    {
-      "title": "Yoga Night",
-      "largeImage": "img/portfolio/oct8-yoga.jpg",
-      "smallImage": "img/portfolio/oct8-yoga.jpg",
+
+            {
+      "title": "Investing in Children - Volunteering Opportunity",
+      "largeImage": "img/portfolio/investing in children.jpg",
+      "smallImage": "img/portfolio/investing in children.jpg",
       "eventType": "past"
     }
+
   ],
   "Newsletters": [
     {
