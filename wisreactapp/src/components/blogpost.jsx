@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 
 const BlogPost = (props) => {
   const { id } = useParams();
+  const [views, setViews] = useState(0);
+  const [loading, setLoading] = useState(true);
   
   // blog posts data 
   const blogPosts = {
@@ -144,9 +146,28 @@ const BlogPost = (props) => {
         
       `
     }
-
-
   };
+
+  // Track views when the component mounts
+  useEffect(() => {
+    const trackView = async () => {
+      try {
+        // Use CounterAPI to track views (free, works with GitHub Pages)
+        // Replace 'women-in-science' with your site name (use letters, numbers, and hyphens only)
+        const response = await fetch(`https://api.counterapi.dev/v1/wisuwo/blog-${id}/up`);
+        const data = await response.json();
+        setViews(data.count);
+      } catch (error) {
+        console.error('Error tracking view:', error);
+        // If tracking fails, still show 0 views
+        setViews(0);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    trackView();
+  }, [id]); // Re-run if id changes
 
   const post = blogPosts[id];
 
@@ -177,11 +198,18 @@ const BlogPost = (props) => {
               <div className="blog-post-meta">
                 <span className="blog-post-author">By: {post.author}</span>
                 <span className="blog-post-separator"> • </span>
-                <span className="blog-post-date">{new Date(post.date).toLocaleDateString('en-US', { 
-                  year: 'numeric', 
-                  month: 'long', 
-                  day: 'numeric' 
-                })}</span>
+                <span className="blog-post-date">
+                  {new Date(post.date).toLocaleDateString('en-US', { 
+                    year: 'numeric', 
+                    month: 'long', 
+                    day: 'numeric' 
+                  })}
+                </span>
+                {/* Add view count display */}
+                <span className="blog-post-separator"> • </span>
+                <span className="blog-post-views">
+                  👁️ {loading ? '...' : `${views.toLocaleString()} views`}
+                </span>
               </div>
             </header>
 
