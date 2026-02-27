@@ -19,6 +19,20 @@ const App = () => {
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/AGM2025 2.jpeg`,
       description: 'ANNUAL GENERAL MEETING',
     },
+
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/CareerPanel-2.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/CareerPanel-2.jpg`,
+      description: 'WiS CAREER PANEL 2026',
+    },
+
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/CareerPanel-1.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/CareerPanel-1.jpeg`,
+      description: 'WiS CAREER PANEL 2026',
+    },
+    
+
     {
       original: `${process.env.PUBLIC_URL}/img/gallery/cocoanight1.jpeg`,
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/cocoanight1.jpeg`,
