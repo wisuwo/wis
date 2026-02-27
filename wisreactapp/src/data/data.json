@@ -25,17 +25,24 @@
       },
 
           {
-        "title": "Bar Night",
-        "largeImage": "img/portfolio/bar-night.JPEG",
-        "smallImage": "img/portfolio/bar-night.JPEG",
+        "title": "The Art of Creation Exhibit",
+        "largeImage": "img/portfolio/Art of Creation.png",
+        "smallImage": "img/portfolio/Art of Creation.png",
         "eventType": "current"
       },
+
+            {
+      "title": "Bar Night",
+      "largeImage": "img/portfolio/bar-night.JPEG",
+      "smallImage": "img/portfolio/bar-night.JPEG",
+      "eventType": "current"
+    },
 
             {
       "title": "Cocoa and Cram",
       "largeImage": "img/portfolio/cocoa-cram.png",
       "smallImage": "img/portfolio/cocoa-cram.png",
-      "eventType": "current"
+      "eventType": "past"
     },
 
             {
@@ -49,13 +56,6 @@
       "title": "Slime making & Tote Bag Painting",
       "largeImage": "img/portfolio/Slime making event.jpg",
       "smallImage": "img/portfolio/Slime making event.jpg",
-      "eventType": "past"
-    },
-
-            {
-      "title": "Investing in Children - Volunteering Opportunity",
-      "largeImage": "img/portfolio/investing in children.jpg",
-      "smallImage": "img/portfolio/investing in children.jpg",
       "eventType": "past"
     }
 
