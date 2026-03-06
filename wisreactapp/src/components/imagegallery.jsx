@@ -95,17 +95,7 @@ const App = () => {
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/upaw-2.jpg`,
       description: 'UPAW X WIS WOMENS PANEL',
     },
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/journey-1.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/journey-1.jpg`,
-      description: 'MY JOURNEY PANEL',
-    },
-
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/journey-2.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/journey-2.jpg`,
-      description: 'MY JOURNEY PANEL',
-    },
+    
     {
       original: `${process.env.PUBLIC_URL}/img/gallery/yoga-1.jpg`,
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/yoga-1.jpg`,
