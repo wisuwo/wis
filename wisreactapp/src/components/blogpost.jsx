@@ -8,6 +8,81 @@ const BlogPost = (props) => {
   const blogPosts = {
 
     1: {
+      title: "From Unsure First-Year to a Confident Leader: My Journey with Women in Science",
+      image: "/img/blog/group.jpg",
+      date: "2026-03-14",
+      author: "Bobo Soong, Co-President of Women in Science",
+
+      content: `
+      <h3> Finding My Place </h3>
+
+      <p>When I first joined Women in Science, I was a nervous first-year student trying to figure out where I fit. University felt overwhelming, and STEM spaces often felt competitive and intimidating. I questioned myself often. I knew I wanted to get involved, but I did not know where to begin or whether I truly belonged.</p>
+
+      <p>Luckily, my soph, Zeba, introduced me to Women in Science. At the time, she was the Vice President of Communications, and she encouraged me to apply for Director of Communications. She believed in me even before I fully believed in myself. Looking back, that encouragement meant more than I realized at the time. I am so grateful to her for introducing me to a club that would later become the community where I truly found my place.</p>
+
+      <p>From the very beginning, I was surrounded by women who were just as passionate about science, advocacy, and creating meaningful change. Being in that environment made me feel supported in a way I had not expected. It was the first time at university that I felt like I was part of something bigger than myself.</p>
+
+      <h3>From Director to President</h3>
+
+      <p>My journey through WiS leadership reflects how much this organization helped me grow both personally and professionally.</p>
+
+      <p>In my first year, I served as Director of Communications. During my second year, I chose to remain in the same role because I was not sure I had the leadership skills to manage a team of directors. I worried that as a second-year student, balancing school and a Vice President position might be too much. At the time, staying in the director role felt like the safer choice.</p>
+
+      <p>However, that year allowed me to deepen my understanding of the communications portfolio and gain confidence in my abilities. As I became more familiar with the work and responsibilities, I started to realize that maybe I was more capable than I had originally believed. Eventually, I decided to take that leap and applied for Vice President of Communications.</p>
+
+      <div class="blog-image">
+            <img src="/img/blog/anniversary.png" alt="Group image of the Women in Science club's 10th anniversary event." class="blog-content-image" />
+      </div>
+
+      <p>Serving as VP strengthened my leadership skills in ways I had never expected. I learned how to manage multiple projects at once, support a team of directors, and communicate clearly during busy and sometimes stressful moments. I also learned that leadership is rarely about doing everything perfectly. Instead, it is about being adaptable, trusting your team, and learning as you go.</p>
+
+      <p>One of the biggest lessons I learned was that leadership is never done alone. During busy periods, when it felt like there were too many projects and not enough time, I always had a team behind me that was willing to step in and help. That sense of collective support made all the difference.</p>
+
+      <p>Every step along the way, I also had Vice Presidents and Presidents who believed in me and encouraged me to aim higher. Their mentorship reminded me that growth often comes from stepping outside of your comfort zone. Looking back now, each role prepared me for the next and WiS allowed me to grow at my own pace.</p>
+
+      <h3>Growing Alongside Passionate Women</h3>
+
+      <p>From connecting with general members to collaborating with executives, the women in this organization have played a huge role in shaping the leader I am today.</p>
+
+      <p>One moment that has always stayed with me happened during an Annual General Meeting. After giving a short talk, a first-year student came up to me and told me that she found me well spoken and inspiring. At the time, I was still unsure of myself as a leader and often questioned how I came across to others. Hearing her say that made me pause and reflect. It was a small moment, but it helped me realize that sometimes we are more capable than we give ourselves credit for.</p>
+
+      <div class="blog-image">
+            <img src="/img/blog/speaking.jpg" alt="Image of WiS Co-President, Bobo Soong, speaking at an event." class="blog-content-image" />
+      </div>
+
+      <p>Being part of a room full of driven, intelligent, and compassionate women is incredibly powerful. Everyone wants to see each other succeed. That kind of environment encourages growth in ways that are difficult to describe until you experience it.</p>
+
+      <p>One of the most rewarding parts of my leadership journey has been watching my own directors grow. Some of the students I once managed are now Vice Presidents themselves. Seeing their confidence, leadership, and dedication develop over time has been incredibly meaningful. Moments like that remind me how important mentorship and encouragement truly are.</p>
+
+      <h3>More Than a Club</h3>
+
+      <p>Women in Science was never just another club at Western. It became a space where I watched my peers grow academically, professionally, and personally. It was where we supported one another through challenges, celebrated milestones together, and worked collectively to create opportunities for others.</p>
+
+      <p>Over time, WiS began to feel like a second home. One of the most meaningful moments this year was leading STEMposium. Seeing high school students walk onto campus, excited about science and curious about their future, reminded me why initiatives like this matter so much. Being able to contribute to creating that kind of experience for the next generation of women in STEM was incredibly rewarding.</p>
+
+      <div class="blog-image">
+            <img src="/img/blog/STEMposium.jpg" alt="Image of WiS Co-President, Bobo Soong, interacting with high school students during the STEMposium event." class="blog-content-image" />
+      </div>
+
+      <p>Moments like STEMposium reminded me that leadership is not just about organizing events or managing teams. It is about creating spaces where others feel inspired, supported, and confident in their own potential.</p>
+
+      <h3>Looking Back with Gratitude</h3>
+
+      <p>Looking back now, I can clearly see how much I have grown. I am no longer the unsure first-year student who questioned her place at university. I am someone who believes in her voice, her leadership, and her ability to make an impact.</p>
+
+      <p>I am also deeply grateful for the support and guidance of Dr. Yvon Verberne and Dr. Christina Booker. Their encouragement, mentorship, and belief in Women in Science, and in me truly supported me to the leader I am today. Whether through their involvement in our events, their advice, or their continued support, they reminded me that strong leadership is built through community and mentorship. Having faculty who genuinely care made my experience in WiS even more meaningful.</p>
+
+      <p>As I prepare to graduate in a month, I reflect on my time with Women in Science with immense gratitude. I am proud of what we built together, proud of the community we created, and proud of the impact we made.</p>
+
+      <p>Most importantly, I am grateful for every person who has been part of this journey alongside me.</p>
+
+      <p>I will miss this community deeply, and I owe so much of my growth to Women in Science.</p>
+
+      <p>Thank you WiS for giving me a place to belong, the confidence to lead, and a community I will carry with me wherever I go.</p>
+      `
+      },
+
+    2: {
       title: "Unlocking the STEM Cheat Code: Why Mentors Matter More Than You Think",
       image: "/img/intro-bg.jpg",
       date: "2026-01-21",
@@ -63,7 +138,7 @@ const BlogPost = (props) => {
       `
     },
 
-    2: {
+    3: {
       title: "From High School to University: Building the Next Generation of Women in STEM",
       image: "/img/blog/University.jpg",
       date: "2025-11-28",
@@ -118,7 +193,7 @@ const BlogPost = (props) => {
         <p>The same encouragement that once came from instructors or mentors now comes from peers and professionals within the university community. It is about carrying forward that passion for STEM, this time, not as a participant, but as an advocate and role model.</p>
 
         <div class="blog-image-with-caption">
-            <img src="/img/blog/community.png" alt="WiS team events" class="blog-content-image" />
+            <img src="/img/blog/community.jpeg" alt="WiS team events" class="blog-content-image" />
             <p class="image-caption">Women in Science members fostering mentorship and community at Western.</p>
         </div>
 
