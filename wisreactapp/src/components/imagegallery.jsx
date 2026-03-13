@@ -9,20 +9,6 @@ import 'react-image-gallery/styles/css/image-gallery.css';
 const App = () => {
   /* array of image objects with their file paths, thumbnails, and descriptions */
   const images = [
-     
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/yoganight-2.png`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/yoganight-2.png`,
-      description: 'YOGA NIGHT',
-    }, 
-    
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/yoganight-1.png`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/yoganight-1.png`,
-      description: 'YOGA NIGHT',
-    },
-
-
     {
       original: `${process.env.PUBLIC_URL}/img/gallery/AGM2025 1.jpeg`,
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/AGM2025 1.jpeg`,
@@ -102,6 +88,18 @@ const App = () => {
       original: `${process.env.PUBLIC_URL}/img/gallery/upaw-1.jpg`,
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/upaw-1.jpg`,
       description: 'UPAW X WIS WOMENS PANEL',
+    },
+
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/yoganight-2.png`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/yoganight-2.png`,
+      description: 'YOGA NIGHT',
+    }, 
+    
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/yoganight-1.png`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/yoganight-1.png`,
+      description: 'YOGA NIGHT',
     }
 
   ];
