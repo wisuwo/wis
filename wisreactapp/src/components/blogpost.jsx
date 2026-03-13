@@ -9,7 +9,7 @@ const BlogPost = (props) => {
   // blog posts data 
   const blogPosts = {
 
-    1: {
+    3: {
       title: "From Unsure First-Year to a Confident Leader: My Journey with Women in Science",
       image: "/img/blog/group.jpg",
       date: "2026-03-14",
@@ -84,7 +84,7 @@ const BlogPost = (props) => {
       `
       },
 
-    2: {
+    1: {
       title: "Unlocking the STEM Cheat Code: Why Mentors Matter More Than You Think",
       image: "/img/intro-bg.jpg",
       date: "2026-01-21",
@@ -140,7 +140,7 @@ const BlogPost = (props) => {
       `
     },
 
-    3: {
+    2: {
       title: "From High School to University: Building the Next Generation of Women in STEM",
       image: "/img/blog/University.jpg",
       date: "2025-11-28",

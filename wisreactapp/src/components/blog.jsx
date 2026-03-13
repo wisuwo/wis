@@ -6,7 +6,7 @@ const Blog = (props) => {
   const blogPosts = [
 
     {
-      id: 1,
+      id: 3,
       title: "From Unsure First-Year to a Confident Leader: My Journey with Women in Science",
       description: "Through mentorship and lifelong friendships, Women in Science helped me grow from a nervous first-year student into a confident leader surrounded by passionate and inspiring women.",
       image: "img/blog/group.jpg",
@@ -14,7 +14,7 @@ const Blog = (props) => {
     },
 
     {
-      id: 2,
+      id: 1,
       title: "Unlocking the STEM Cheat Code: Why Mentors Matter More Than You Think",
       description: "Exploring the importance of mentorship in STEM education and career development.",
       image: "img/intro-bg.jpg",
@@ -23,7 +23,7 @@ const Blog = (props) => {
     },
 
       {
-      id: 3,
+      id: 2,
       title: "From High School to University: Building the Next Generation of Women in STEM",
       description: "Exploring how high school STEM programs inspire young women to become leaders and mentors in university communities.",
       image: "img/blog/University.jpg",
