@@ -1000,7 +1000,7 @@ img {
 }
 
 .blog-post-image {
-  width: 100%;
+  width: auto;
   max-height: 500px;
   object-fit: cover;
   border-radius: 12px;
@@ -1080,7 +1080,7 @@ img {
 
 /* Blog Content Images */
 .blog-content-image {
-  width: 100%;
+  width: auto;
   height: auto;
   border-radius: 8px;
   margin: 30px auto;
