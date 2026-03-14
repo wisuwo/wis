@@ -17,9 +17,9 @@
   },
   "Gallery": [
     {
-      "title": "STEMposium",
-      "largeImage": "img/portfolio/stemposium.jpeg",
-      "smallImage": "img/portfolio/stemposium.jpeg",
+      "title": "Starry Night",
+      "largeImage": "img/portfolio/starry-night.jpeg",
+      "smallImage": "img/portfolio/starry-night.jpeg",
       "eventType": "current"
     },
     {
@@ -29,31 +29,31 @@
       "eventType": "current"
     },
     {
+      "title": "Cocoa and Canvas",
+      "largeImage": "img/portfolio/cocoa-and-canvas.jpeg",
+      "smallImage": "img/portfolio/cocoa-and-canvas.jpeg",
+      "eventType": "current"
+    },
+    {
+      "title": "STEMposium",
+      "largeImage": "img/portfolio/stemposium.jpeg",
+      "smallImage": "img/portfolio/stemposium.jpeg",
+      "eventType": "past"
+    },
+    {
       "title": "Yoga Night",
       "largeImage": "img/portfolio/yoga-night.jpeg",
       "smallImage": "img/portfolio/yoga-night.jpeg",
-      "eventType": "current"
+      "eventType": "past"
     },
     {
       "title": "Career Panel & Networking Event",
       "largeImage": "img/portfolio/career-panel-networking.JPEG",
       "smallImage": "img/portfolio/career-panel-networking.JPEG",
       "eventType": "past"
-    },
-    {
-      "title": "Bar Night",
-      "largeImage": "img/portfolio/bar-night.JPEG",
-      "smallImage": "img/portfolio/bar-night.JPEG",
-      "eventType": "past"
-    },
-    {
-      "title": "Cocoa and Cram",
-      "largeImage": "img/portfolio/cocoa-cram.png",
-      "smallImage": "img/portfolio/cocoa-cram.png",
-      "eventType": "past"
     }
-  
 
+    
   ],
   "Newsletters": [
     {
