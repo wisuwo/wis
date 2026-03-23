@@ -62,9 +62,14 @@
   ],
   "Newsletters": [
     {
+      "title": "February 2026",
+      "pdf": "img/newsletters/february2026.pdf",
+      "mostRecent": true
+    },
+    {
       "title": "January 2026",
       "pdf": "img/newsletters/january2026.pdf",
-      "mostRecent": true
+      "mostRecent": false
     },
     {
       "title": "October 2025",
