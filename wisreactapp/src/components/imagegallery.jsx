@@ -43,16 +43,19 @@ const App = () => {
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/cocoanight2.jpeg`,
       description: 'COCOA & CRAM',
     },
+    
     {
-      original: `${process.env.PUBLIC_URL}/img/gallery/mentorshipkickoff1.jpeg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/mentorshipkickoff1.jpeg`,
-      description: 'SISTERS IN SCIENCE MENTORSHIP KICKOFF',
+      original: `${process.env.PUBLIC_URL}/img/gallery/starrynight_image1.png`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/starrynight_image1.png`,
+      description: 'STARRY NIGHT',
     },
     {
-      original: `${process.env.PUBLIC_URL}/img/gallery/mentorshipkickoff2.jpeg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/mentorshipkickoff2.jpeg`,
-      description: 'SISTERS IN SCIENCE MENTORSHIP KICKOFF',
+      original: `${process.env.PUBLIC_URL}/img/gallery/starrynight_image2.png`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/starrynight_image2.png`,
+      description: 'STARRY NIGHT',
     },
+
+
     {
       original: `${process.env.PUBLIC_URL}/img/gallery/paintnight1.jpeg`,
       thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paintnight1.jpeg`,
