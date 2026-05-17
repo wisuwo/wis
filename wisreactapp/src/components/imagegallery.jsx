@@ -67,15 +67,15 @@ const App = () => {
       description: 'PAINT & SLIME NIGHT',
     },
     {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-1.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-1.jpg`,
-      description: 'STEMPOSIUM 2025',
+      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-pic1.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-pic1.jpg`,
+      description: 'STEMPOSIUM 2026',
     },
 
     {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-2.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-2.jpg`,
-      description: 'STEMPOSIUM 2025',
+      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-pic2.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-pic2.jpg`,
+      description: 'STEMPOSIUM 2026',
     },
     {
       original: `${process.env.PUBLIC_URL}/img/gallery/ornament-1.jpg`,
