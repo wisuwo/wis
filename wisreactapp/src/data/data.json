@@ -17,13 +17,13 @@
   },
   "Gallery": [
 
+            
             {
-      "title": "Cocoa and Cram",
-      "largeImage": "img/portfolio/cocoa-cram.png",
-      "smallImage": "img/portfolio/cocoa-cram.png",
-      "eventType": "current"
-    },
-
+  "title": "Bar Night",
+  "largeImage": "img/portfolio/bar-night.png",
+  "smallImage": "img/portfolio/bar-night.png",
+  "eventType": "current"
+},
             {
       "title": "Sisters in Science Kick-Off Event",
       "largeImage": "img/portfolio/sisters-kickoff.png",
@@ -37,7 +37,12 @@
       "smallImage": "img/portfolio/Slime making event.jpg",
       "eventType": "current"
     },
-
+           {
+      "title": "Cocoa and Cram",
+      "largeImage": "img/portfolio/cocoa-cram.png",
+      "smallImage": "img/portfolio/cocoa-cram.png",
+      "eventType": "past"
+    },
             {
       "title": "Investing in Children - Volunteering Opportunity",
       "largeImage": "img/portfolio/investing in children.jpg",
