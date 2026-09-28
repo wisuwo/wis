@@ -228,10 +228,12 @@ const BlogPost = (props) => {
     const trackView = async () => {
       try {
         // Use CounterAPI to track views (free, works with GitHub Pages)
-        // Replace 'women-in-science' with your site name (use letters, numbers, and hyphens only)
         const response = await fetch(`https://api.counterapi.dev/v1/wisuwo/blog-${id}/up`);
+        if (!response.ok) {
+          throw new Error(`Counter API responded with ${response.status}`);
+        }
         const data = await response.json();
-        setViews(data.count);
+        setViews(typeof data.count === 'number' ? data.count : 0);
       } catch (error) {
         console.error('Error tracking view:', error);
         // If tracking fails, still show 0 views
@@ -283,7 +285,7 @@ const BlogPost = (props) => {
                 {/* Add view count display */}
                 <span className="blog-post-separator"> • </span>
                 <span className="blog-post-views">
-                  👁️ {loading ? '...' : `${views.toLocaleString()} views`}
+                  👁️ {loading ? '...' : `${Number(views ?? 0).toLocaleString()} views`}
                 </span>
               </div>
             </header>
