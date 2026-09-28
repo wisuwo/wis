@@ -50,7 +50,12 @@ function Mentorship() {
             Join the Graduate Sisters in Science Mentorship Program and partner with a graduate student mentor who will help guide you through the ups and downs of your academic path! 
             You will also learn more about career and educational pathways as a graduate student, and gain advice on them as an undergraduate student. 
             This program is open to undergraduate students at Western University in year 2, 3, 4, and 5+! 
-            If interested, please fill out the application form at this link by Friday, September 26, 2025.
+           
+           <span style={{ color: "purple", fontWeight: "bold", display: "block" }}>
+            Applications for mentees and mentors are now closed. 
+            If you missed the deadline but are interested in joining, please contact Women in Science UWO at wis.uwo.events@gmail.com.
+          </span>
+          
           </p>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScffNUPaZONSvQ76_rNwhZDd1iuMsqV6XP7nWDOLzzayIgncg/viewform"
@@ -111,7 +116,12 @@ function Mentorship() {
             Join the Little Sisters in Science program as a mentor to high school students looking to pursue STEM careers or university programs! 
             As a mentor, you will be able to guide your mentee through university applications, attend professional development events at Western University together, and help uplift other women in science. 
             This program is open to undergraduate students at Western University to be mentors, and high school students to be mentees.
-            Mentee applications close on October 30th, 11:59pm EST, and Mentor Applications close October 17th, 11:59pm EST
+            
+            <span style={{ color: "purple", fontWeight: "bold", display: "block" }}>
+            Applications for mentees and mentors are now closed. 
+            If you missed the deadline but are interested in joining, please contact Women in Science UWO at wis.uwo.events@gmail.com.
+          </span>
+
           </p>
 
           <a

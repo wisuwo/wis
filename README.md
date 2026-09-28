@@ -144,3 +144,39 @@ Once the website is up and running, you need to make sure it is findable on goog
     },
 5. If you want to keep only 6 Current events and 6 Past events, remove the very last section of the "Gallery" object. Set the "eventType" of the last "current" event with "past".
 6. Check your locally running copy to ensure the new event has been added, then push your changes!
+
+### 14. Adding to the Blog
+1. Add a new space for a blog in `blogpost.jsx` by choosing a number for the blog that is not in use by other blogs (you can see which numbers are in use in `blogpost.jsx`), and creating this format on a new line: `digit: {content: }`
+2. Add the text and images of the blog under the `content` attribute
+3. In `blog.jsx`, create a new blog card by copying this format:
+```javascript
+{
+  id: 3,
+  title: "",
+  description: "",
+  image: "img/blog/imagename.jpg",
+  date: "2026-03-14"
+}
+```
+4. Add the same blog number as `blogpost.jsx` to the `id` attribute
+5. Think of a one sentence summary for the blog to add to the `description` attribute
+6. Find a main image that's representative of the article, and put that in the `img/blog` folder and change the `imagename` in the image attribute
+7. Follow the examples of the existing blog posts for more details
+
+### 15. Updating the Photo Gallery
+1. Add the image to the gallery subfolder: `public/img/gallery`
+2. In `imagegallery.jsx`, add a new space for an image by copying the following format under the `const images = [` section:
+```javascript
+{
+  original: `${process.env.PUBLIC_URL}/img/gallery/imagename.jpeg`,
+  thumbnail: `${process.env.PUBLIC_URL}/img/gallery/imagename.jpeg`,
+  description: 'IMAGE DESCRIPTION',
+}
+```
+3. Change the `imagename` in the file paths in the `original` and `thumbnail` attributes to be the actual file name
+4. Change the `description` attribute to include a brief caption for the image
+
+### 16. Adding Events to the Calendar
+1. Ask an executive member of the WiS club to go to the WiS Google Calendar under the WiS gmail account and share the "Women in Science EXEC" calendar with you
+2. Open the Google Calendar once it's shared with you and add an "All-Day" event to the calendar on the day the event occurs
+3. Once you've saved that event on the Google Calendar, it should automatically appear on the Calendar page on the WiS website

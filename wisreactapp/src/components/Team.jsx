@@ -89,7 +89,16 @@ export const Team = (props) => {
       caption: "Name: Ramandeep Saini \nRole: VP Technology\nProgram: 3rd year, Computer Science",
     },
 
-    // Mentorship
+    // VP Advocacy
+    {
+      src: process.env.PUBLIC_URL + '/img/team/Areti.jpeg',
+      width: 320,
+      height: 174,
+      isSelected: true,
+      caption: "Name: Areti Koroneos \nRole: VP Advocacy\nProgram: 4th year, Honours Specialization in Biochemistry of Infection and Immunity",
+    },
+
+    // VPs Mentorship
     {
       src: process.env.PUBLIC_URL + '/img/team/Jessica.PNG',
       width: 320,

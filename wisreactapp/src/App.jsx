@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { useState, useEffect } from "react";
 import Mentorship from "./components/mentorship";
 import { Navigation } from "./components/navigation";
@@ -19,6 +19,8 @@ import { Footer } from "./components/footer";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
 import "./App.css";
+import Blog from "./components/blog";
+import BlogPost from "./components/blogpost";
 
 /* 
 Here is the App component which serves as the main component for the website.
@@ -85,7 +87,8 @@ const App = () => {
           <Route path="/imagegallery" element={<ImageGallery landingPageData={landingPageData} />} />
           <Route path="/pastnewsletters" element={<PastNewsletters landingPageData={landingPageData} />} />      
           <Route path="/mentorship" element={<Mentorship />} />
-
+          <Route path="/blog" element={<BlogPage landingPageData={landingPageData} />} />
+          <Route path="/blog/:id" element={<BlogPostPage landingPageData={landingPageData} />} />
         </Routes>
       </div>
     </Router>
@@ -118,5 +121,23 @@ const CalendarPage = ({ landingPageData }) => {
     </>
   );
 };
+
+// added Blog Page component
+const BlogPage = ({ landingPageData }) => (
+  <>
+    <Navigation2 />
+    <Blog data={landingPageData.Blog} />
+    <Footer data={landingPageData.Footer} />
+  </>
+);
+
+// added Blog Post Page component
+const BlogPostPage = ({ landingPageData }) => (
+  <>
+    <Navigation2 />
+    <BlogPost />
+    <Footer data={landingPageData.Footer} />
+  </>
+);
 
 export default App;

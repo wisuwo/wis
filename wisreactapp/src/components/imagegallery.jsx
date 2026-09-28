@@ -10,15 +10,72 @@ const App = () => {
   /* array of image objects with their file paths, thumbnails, and descriptions */
   const images = [
     {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-1.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-1.jpg`,
-      description: 'STEMPOSIUM 2025',
+      original: `${process.env.PUBLIC_URL}/img/gallery/AGM2025 1.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/AGM2025 1.jpeg`,
+      description: 'ANNUAL GENERAL MEETING',
+    },
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/AGM2025 2.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/AGM2025 2.jpeg`,
+      description: 'ANNUAL GENERAL MEETING',
     },
 
     {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-2.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-25-2.jpg`,
-      description: 'STEMPOSIUM 2025',
+      original: `${process.env.PUBLIC_URL}/img/gallery/CareerPanel-2.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/CareerPanel-2.jpg`,
+      description: 'WiS CAREER PANEL 2026',
+    },
+
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/CareerPanel-1.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/CareerPanel-1.jpeg`,
+      description: 'WiS CAREER PANEL 2026',
+    },
+    
+
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/cocoanight1.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/cocoanight1.jpeg`,
+      description: 'COCOA & CRAM',
+    },
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/cocoanight2.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/cocoanight2.jpeg`,
+      description: 'COCOA & CRAM',
+    },
+    
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/starrynight_image1.png`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/starrynight_image1.png`,
+      description: 'STARRY NIGHT',
+    },
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/starrynight_image2.png`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/starrynight_image2.png`,
+      description: 'STARRY NIGHT',
+    },
+
+
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/paintnight1.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paintnight1.jpeg`,
+      description: 'PAINT & SLIME NIGHT',
+    },
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/paintnight2.jpeg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paintnight2.jpeg`,
+      description: 'PAINT & SLIME NIGHT',
+    },
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-pic1.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-pic1.jpg`,
+      description: 'STEMPOSIUM 2026',
+    },
+
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-pic2.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-pic2.jpg`,
+      description: 'STEMPOSIUM 2026',
     },
     {
       original: `${process.env.PUBLIC_URL}/img/gallery/ornament-1.jpg`,
@@ -37,64 +94,17 @@ const App = () => {
     },
 
     {
-      original: `${process.env.PUBLIC_URL}/img/gallery/upaw-2.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/upaw-2.jpg`,
-      description: 'UPAW X WIS WOMENS PANEL',
-    },
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/journey-1.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/journey-1.jpg`,
-      description: 'MY JOURNEY PANEL',
-    },
-
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/journey-2.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/journey-2.jpg`,
-      description: 'MY JOURNEY PANEL',
-    },
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/yoga-1.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/yoga-1.jpg`,
+      original: `${process.env.PUBLIC_URL}/img/gallery/yoganight-2.png`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/yoganight-2.png`,
       description: 'YOGA NIGHT',
-    },
-
+    }, 
+    
     {
-      original: `${process.env.PUBLIC_URL}/img/gallery/yoga-2.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/yoga-2.jpg`,
+      original: `${process.env.PUBLIC_URL}/img/gallery/yoganight-1.png`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/yoganight-1.png`,
       description: 'YOGA NIGHT',
-    },
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/agm-24-1.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/agm-24-1.jpg`,
-      description: 'AGM 2024/2025',
-    },
-
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/agm-24-2.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/agm-24-2.jpg`,
-      description: 'AGM 2024/2025',
-    },
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/paint-1.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paint-1.jpg`,
-      description: 'PAINT NIGHT',
-    },
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/paint-2.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/paint-2.jpg`,
-      description: 'PAINT NIGHT',
-    },
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-1.jpeg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-1.jpeg`,
-      description: 'STEMPOSIUM 2024',
-    },
-
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-2.jpg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/stemposium-24-2.jpg`,
-      description: 'STEMPOSIUM 2024',
     }
+
   ];
 
  /* custom styles for the app and image gallery */
@@ -133,4 +143,11 @@ const App = () => {
   );
 };
 
+
 export default App;
+
+
+
+
+
+
