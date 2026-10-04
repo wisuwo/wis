@@ -16,6 +16,12 @@
     ]
   },
   "Gallery": [
+   {
+  "title": "AGM",
+  "largeImage": "img/portfolio/agm.png",
+  "smallImage": "img/portfolio/agm.png",
+  "eventType": "current"
+    },
     {
   "title": "Bar Night",
   "largeImage": "img/portfolio/bar-night.png",
@@ -32,7 +38,7 @@
       "title": "The Art of Creation Exhibit",
       "largeImage": "img/portfolio/Art of Creation.png",
       "smallImage": "img/portfolio/Art of Creation.png",
-      "eventType": "current"
+      "eventType": "past"
     },
     {
       "title": "Cocoa and Canvas",
@@ -44,12 +50,6 @@
       "title": "STEMposium",
       "largeImage": "img/portfolio/stemposium.jpeg",
       "smallImage": "img/portfolio/stemposium.jpeg",
-      "eventType": "past"
-    },
-    {
-      "title": "Yoga Night",
-      "largeImage": "img/portfolio/yoga-night.jpeg",
-      "smallImage": "img/portfolio/yoga-night.jpeg",
       "eventType": "past"
     }
 
