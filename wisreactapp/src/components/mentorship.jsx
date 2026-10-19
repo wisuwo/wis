@@ -41,32 +41,39 @@ function Mentorship() {
           </p>
         </div>
 
-        {/* Graduate Program */}
-        <div className="program" style={{ marginBottom: "50px" }}>
-          <h3 style={{ fontSize: "28px", fontWeight: "600", marginBottom: "15px" }}>
-            Graduate Sisters in Science Mentorship Program
-          </h3>
-          <p style={{ fontSize: "16px", lineHeight: "1.6", marginBottom: "15px" }}>
-            Join the Graduate Sisters in Science Mentorship Program and partner with a graduate student mentor who will help guide you through the ups and downs of your academic path! 
-            You will also learn more about career and educational pathways as a graduate student, and gain advice on them as an undergraduate student. 
-            This program is open to undergraduate students at Western University in year 2, 3, 4, and 5+! 
-           
-           <span style={{ color: "purple", fontWeight: "bold", display: "block" }}>
-            Applications for mentees and mentors are now closed. 
-            If you missed the deadline but are interested in joining, please contact Women in Science UWO at wis.uwo.events@gmail.com.
-          </span>
-          
-          </p>
-          <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScffNUPaZONSvQ76_rNwhZDd1iuMsqV6XP7nWDOLzzayIgncg/viewform"
-            className="btn btn-custom btn-lg"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ marginTop: "10px", marginBottom: "30px" }}
-          >
-            Apply Here
-          </a>
-        </div>
+       
+      {/* Graduate Program */}
+            <div className="program" style={{ marginBottom: "50px" }}>
+              <h3 style={{ fontSize: "28px", fontWeight: "600", marginBottom: "15px" }}>
+                Graduate Sisters in Science Mentorship Program
+              </h3>
+
+              <p style={{ fontSize: "16px", lineHeight: "1.6", marginBottom: "15px" }}>
+                Join the Graduate Sisters in Science Mentorship Program and partner with a graduate student mentor who will help guide you through the ups and downs of your academic path! 
+                You will also learn more about career and educational pathways as a graduate student, and gain advice on them as an undergraduate student. 
+                This program is open to undergraduate students at Western University in year 2, 3, 4, and 5+!
+              </p>
+
+              <a
+                href="https://uwo.eu.qualtrics.com/jfe/form/SV_9STThGTbmjalXO6"
+                className="btn btn-custom btn-lg"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ marginTop: "10px", marginBottom: "30px" }}
+              >
+                Apply as a Mentee
+              </a>
+
+              <a
+                href="https://uwo.eu.qualtrics.com/jfe/form/SV_9STThGTbmjalXO6"
+                className="btn btn-custom btn-lg"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ marginTop: "10px", marginBottom: "30px" }}
+              >
+                Apply as a Mentor
+              </a>
+            </div>
 
         {/* Sisters in Science */}
         <div className="program" style={{ marginBottom: "50px" }}>
