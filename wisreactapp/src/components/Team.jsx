@@ -1,83 +1,31 @@
-// this jsx file is for the initial team information that appears on the homepage
+
 import React from 'react';
 import { Link } from "react-router-dom";
 
-// includes information of each executive member for team section
+// Includes information of each executive member for the homepage team section
 export const Team = (props) => {
   const images = [
+    // Co-Presidents
     {
-      // first three are co presidents 
-      src: process.env.PUBLIC_URL + '/img/team/Bobo.JPG', //Done
+      src: process.env.PUBLIC_URL + '/img/team/Emma.jpg',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Bobo Soong \nRole: Co-President\nProgram: 5th year, Health Science and Biology",
+      caption: "Name: Emma Turgeon \nRole: Co-President\nProgram: 4th year, Medical Sciences (Pathology + IMS)",
     },
-    
     {
-      src: process.env.PUBLIC_URL + '/img/team/Julie.JPG', //Done
+      src: process.env.PUBLIC_URL + '/img/team/Chloe.jpeg',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Julie Le \nRole: Co-President\nProgram: 4th year, Honour Specialization in Genetics",
+      caption: "Name: Chloe Ng \nRole: Co-President\nProgram: 4th year, Medical Sciences (HSP Biochemistry)",
     },
-
     {
-      src: process.env.PUBLIC_URL + '/img/team/Bahar.jpg', //Done
+      src: process.env.PUBLIC_URL + '/img/team/Rory.jpeg',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Bahar M \nRole: Co-President\nProgram: 4th year, Honours Specialization in Biology",
-    },
-    // VP comms
-    {
-      src: process.env.PUBLIC_URL + '/img/team/Emma.jpg', //done
-      width: 320,
-      height: 174,
-      isSelected: true,
-      caption: "Name: Emma Turgeon \nRole: Co-VP Communications\nProgram: 3rd year, Pathology & IMS",
-    },
-
-    {
-      src: process.env.PUBLIC_URL + '/img/team/Shaen.JPG', //done
-      width: 320,
-      height: 174,
-      isSelected: true,
-      caption: "Name: Shaen Goodall \nRole: Co-VP Communications\nProgram: 3rd year, Honours Double Major in Biology and Medical Sciences",
-    },
-
-    // VP externals
-    {
-      src: process.env.PUBLIC_URL + '/img/team/Kate.JPG',
-      width: 320,
-      height: 174,
-      isSelected: true,
-      caption: "Name: Kate La \nRole: Co-VP Externals\nProgram: 3th year, Medical Cell Biology & IMS",
-    },
-
-    {
-      src: process.env.PUBLIC_URL + '/img/team/Melinda.JPG',
-      width: 320,
-      height: 174,
-      isSelected: true,
-      caption: "Name: Melinda Gao \nRole: Co-VP Externals\nProgram: 4th Year General Science",
-    },
-
-    // VP internals 
-    {
-      src: process.env.PUBLIC_URL + '/img/team/Claudia.JPG',
-      width: 320,
-      height: 174,
-      isSelected: true,
-      caption: "Name: Claudia Menezes \nRole: Co-VP Internals\nProgram: 3rd year, Honours Specialization in IMS + Major in Biochemistry",
-    },
-
-    {
-      src: process.env.PUBLIC_URL + '/img/team/Trinity.JPG',
-      width: 320,
-      height: 174,
-      isSelected: true,
-      caption: "Name: Trinity Yan \nRole: Co-VP Internals\nProgram: 4th Year, Honours Specialization in IMS",
+      caption: "Name: Rory Paraskevopoulos\nRole: Co-President\nProgram: 4th year, Kinesiology",
     },
 
     // VP Technology
@@ -86,94 +34,179 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Ramandeep Saini \nRole: VP Technology\nProgram: 3rd year, Computer Science",
+      caption: "Name: Ramandeep Saini \nRole: VP Technology\nProgram: Internship Year, Computer Science",
     },
 
     // VP Advocacy
     {
-      src: process.env.PUBLIC_URL + '/img/team/Areti.jpeg',
+      src: process.env.PUBLIC_URL + '/img/team/ananya.JPG',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Areti Koroneos \nRole: VP Advocacy\nProgram: 4th year, Honours Specialization in Biochemistry of Infection and Immunity",
+      caption: "Name: Ananya Chopra \nRole: Co-VP Advocacy\nProgram: 3rd year, HBA1 + Computer Science",
     },
-
-    // VPs Mentorship
     {
-      src: process.env.PUBLIC_URL + '/img/team/Jessica.PNG',
+      src: process.env.PUBLIC_URL + '/img/team/Shaen.JPG',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Jessica Kay \nRole: Co-VP Mentorship\nProgram: 4th Year, Honours Specialization in Health Science",
+      caption: "Name: Shaen Goodall \nRole: Co-VP Advocacy\nProgram: 4th year, Honours Biology + Medical Science",
     },
 
+    // VP Sponsorship
     {
-      src: process.env.PUBLIC_URL + '/img/team/Sarina.jpeg',
+      src: process.env.PUBLIC_URL + '/img/team/bella.jpg',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Sarina Kosari \nRole: Co-VP Mentorship\nProgram: 4th Year, Honours Specialization in Biology",
+      caption: "Name: Bella Jiang \nRole: VP Sponsorship\nProgram: 3rd year, Medical Sciences (Pharmacology + IMS)",
     },
 
-    // VP outreach
+    // VP Communications
     {
-      src: process.env.PUBLIC_URL + '/img/team/Chloe.jpeg',
+      src: process.env.PUBLIC_URL + '/img/team/kaitlyn.jpg',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Chloe Ng  \nRole: Co-VP Outreach\nProgram: 3rd Year, Honours Specialization in Biochemistry",
+      caption: "Name: Kaitlyn Welker \nRole: Co-VP Communications\nProgram: 4th year, Pharmacology + IMS",
     },
-
     {
-      src: process.env.PUBLIC_URL + '/img/team/Rory.jpeg',
+      src: process.env.PUBLIC_URL + '/img/team/eugin.JPG',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Rory Paraskevopoulos\nRole: Co-VP Outreach\nProgram: 3rd year, Kinesiology",
+      caption: "Name: Eugenia Zhang \nRole: Co-VP Communications\nProgram: 3rd year, HSP Physiology/Pharmacology",
     },
 
-    //finance and admin
+    // VP Internals
+    {
+      src: process.env.PUBLIC_URL + '/img/team/Alexandra.JPG',
+      width: 320,
+      height: 174,
+      isSelected: true,
+      caption: "Name: Alexandra Savelli \nRole: Co-VP Internals\nProgram: 4th year, HSP Physiology",
+    },
+    {
+      src: process.env.PUBLIC_URL + '/img/team/Kate_La.JPG',
+      width: 320,
+      height: 174,
+      isSelected: true,
+      caption: "Name: Kate La \nRole: Co-VP Internals\nProgram: 4th year, Medical Cell Biology + IMS",
+    },
+
+    // VP Mentorship
+    {
+      src: process.env.PUBLIC_URL + '/img/team/jaidyn.jpg',
+      width: 320,
+      height: 174,
+      isSelected: true,
+      caption: "Name: Jaidyn Oresti \nRole: Co-VP Mentorship\nProgram: 4th year, Health Sciences (HSP in Biology)",
+    },
+    {
+      src: process.env.PUBLIC_URL + '/img/team/josie.jpg',
+      width: 320,
+      height: 174,
+      isSelected: true,
+      caption: "Name: Josie-Ella Di Maria \nRole: Co-VP Mentorship\nProgram: 4th year, Medical Sciences (Physiology + IMS)",
+    },
+
+    // VP Externals
+    {
+      src: process.env.PUBLIC_URL + '/img/team/amanda.jpg',
+      width: 320,
+      height: 174,
+      isSelected: true,
+      caption: "Name: Amanda Luca \nRole: Co-VP Externals\nProgram: 3rd year, Medical Sciences (HSP Physiology)",
+    },
+    {
+      src: process.env.PUBLIC_URL + '/img/team/Durgalakshmi .jpeg',
+      width: 320,
+      height: 174,
+      isSelected: true,
+      style: {
+        width: '320px',
+        height: '400px',
+        objectFit: 'cover',
+        objectPosition: 'center',
+      },
+      caption: "Name: Durgalakshmi Arivazhagan \nRole: Co-VP Externals\nProgram: 4th year, HSP in Biology",
+    },
+
+    // VP Finance
     {
       src: process.env.PUBLIC_URL + '/img/team/Harleen.JPG',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Harleen Multani \nRole: VP Finance and Admin\nProgram: 3rd year, CTF Nursing",
+      caption: "Name: Harleen Multani \nRole: VP Finance\nProgram: 4th year, CTF Nursing",
     },
 
-    // sponsership
-     {
-      src: process.env.PUBLIC_URL + '/img/team/BrielleHall.jpeg', // blank picture
+    // VP Outreach
+    {
+      src: process.env.PUBLIC_URL + '/img/team/Aliah.JPG',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Brielle Hall \nRole: VP Sponsorship\nProgram: 4th year, honours Spec in IMS and HBA at Ivey ",
-    }
-    
-
+      caption: "Name: Aliah Seegobin \nRole: Co-VP Outreach\nProgram: 5th year, Medical Sciences (HSP Microimmunology + Pathology)",
+    },
+    {
+      src: process.env.PUBLIC_URL + '/img/team/Kate_ga.JPG',
+      width: 320,
+      height: 174,
+      isSelected: true,
+      caption: "Name: Kate Gagnon \nRole: Co-VP Outreach\nProgram: 3rd year, Health Science (HSP + Minor in Biology)",
+    },
   ];
 
-// renders team section
-return (
-    <div id='team' className='text-center'>
-      <div className='container'>
-        <div className='section-title'>
+  // Renders the team section
+  return (
+    <div id="team" className="text-center">
+      <div className="container">
+        <div className="section-title">
           <h2>Meet the Team</h2>
           <p>
-            Our amazing team of students seeking to eliminate gender disparity in science, technology, engineering, and mathematics!
+            Our amazing team of students seeking to eliminate gender disparity
+            in science, technology, engineering, and mathematics!
           </p>
-          {/*includes button to another page with more information about the team members*/}
-          <div className='calendar-link'>
-          <Link to="/team"><button className="btn btn-custom btn-lg">Learn More</button></Link>
+
+          {/* Button linking to the full team page */}
+          <div className="calendar-link">
+            <Link to="/team">
+              <button className="btn btn-custom btn-lg">
+                Learn More
+              </button>
+            </Link>
           </div>
         </div>
 
-        {/* formats team member photos and captions */}
+        {/* Displays team member photos and captions */}
         <div className="team-members-container">
           {images.map((image, index) => (
             <div key={index} className="team-member">
-              <img src={image.src} width={image.width} alt={`Photo of ${image.caption.split('\n')[0].replace('Name: ', '').trim()}, ${image.caption.split('\n')[1].replace('Role: ', '').trim()}`} />
-              <p className="caption" dangerouslySetInnerHTML={{ __html: image.caption.replace(/\n/g, '<br>') }} />
+              <img
+                src={image.src}
+                width={image.width}
+                height={image.height}
+                style={image.style}
+                alt={`Photo of ${
+                  image.caption
+                    .split('\n')[0]
+                    .replace('Name: ', '')
+                    .trim()
+                }, ${
+                  image.caption
+                    .split('\n')[1]
+                    .replace('Role: ', '')
+                    .trim()
+                }`}
+              />
+
+              <p
+                className="caption"
+                dangerouslySetInnerHTML={{
+                  __html: image.caption.replace(/\n/g, '<br>'),
+                }}
+              />
             </div>
           ))}
         </div>
