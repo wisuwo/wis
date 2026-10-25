@@ -13,6 +13,7 @@ import MeetTheTeam from "./components/teamexpanded";
 import ImageGallery from "./components/imagegallery";
 import { Join } from "./components/join";
 import { Newsletter } from "./components/newsletter";
+import { Sponsors } from "./components/Sponsors";
 import PastNewsletters from "./components/pastnewsletters";
 import { Contact } from "./components/contact";
 import { Footer } from "./components/footer";
@@ -105,6 +106,7 @@ const HomePage = ({ landingPageData }) => (
     <Gallery data={landingPageData.Gallery} />
     <Join data={landingPageData.Join} />
     <Newsletter data={landingPageData.Newsletter} />
+    <Sponsors />
     <Footer data={landingPageData.Footer} />
   </>
 );
