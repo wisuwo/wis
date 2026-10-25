@@ -11,21 +11,21 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Emma Turgeon \nRole: Co-President\nProgram: 4th year",
+      caption: "Name: Emma Turgeon \nRole: Co-President\nProgram: 4th year, Medical Sciences (Pathology + IMS)",
     },
     {
       src: process.env.PUBLIC_URL + '/img/team/Chloe.jpeg',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Chloe Ng \nRole: Co-President\nProgram: 4th year",
+      caption: "Name: Chloe Ng \nRole: Co-President\nProgram: 4th year, Medical Sciences (HSP Biochemistry)",
     },
     {
       src: process.env.PUBLIC_URL + '/img/team/Rory.jpeg',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Rory Paraskevopoulos\nRole: Co-President\nProgram: 4th year",
+      caption: "Name: Rory Paraskevopoulos\nRole: Co-President\nProgram: 4th year, Kinesiology",
     },
 
     // VP Technology
@@ -34,7 +34,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Ramandeep Saini \nRole: VP Technology\nProgram: 4th year, Computer Science",
+      caption: "Name: Ramandeep Saini \nRole: VP Technology\nProgram: Internship Year, Computer Science",
     },
 
     // VP Advocacy
@@ -43,14 +43,14 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Ananya Chopra \nRole: Co-VP Advocacy\nProgram: 3rd year",
+      caption: "Name: Ananya Chopra \nRole: Co-VP Advocacy\nProgram: 3rd year, HBA1 + Computer Science",
     },
     {
       src: process.env.PUBLIC_URL + '/img/team/Shaen.JPG',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Shaen Goodall \nRole: Co-VP Advocacy\nProgram: 4th year",
+      caption: "Name: Shaen Goodall \nRole: Co-VP Advocacy\nProgram: 4th year, Honours Biology + Medical Science",
     },
 
     // VP Sponsorship
@@ -59,7 +59,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Bella Jiang \nRole: VP Sponsorship\nProgram: 3rd year",
+      caption: "Name: Bella Jiang \nRole: VP Sponsorship\nProgram: 3rd year, Medical Sciences (Pharmacology + IMS)",
     },
 
     // VP Communications
@@ -68,14 +68,14 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Kaitlyn Welker \nRole: Co-VP Communications\nProgram: 4th year",
+      caption: "Name: Kaitlyn Welker \nRole: Co-VP Communications\nProgram: 4th year, Pharmacology + IMS",
     },
     {
       src: process.env.PUBLIC_URL + '/img/team/eugin.JPG',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Eugenia Zhang \nRole: Co-VP Communications\nProgram: 3rd year",
+      caption: "Name: Eugenia Zhang \nRole: Co-VP Communications\nProgram: 3rd year, HSP Physiology/Pharmacology",
     },
 
     // VP Internals
@@ -84,14 +84,14 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Alexandra Savelli \nRole: Co-VP Internals\nProgram: 4th year",
+      caption: "Name: Alexandra Savelli \nRole: Co-VP Internals\nProgram: 4th year, HSP Physiology",
     },
     {
       src: process.env.PUBLIC_URL + '/img/team/Kate_La.JPG',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Kate La \nRole: Co-VP Internals\nProgram: 4th year",
+      caption: "Name: Kate La \nRole: Co-VP Internals\nProgram: 4th year, Medical Cell Biology + IMS",
     },
 
     // VP Mentorship
@@ -100,14 +100,14 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Jaidyn Oresti \nRole: Co-VP Mentorship\nProgram: 4th year",
+      caption: "Name: Jaidyn Oresti \nRole: Co-VP Mentorship\nProgram: 4th year, Health Sciences (HSP in Biology)",
     },
     {
       src: process.env.PUBLIC_URL + '/img/team/josie.jpg',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Josie-Ella Di Maria \nRole: Co-VP Mentorship\nProgram: 4th year",
+      caption: "Name: Josie-Ella Di Maria \nRole: Co-VP Mentorship\nProgram: 4th year, Medical Sciences (Physiology + IMS)",
     },
 
     // VP Externals
@@ -116,7 +116,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Amanda Luca \nRole: Co-VP Externals\nProgram: 3rd year",
+      caption: "Name: Amanda Luca \nRole: Co-VP Externals\nProgram: 3rd year, Medical Sciences (HSP Physiology)",
     },
     {
       src: process.env.PUBLIC_URL + '/img/team/Durgalakshmi .jpeg',
@@ -129,7 +129,7 @@ export const Team = (props) => {
         objectFit: 'cover',
         objectPosition: 'center',
       },
-      caption: "Name: Durgalakshmi Arivazhagan \nRole: Co-VP Externals\nProgram: 4th year",
+      caption: "Name: Durgalakshmi Arivazhagan \nRole: Co-VP Externals\nProgram: 4th year, HSP in Biology",
     },
 
     // VP Finance
@@ -138,7 +138,7 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Harleen Multani \nRole: VP Finance\nProgram: Graduate",
+      caption: "Name: Harleen Multani \nRole: VP Finance\nProgram: 4th year, CTF Nursing",
     },
 
     // VP Outreach
@@ -147,14 +147,14 @@ export const Team = (props) => {
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Aliah Seegobin \nRole: Co-VP Outreach\nProgram: 5th year",
+      caption: "Name: Aliah Seegobin \nRole: Co-VP Outreach\nProgram: 5th year, Medical Sciences (HSP Microimmunology + Pathology)",
     },
     {
       src: process.env.PUBLIC_URL + '/img/team/Kate_ga.JPG',
       width: 320,
       height: 174,
       isSelected: true,
-      caption: "Name: Kate Gagnon \nRole: Co-VP Outreach\nProgram: 3rd year",
+      caption: "Name: Kate Gagnon \nRole: Co-VP Outreach\nProgram: 3rd year, Health Science (HSP + Minor in Biology)",
     },
   ];
 
