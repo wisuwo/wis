@@ -48,7 +48,7 @@ export const About = ({ data }) => {
         <h2>About Us</h2>
 
         <img
-          src="/img/Website_Group_Photo.JPG"
+          src="/img/group_photo_2026.JPG"
           className="img-responsive"
           alt="Group photo of the WIS executive team."
         />

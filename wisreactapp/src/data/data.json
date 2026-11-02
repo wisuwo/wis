@@ -16,23 +16,29 @@
     ]
   },
   "Gallery": [
-   {
-  "title": "AGM",
-  "largeImage": "img/portfolio/agm.png",
-  "smallImage": "img/portfolio/agm.png",
-  "eventType": "current"
+    {
+      "title": "Pilates Night",
+      "largeImage": "img/portfolio/pilates-night.jpg",
+      "smallImage": "img/portfolio/pilates-night.jpg",
+      "eventType": "current"
     },
     {
-  "title": "Bar Night",
-  "largeImage": "img/portfolio/bar-night.png",
-  "smallImage": "img/portfolio/bar-night.png",
-  "eventType": "current"
+      "title": "AGM",
+      "largeImage": "img/portfolio/agm.png",
+      "smallImage": "img/portfolio/agm.png",
+      "eventType": "current"
+    },
+    {
+      "title": "Bar Night",
+      "largeImage": "img/portfolio/bar-night.png",
+      "smallImage": "img/portfolio/bar-night.png",
+      "eventType": "current"
     },
     {
       "title": "Starry Night",
       "largeImage": "img/portfolio/starry-night.jpeg",
       "smallImage": "img/portfolio/starry-night.jpeg",
-      "eventType": "current"
+      "eventType": "past"
     },
     {
       "title": "The Art of Creation Exhibit",
@@ -45,15 +51,7 @@
       "largeImage": "img/portfolio/cocoa-and-canvas.jpeg",
       "smallImage": "img/portfolio/cocoa-and-canvas.jpeg",
       "eventType": "past"
-    },
-    {
-      "title": "STEMposium",
-      "largeImage": "img/portfolio/stemposium.jpeg",
-      "smallImage": "img/portfolio/stemposium.jpeg",
-      "eventType": "past"
     }
-
-    
   ],
   "Newsletters": [
     {
