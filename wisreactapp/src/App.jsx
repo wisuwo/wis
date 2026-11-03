@@ -84,6 +84,7 @@ const App = () => {
           <Route path="/" element={<HomePage landingPageData={landingPageData} />} />
           <Route path="/team" element={<MeetTheTeam landingPageData={landingPageData} />} />
           <Route path="/contact" element={<Contact landingPageData={landingPageData} />} />
+          <Route path="/sponsors" element={<SponsorsPage landingPageData={landingPageData} />} />
           <Route path="/calendar" element={<CalendarPage landingPageData={landingPageData} />} />
           <Route path="/imagegallery" element={<ImageGallery landingPageData={landingPageData} />} />
           <Route path="/pastnewsletters" element={<PastNewsletters landingPageData={landingPageData} />} />      
@@ -106,7 +107,6 @@ const HomePage = ({ landingPageData }) => (
     <Gallery data={landingPageData.Gallery} />
     <Join data={landingPageData.Join} />
     <Newsletter data={landingPageData.Newsletter} />
-    <Sponsors />
     <Footer data={landingPageData.Footer} />
   </>
 );
@@ -141,5 +141,12 @@ const BlogPostPage = ({ landingPageData }) => (
     <Footer data={landingPageData.Footer} />
   </>
 );
-
+// renders sponsors page
+const SponsorsPage = ({ landingPageData }) => (
+  <>
+    <Navigation2 />
+    <Sponsors />
+    <Footer data={landingPageData.Footer} />
+  </>
+);
 export default App;
