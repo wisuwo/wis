@@ -17,6 +17,12 @@
   },
   "Gallery": [
     {
+      "title": "Career Development Panel",
+      "largeImage": "img/portfolio/career-development-panel.png",
+      "smallImage": "img/portfolio/career-development-panel.png",
+      "eventType": "current"
+    },
+    {
       "title": "Pilates Night",
       "largeImage": "img/portfolio/pilates-night.jpg",
       "smallImage": "img/portfolio/pilates-night.jpg",
@@ -32,7 +38,7 @@
       "title": "Bar Night",
       "largeImage": "img/portfolio/bar-night.png",
       "smallImage": "img/portfolio/bar-night.png",
-      "eventType": "current"
+      "eventType": "past"
     },
     {
       "title": "Starry Night",
@@ -44,12 +50,6 @@
       "title": "The Art of Creation Exhibit",
       "largeImage": "img/portfolio/Art of Creation.png",
       "smallImage": "img/portfolio/Art of Creation.png",
-      "eventType": "past"
-    },
-    {
-      "title": "Cocoa and Canvas",
-      "largeImage": "img/portfolio/cocoa-and-canvas.jpeg",
-      "smallImage": "img/portfolio/cocoa-and-canvas.jpeg",
       "eventType": "past"
     }
   ],
