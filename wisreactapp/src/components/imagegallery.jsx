@@ -9,15 +9,35 @@ import 'react-image-gallery/styles/css/image-gallery.css';
 const App = () => {
   /* array of image objects with their file paths, thumbnails, and descriptions */
   const images = [
-    {
-      original: `${process.env.PUBLIC_URL}/img/gallery/AGM2025 1.jpeg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/AGM2025 1.jpeg`,
+        {
+      original: `${process.env.PUBLIC_URL}/img/gallery/AGM2026-1.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/AGM2026-1.jpg`,
       description: 'ANNUAL GENERAL MEETING',
     },
     {
-      original: `${process.env.PUBLIC_URL}/img/gallery/AGM2025 2.jpeg`,
-      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/AGM2025 2.jpeg`,
+      original: `${process.env.PUBLIC_URL}/img/gallery/AGM2026-2.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/AGM2026-2.jpg`,
       description: 'ANNUAL GENERAL MEETING',
+    },
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/resume-workshop-1.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/resume-workshop-1.jpg`,
+      description: 'RESUME WORKSHOP',
+    },
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/resume-workshop-2.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/resume-workshop-2.jpg`,
+      description: 'RESUME WORKSHOP',
+    },
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/pilates-night-1.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/pilates-night-1.jpg`,
+      description: 'PILATES NIGHT',
+    },
+    {
+      original: `${process.env.PUBLIC_URL}/img/gallery/pilates-night-2.jpg`,
+      thumbnail: `${process.env.PUBLIC_URL}/img/gallery/pilates-night-2.jpg`,
+      description: 'PILATES NIGHT',
     },
 
     {
