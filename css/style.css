@@ -822,6 +822,7 @@ img {
 
 .team-member-name {
   color: black; /* Set the specific h2 color to black */
+  text-align: center;
 }
 
 /* ADDITIONAL STYLES FOR BETTER RESPONSIVENESS */
