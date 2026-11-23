@@ -125,6 +125,13 @@ export const Navigation = (props) => {
               </ScrollLink>
             </li>
 
+                        {/* Link to the Sponsors page */}
+            <li className='nav-item'>
+              <Link className='nav-link' to='/sponsors'>
+                Sponsors
+              </Link>
+            </li>
+            
             {/* Link to the Contact page */}
             <li className='nav-item'>
               <Link className='nav-link' to='/contact'>
