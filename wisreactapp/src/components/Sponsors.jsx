@@ -1,6 +1,6 @@
 const logoStyle = {
-  width: "250px",
-  height: "250px",
+  width: "200px",
+  height: "200px",
   objectFit: "cover",
   borderRadius: "50%",
 };
@@ -41,6 +41,16 @@ export const Sponsors = () => {
         <img
           src="img/sponsors/sponsers1.png"
           alt="Booch"
+          style={logoStyle}
+        />
+        <img
+          src="img/sponsors/thecookiery.png"
+          alt="The Cookiery"
+          style={logoStyle}
+        />
+        <img
+          src="img/sponsors/purplelips.png"
+          alt="Purple Lips"
           style={logoStyle}
         />
       </div>
